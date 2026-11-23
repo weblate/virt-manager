@@ -1,0 +1,7125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the virt-manager package.
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: virt-manager 5.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/virt-manager/virt-manager/issues\n"
+"POT-Creation-Date: 2025-08-25 23:23+0200\n"
+"PO-Revision-Date: 2026-11-23 06:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/virt-"
+"manager/virt-manager/lv/>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
+"19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.2\n"
+
+#: data/virt-manager.appdata.xml.in:6 data/virt-manager.desktop.in:2
+#: ui/manager.ui:7 virtManager/systray.py:148
+msgid "Virtual Machine Manager"
+msgstr "Virtuālo mašīnu pārvaldnieks"
+
+#: data/virt-manager.appdata.xml.in:7
+msgid "Graphically manage KVM, Xen, or LXC via libvirt"
+msgstr "Grafiski pārvaldīt KVM, Xen vai LXC caur libvirt"
+
+#: data/virt-manager.appdata.xml.in:9
+msgid ""
+"Virtual Machine Manager provides a graphical tool for administering virtual "
+"machines for KVM, Xen, and LXC. Start, stop, add or remove virtual devices, "
+"connect to a graphical or serial console, and see resource usage statistics "
+"for existing VMs on local or remote machines. Uses libvirt as the backend "
+"management API."
+msgstr ""
+"Virtuālo mašīnu pārvaldnieks nodrošina grafisku rīku KVM, Xen un LXC "
+"virtuālo mašīnu administrēšanai. Palaidiet, apturiet, pievienojiet vai "
+"noņemiet virtuālās ierīces, savienojieties ar grafisko vai seriālo konsoli "
+"un skatiet esošo VM resursu lietojuma statistiku lokālos vai attālos "
+"datoros. Kā aizmugursistēmas pārvaldības API izmanto libvirt."
+
+#: data/virt-manager.appdata.xml.in:20
+msgid "Main manager window"
+msgstr "Galvenais pārvaldnieka logs"
+
+#: data/virt-manager.appdata.xml.in:24
+msgid "Virtual machine configuration screen"
+msgstr "Virtuālās mašīnas konfigurācijas ekrāns"
+
+#: data/virt-manager.appdata.xml.in:28
+msgid "Graphical console connection for a virtual machine"
+msgstr "Virtuālās mašīnas grafiskās konsoles savienojums"
+
+#: data/virt-manager.appdata.xml.in:36
+msgid "virtualization"
+msgstr "virtualizācija"
+
+#: data/virt-manager.appdata.xml.in:37
+msgid "libvirt"
+msgstr "libvirt"
+
+#: data/virt-manager.appdata.xml.in:38
+msgid "qemu"
+msgstr "qemu"
+
+#: data/virt-manager.appdata.xml.in:39
+msgid "kvm"
+msgstr "kvm"
+
+#: data/virt-manager.desktop.in:3
+msgid "Virtual machine viewer/manager"
+msgstr "Virtuālo mašīnu skatītājs/pārvaldnieks"
+
+#: data/virt-manager.desktop.in:4
+msgid "Manage virtual machines"
+msgstr "Pārvaldīt virtuālās mašīnas"
+
+#: data/virt-manager.desktop.in:10
+msgid "virtualization;libvirt;vm;vmm;qemu;xen;lxc;kvm;"
+msgstr ""
+"virtualizācija;virtuālā "
+"mašīna;virtualization;libvirt;vm;vmm;qemu;xen;lxc;kvm;"
+
+#: ui/about.ui:10
+msgid "Copyright (C) 2006-2020 Red Hat Inc."
+msgstr "Autortiesības (C) 2006–2020 Red Hat Inc."
+
+#: ui/about.ui:11
+msgid "Powered by libvirt"
+msgstr "Darbina libvirt"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ui/about.ui:18
+msgid "translator-credits"
+msgstr "Rihards Priedītis"
+
+#: ui/addhardware.ui:24
+msgid "Add New Virtual Hardware"
+msgstr "Pievienot jaunu virtuālo aparatūru"
+
+#: ui/addhardware.ui:153
+msgid "_Device type:"
+msgstr "_Ierīces tips:"
+
+#: ui/addhardware.ui:184
+msgid "_Bus type:"
+msgstr "_Kopnes tips:"
+
+#: ui/addhardware.ui:261 ui/addhardware.ui:532 ui/addhardware.ui:1214
+#: ui/createpool.ui:355 ui/fsdetails.ui:87 ui/gfxdetails.ui:107
+#: ui/tpmdetails.ui:49
+msgid "_Type:"
+msgstr "_Tips:"
+
+#: ui/addhardware.ui:275 ui/addhardware.ui:613 ui/addhardware.ui:999
+#: ui/addhardware.ui:1067 ui/addhardware.ui:1344 ui/tpmdetails.ui:99
+msgid "_Model:"
+msgstr "_Modelis:"
+
+#: ui/addhardware.ui:345
+msgid "ctrl"
+msgstr "ctrl"
+
+#: ui/addhardware.ui:397
+msgid "aa:bb:cc:dd:ee:ff"
+msgstr "aa:bb:cc:dd:ee:ff"
+
+#: ui/addhardware.ui:421 ui/details.ui:2978
+msgid "_MAC address:"
+msgstr "_MAC adrese:"
+
+#: ui/addhardware.ui:436 ui/details.ui:2964
+msgid "Device mode_l:"
+msgstr "Ierīces mo_delis:"
+
+#: ui/addhardware.ui:673 ui/addhardware.ui:1291
+msgid "Host _Device:"
+msgstr "Resursdatora _ierīce:"
+
+#: ui/addhardware.ui:715 ui/details.ui:3844
+msgid "Startup Policy:"
+msgstr "Palaišanas politika:"
+
+#: ui/addhardware.ui:785
+msgid "_Path:"
+msgstr "_Ceļš:"
+
+#: ui/addhardware.ui:799
+msgid "Device _Type:"
+msgstr "Ierīces _tips:"
+
+#: ui/addhardware.ui:825
+msgid "T_ype:"
+msgstr "T_ips:"
+
+#: ui/addhardware.ui:839 ui/clone.ui:480 ui/createnet.ui:213
+#: ui/createpool.ui:330 ui/createvm.ui:2152 ui/createvol.ui:185
+#: ui/details.ui:218 ui/host.ui:169 ui/snapshotsnew.ui:103
+msgid "_Name:"
+msgstr "_Nosaukums:"
+
+#: ui/addhardware.ui:876
+msgid "_Auto socket:"
+msgstr "_Automātiska ligzda:"
+
+#: ui/addhardware.ui:904
+msgid "_Channel:"
+msgstr "_Kanāls:"
+
+#: ui/addhardware.ui:944
+msgid "_Share Clipboard:"
+msgstr "Koplietot _starpliktuvi:"
+
+#: ui/addhardware.ui:1080 ui/details.ui:4054
+msgid "Ac_tion:"
+msgstr "_Darbība:"
+
+#: ui/addhardware.ui:1172 ui/createnet.ui:139
+msgid "_Mode:"
+msgstr "_Režīms:"
+
+#: ui/addhardware.ui:1325 ui/details.ui:4742
+msgid "rng"
+msgstr "rng"
+
+#: ui/addhardware.ui:1383 ui/details.ui:4824
+msgid "panic"
+msgstr "panic"
+
+#: ui/addhardware.ui:1489 ui/asyncjob.ui:146 ui/clone.ui:26 ui/clone.ui:690
+#: ui/connectauth.ui:22 ui/createconn.ui:25 ui/createnet.ui:798
+#: ui/createpool.ui:478 ui/createvm.ui:2400 ui/createvol.ui:462
+#: ui/delete.ui:181 ui/details.ui:4920 ui/hoststorage.ui:154 ui/migrate.ui:638
+#: ui/snapshotsnew.ui:343
+msgid "_Cancel"
+msgstr "_Atcelt"
+
+#: ui/addhardware.ui:1504 ui/createnet.ui:813 ui/createpool.ui:493
+#: ui/createvm.ui:2446 ui/createvol.ui:477 ui/snapshotsnew.ui:358
+msgid "_Finish"
+msgstr "_Pabeigt"
+
+#: ui/addstorage.ui:33
+msgid "C_reate a disk image for the virtual machine"
+msgstr "Iz_veidot virtuālajai mašīnai diska tēlu"
+
+#: ui/addstorage.ui:62
+msgid "0.0"
+msgstr "0.0"
+
+#: ui/addstorage.ui:77
+msgid "_GiB"
+msgstr "_GiB"
+
+#: ui/addstorage.ui:156
+msgid "_Select or create custom storage"
+msgstr "_Atlasīt vai izveidot pielāgotu krātuvi"
+
+#: ui/addstorage.ui:185
+msgid "_Manage..."
+msgstr "_Pārvaldīt..."
+
+#: ui/addstorage.ui:254
+msgid "Cac_he mode:"
+msgstr "Kešatmiņas _režīms:"
+
+#: ui/addstorage.ui:285
+msgid "Discard mod_e:"
+msgstr "Atmešanas re_žīms:"
+
+#: ui/addstorage.ui:316
+msgid "R_eadonly:"
+msgstr "Tikai _lasāms:"
+
+#: ui/addstorage.ui:330
+msgid "Sharea_ble:"
+msgstr "Koplietoja_ms:"
+
+#: ui/addstorage.ui:371
+msgid "Removab_le:"
+msgstr "Noņe_mams:"
+
+#: ui/addstorage.ui:399
+msgid "Seria_l:"
+msgstr "Sērija_s nr.:"
+
+#: ui/addstorage.ui:425
+msgid "Advanced _options"
+msgstr "Papildu _opcijas"
+
+#: ui/asyncjob.ui:8
+msgid "Operation in progress"
+msgstr "Notiek darbība"
+
+#: ui/asyncjob.ui:51
+msgid "Please wait a few moments..."
+msgstr "Lūdzu, uzgaidiet dažus mirkļus..."
+
+#: ui/asyncjob.ui:118 virtManager/asyncjob.py:305 virtManager/asyncjob.py:312
+msgid "Processing..."
+msgstr "Apstrādā..."
+
+#: ui/asyncjob.ui:188 ui/vmwindow.ui:132 ui/xmleditor.ui:26
+#: virtManager/manager.py:295
+msgid "_Details"
+msgstr "_Informācija"
+
+#: ui/clone.ui:8
+msgid "Change storage path"
+msgstr "Mainīt krātuves ceļu"
+
+#: ui/clone.ui:41 ui/connectauth.ui:37
+msgid "_OK"
+msgstr "_Labi"
+
+#: ui/clone.ui:128 ui/hoststorage.ui:417
+msgid "Size:"
+msgstr "Izmērs:"
+
+#: ui/clone.ui:144
+msgid "Target:"
+msgstr "Mērķis:"
+
+#: ui/clone.ui:161
+msgid "Path:"
+msgstr "Ceļš:"
+
+#: ui/clone.ui:183
+msgid "Existing disk"
+msgstr "Esošais disks"
+
+#: ui/clone.ui:222
+msgid "Create a new disk (c_lone) for the virtual machine"
+msgstr "Izveidot virtuālajai mašīnai jaunu disku (_klonu)"
+
+#: ui/clone.ui:256 ui/createvol.ui:404 ui/fsdetails.ui:63
+msgid "_Browse..."
+msgstr "_Pārlūkot..."
+
+#: ui/clone.ui:273
+msgid "New _Path:"
+msgstr "Jaunais _ceļš:"
+
+#: ui/clone.ui:306
+msgid "Clone Virtual Machine"
+msgstr "Klonēt virtuālo mašīnu"
+
+#: ui/clone.ui:347
+msgid "<span size='large'>Clone virtual machine</span>"
+msgstr "<span size='large'>Klonēt virtuālo mašīnu</span>"
+
+#: ui/clone.ui:422
+msgid "Original VM:"
+msgstr "Sākotnējā VM:"
+
+#: ui/clone.ui:434
+msgid "Connection:"
+msgstr "Savienojums:"
+
+#: ui/clone.ui:566 ui/createvm.ui:2234
+msgid "Storage:"
+msgstr "Krātuve:"
+
+#: ui/clone.ui:582
+msgid "_Details..."
+msgstr "_Informācija..."
+
+#: ui/clone.ui:651
+msgid ""
+"<span size='small'>Cloning does <u>not</u> alter the guest OS contents. If "
+"you need to do things\n"
+"like change passwords or static IPs, please see the virt-sysprep(1) tool.</"
+"span>"
+msgstr ""
+"<span size='small'>Klonēšana <u>nemaina</u> viesa OS saturu. Ja jums jādara "
+"kaut kas tāds\n"
+"kā paroļu vai statisko IP maiņa, lūdzu, skatiet rīku virt-sysprep(1).</span>"
+
+#: ui/clone.ui:706
+msgid "C_lone"
+msgstr "K_lonēt"
+
+#: ui/console.ui:17 ui/console.ui:233
+msgid "<b>The console is currently unavailable</b>"
+msgstr "<b>Konsole pašlaik nav pieejama</b>"
+
+#: ui/console.ui:57 virtManager/addhardware.py:252
+msgid "Serial"
+msgstr "Seriālā"
+
+#: ui/console.ui:125
+msgid "_Password:"
+msgstr "_Parole:"
+
+#: ui/console.ui:139 ui/createconn.ui:200
+msgid "_Username:"
+msgstr "_Lietotājvārds:"
+
+#: ui/console.ui:174
+msgid "_Login"
+msgstr "_Pieteikties"
+
+#: ui/console.ui:188
+msgid "_Save this password in your keyring"
+msgstr "_Saglabāt šo paroli atslēgu saišķī"
+
+#: ui/console.ui:192
+msgid "Check to save password, uncheck to forget password."
+msgstr ""
+"Atzīmējiet, lai saglabātu paroli; noņemiet atzīmi, lai paroli aizmirstu."
+
+#: ui/console.ui:274
+msgid "_Connect to console"
+msgstr "_Savienoties ar konsoli"
+
+#: ui/console.ui:291
+msgid "Connect"
+msgstr "Savienoties"
+
+#: ui/createconn.ui:8
+msgid "Add Connection"
+msgstr "Pievienot savienojumu"
+
+#: ui/createconn.ui:41
+msgid "Co_nnect"
+msgstr "Savie_noties"
+
+#: ui/createconn.ui:92
+msgid "_Hypervisor:"
+msgstr "_Hipervizors:"
+
+#: ui/createconn.ui:114
+msgid "Connect to _remote host over SSH"
+msgstr "Savienoties ar _attālu resursdatoru caur SSH"
+
+#: ui/createconn.ui:133
+msgid "_Autoconnect:"
+msgstr "_Automātiska savienošana:"
+
+#: ui/createconn.ui:183
+msgid "H_ostname:"
+msgstr "Re_sursdatora nosaukums:"
+
+#: ui/createconn.ui:234
+msgid ""
+"<small>QEMU usermode session is not the virt-manager\n"
+"default. It is likely that any pre-existing QEMU/KVM\n"
+"guests will not be available. Networking options\n"
+"are very limited. </small>"
+msgstr ""
+"<small>QEMU lietotāja režīma sesija nav virt-manager\n"
+"noklusējums. Visticamāk, jau esošie QEMU/KVM\n"
+"viesi nebūs pieejami. Tīklošanas iespējas\n"
+"ir ļoti ierobežotas. </small>"
+
+#: ui/createconn.ui:259
+msgid "Cu_stom URI:"
+msgstr "Pie_lāgots URI:"
+
+#: ui/createconn.ui:308
+msgid "Generated URI:"
+msgstr "Izveidotais URI:"
+
+#: ui/createnet.ui:9
+msgid "Create a new virtual network"
+msgstr "Izveidot jaunu virtuālo tīklu"
+
+#: ui/createnet.ui:55
+msgid "<span size='large'>Create virtual network</span>"
+msgstr "<span size='large'>Izveidot virtuālo tīklu</span>"
+
+#: ui/createnet.ui:152
+msgid "Fo_rward to:"
+msgstr "Pā_rsūtīt uz:"
+
+#: ui/createnet.ui:166
+msgid "Device _List:"
+msgstr "Ierīču _saraksts:"
+
+#: ui/createnet.ui:244
+msgid "De_vice:"
+msgstr "Ie_rīce:"
+
+#: ui/createnet.ui:287
+msgid "_Enable IPv4"
+msgstr "_Iespējot IPv4"
+
+#: ui/createnet.ui:326 ui/createnet.ui:537
+msgid "_Network:"
+msgstr "_Tīkls:"
+
+#: ui/createnet.ui:417 ui/createnet.ui:628
+msgid "Start:"
+msgstr "Sākums:"
+
+#: ui/createnet.ui:429 ui/createnet.ui:640
+msgid "End:"
+msgstr "Beigas:"
+
+#: ui/createnet.ui:438
+msgid "Enable DHCPv4"
+msgstr "Iespējot DHCPv4"
+
+#: ui/createnet.ui:473 ui/hostnets.ui:348
+msgid "<b>IPv_4 configuration</b>"
+msgstr "<b>IPv_4 konfigurācija</b>"
+
+#: ui/createnet.ui:498
+msgid "_Enable IPv6"
+msgstr "_Iespējot IPv6"
+
+#: ui/createnet.ui:649
+msgid "Enable DHCPv6"
+msgstr "Iespējot DHCPv6"
+
+#: ui/createnet.ui:684 ui/hostnets.ui:452
+msgid "<b>IPv_6 configuration</b>"
+msgstr "<b>IPv_6 konfigurācija</b>"
+
+#: ui/createnet.ui:728
+msgid "Use net_work name"
+msgstr "Izmantot _tīkla nosaukumu"
+
+#: ui/createnet.ui:746
+msgid "Cust_om"
+msgstr "Pie_lāgots"
+
+#: ui/createnet.ui:765
+msgid "<b>DNS domain name</b>"
+msgstr "<b>DNS domēna nosaukums</b>"
+
+#: ui/createpool.ui:9
+msgid "Add a New Storage Pool"
+msgstr "Pievienot jaunu krātuves pūlu"
+
+#: ui/createpool.ui:50
+msgid "<span size='large'>Create storage pool</span>"
+msgstr "<span size='large'>Izveidot krātuves pūlu</span>"
+
+#: ui/createpool.ui:149
+msgid "Tar_get Path:"
+msgstr "_Mērķa ceļš:"
+
+#: ui/createpool.ui:162 ui/createvol.ui:199
+msgid "F_ormat:"
+msgstr "F_ormāts:"
+
+#: ui/createpool.ui:176
+msgid "Host Na_me:"
+msgstr "Resursdatora nosau_kums:"
+
+#: ui/createpool.ui:204
+msgid "Initiator _IQN:"
+msgstr "Iniciatora _IQN:"
+
+#: ui/createpool.ui:215
+msgid "B_rowse"
+msgstr "P_ārlūkot"
+
+#: ui/createpool.ui:235
+msgid "Bro_wse"
+msgstr "Pār_lūkot"
+
+#: ui/createvm.ui:19
+msgid "New VM"
+msgstr "Jauna VM"
+
+#: ui/createvm.ui:66
+msgid "<span size='large'>Create a new virtual machine</span>"
+msgstr "<span size='large'>Izveidot jaunu virtuālo mašīnu</span>"
+
+#: ui/createvm.ui:168
+msgid "Choose virtualization type"
+msgstr "Izvēlieties virtualizācijas tipu"
+
+#: ui/createvm.ui:185
+msgid "_Virtual machine"
+msgstr "_Virtuālā mašīna"
+
+#: ui/createvm.ui:203
+msgid "_Container"
+msgstr "_Konteiners"
+
+#: ui/createvm.ui:244
+msgid "Choose how you would like to install the operating system"
+msgstr "Izvēlieties, kā vēlaties instalēt operētājsistēmu"
+
+#: ui/createvm.ui:261
+msgid "_Local install media (ISO image or CDROM)"
+msgstr "_Lokāls instalēšanas datu nesējs (ISO tēls vai CDROM)"
+
+#: ui/createvm.ui:279
+msgid "Network _Install (HTTP, HTTPS, or FTP)"
+msgstr "Tīkla _instalēšana (HTTP, HTTPS vai FTP)"
+
+#: ui/createvm.ui:297
+msgid "Import _existing disk image"
+msgstr "Importēt _esošu diska tēlu"
+
+#: ui/createvm.ui:315
+msgid "Ma_nual install"
+msgstr "Ma_nuāla instalēšana"
+
+#: ui/createvm.ui:355
+msgid "Choose the container type"
+msgstr "Izvēlieties konteinera tipu"
+
+#: ui/createvm.ui:372
+msgid "_Application container"
+msgstr "_Lietotnes konteiners"
+
+#: ui/createvm.ui:390
+msgid "O_perating system container"
+msgstr "O_perētājsistēmas konteiners"
+
+#: ui/createvm.ui:438
+msgid "C_onnection:"
+msgstr "Savien_ojums:"
+
+#: ui/createvm.ui:648
+msgid "_Xen Type:"
+msgstr "_Xen tips:"
+
+#: ui/createvm.ui:662
+msgid "_Architecture:"
+msgstr "_Arhitektūra:"
+
+#: ui/createvm.ui:676
+msgid "_Machine Type:"
+msgstr "_Mašīnas tips:"
+
+#: ui/createvm.ui:701
+msgid "_Virt Type:"
+msgstr "_Virt. tips:"
+
+#: ui/createvm.ui:727
+msgid "Architecture options"
+msgstr "Arhitektūras opcijas"
+
+#: ui/createvm.ui:748 virtManager/details/details.py:682
+#: virtManager/manager.py:321 virtManager/oslist.py:70
+msgid "Name"
+msgstr "Nosaukums"
+
+#: ui/createvm.ui:776
+msgid "Choose _ISO or CDROM install media:"
+msgstr "Izvēlieties _ISO vai CDROM instalēšanas datu nesēju:"
+
+#: ui/createvm.ui:806
+msgid "Bro_wse..."
+msgstr "Pārlū_kot..."
+
+#: ui/createvm.ui:837
+msgid "ISO"
+msgstr "ISO"
+
+#: ui/createvm.ui:854
+msgid "Provide the operating system install U_RL:"
+msgstr "Norādiet operētājsistēmas instalēšanas U_RL:"
+
+#: ui/createvm.ui:918
+msgid "Kerne_l options:"
+msgstr "Kodo_la opcijas:"
+
+#: ui/createvm.ui:951
+msgid "URL _Options"
+msgstr "URL _opcijas"
+
+#: ui/createvm.ui:982
+msgid "URL"
+msgstr "URL"
+
+#: ui/createvm.ui:1014
+msgid "PXE"
+msgstr "PXE"
+
+#: ui/createvm.ui:1038
+msgid "Provide the existing stora_ge path:"
+msgstr "Norādiet esošās krātu_ves ceļu:"
+
+#: ui/createvm.ui:1072 ui/createvm.ui:1200 ui/createvm.ui:1287
+msgid "B_rowse..."
+msgstr "Pā_rlūkot..."
+
+#: ui/createvm.ui:1126
+msgid ""
+"<small>Kernel/initrd settings can be configured with 'Customize before "
+"install' on the final page.</small>"
+msgstr ""
+"<small>Kodola/initrd iestatījumus var konfigurēt pēdējā lapā ar „Pielāgot "
+"pirms instalēšanas”.</small>"
+
+#: ui/createvm.ui:1171
+msgid "Provide the _application path:"
+msgstr "Norādiet _lietotnes ceļu:"
+
+#: ui/createvm.ui:1252
+msgid "Provide the existing OS root _directory:"
+msgstr "Norādiet esošās OS saknes _direktoriju:"
+
+#: ui/createvm.ui:1334
+msgid ""
+"<small>The OS directory tree must already exist. To enable OS directory tree "
+"creation,\n"
+"please install <a href=\"https://github.com/virt-manager/virt-"
+"bootstrap\">virt-bootstrap</a></small>"
+msgstr ""
+"<small>OS direktoriju kokam jau jāeksistē. Lai iespējotu OS direktoriju koka "
+"izveidi,\n"
+"lūdzu, instalējiet <a href=\"https://github.com/virt-manager/virt-"
+"bootstrap\">virt-bootstrap</a></small>"
+
+#: ui/createvm.ui:1373
+msgid ""
+"<small>The OS directory tree must already exist. Creating an OS directory "
+"tree for remote\n"
+"connections is not yet supported.</small>"
+msgstr ""
+"<small>OS direktoriju kokam jau jāeksistē. OS direktoriju koka izveide "
+"attāliem\n"
+"savienojumiem vēl netiek atbalstīta.</small>"
+
+#: ui/createvm.ui:1392
+msgid "Create OS directory tree from container image"
+msgstr "Izveidot OS direktoriju koku no konteinera tēla"
+
+#: ui/createvm.ui:1424
+msgid "Source URI:"
+msgstr "Avota URI:"
+
+#: ui/createvm.ui:1440
+msgid ""
+"Possible URL formats:\n"
+" * file:///path/to/rootfs.tar\n"
+" * docker://registry:port/image:tag\n"
+" * virt-builder://template\n"
+msgstr ""
+"Iespējamie URL formāti:\n"
+" * file:///ceļš/uz/rootfs.tar\n"
+" * docker://reģistrs:ports/tēls:birka\n"
+" * virt-builder://veidne\n"
+
+#: ui/createvm.ui:1467
+msgid "Do not verify TLS certificates of registry"
+msgstr "Nepārbaudīt reģistra TLS sertifikātus"
+
+#: ui/createvm.ui:1495
+msgid "Username:"
+msgstr "Lietotājvārds:"
+
+#: ui/createvm.ui:1506
+msgid "Password:"
+msgstr "Parole:"
+
+#: ui/createvm.ui:1567
+msgid "Credentials for accessing the source registry"
+msgstr "Akreditācijas dati piekļuvei avota reģistram"
+
+#: ui/createvm.ui:1594
+msgid "Root password:"
+msgstr "Root parole:"
+
+#: ui/createvm.ui:1661
+msgid "Select _container template:"
+msgstr "Izvēlieties _konteinera veidni:"
+
+#: ui/createvm.ui:1704
+msgid "VZ templates"
+msgstr "VZ veidnes"
+
+#: ui/createvm.ui:1729
+msgid "C_hoose the operating system you are installing:"
+msgstr "I_zvēlieties instalējamo operētājsistēmu:"
+
+#: ui/createvm.ui:1758
+msgid "A_utomatically detect from the installation media / source"
+msgstr "A_utomātiski noteikt no instalēšanas datu nesēja / avota"
+
+#: ui/createvm.ui:1807
+msgid "Install"
+msgstr "Instalēšana"
+
+#: ui/createvm.ui:1831
+msgid "Choose Memory and CPU settings:"
+msgstr "Izvēlieties atmiņas un CPU iestatījumus:"
+
+#: ui/createvm.ui:1853
+msgid "_Memory:"
+msgstr "_Atmiņa:"
+
+#: ui/createvm.ui:1868
+msgid "C_PUs:"
+msgstr "C_PU:"
+
+#: ui/createvm.ui:1903
+msgid "(Insert host mem)"
+msgstr "(Ievietot resursdatora atmiņu)"
+
+#: ui/createvm.ui:1987 virtManager/details/details.py:2342
+msgid "Memory"
+msgstr "Atmiņa"
+
+#: ui/createvm.ui:2002
+msgid "_Enable storage for this virtual machine"
+msgstr "_Iespējot krātuvi šai virtuālajai mašīnai"
+
+#: ui/createvm.ui:2040 virtManager/addhardware.py:228
+#: virtManager/addhardware.py:1006 virtManager/clone.py:279
+msgid "Storage"
+msgstr "Krātuve"
+
+#: ui/createvm.ui:2064
+msgid "Ready to begin the installation"
+msgstr "Gatavs sākt instalēšanu"
+
+#: ui/createvm.ui:2119
+msgid "C_ustomize configuration before install"
+msgstr "Pi_elāgot konfigurāciju pirms instalēšanas"
+
+#: ui/createvm.ui:2183
+msgid "Install:"
+msgstr "Instalēšana:"
+
+#: ui/createvm.ui:2200
+msgid "Memory:"
+msgstr "Atmiņa:"
+
+#: ui/createvm.ui:2217
+msgid "CPUs:"
+msgstr "CPU:"
+
+#: ui/createvm.ui:2251
+msgid "OS:"
+msgstr "OS:"
+
+#: ui/createvm.ui:2351
+msgid "N_etwork selection"
+msgstr "_Tīkla izvēle"
+
+#: ui/createvm.ui:2371
+msgid "Finish"
+msgstr "Pabeigt"
+
+#: ui/createvm.ui:2415
+msgid "_Back"
+msgstr "_Atpakaļ"
+
+#: ui/createvm.ui:2431
+msgid "_Forward"
+msgstr "_Uz priekšu"
+
+#: ui/createvol.ui:24
+msgid "Add a Storage Volume"
+msgstr "Pievienot krātuves sējumu"
+
+#: ui/createvol.ui:66
+msgid "<span size='large'>Create storage volume</span>"
+msgstr "<span size='large'>Izveidot krātuves sējumu</span>"
+
+#: ui/createvol.ui:121
+msgid "Create a storage unit to be used directly by a virtual machine."
+msgstr "Izveidot krātuves vienību, ko tieši izmantos virtuālā mašīna."
+
+#: ui/createvol.ui:249
+msgid "<b>Storage Volume Quota</b>"
+msgstr "<b>Krātuves sējuma kvota</b>"
+
+#: ui/createvol.ui:292
+msgid "1.0"
+msgstr "1.0"
+
+#: ui/createvol.ui:308
+msgid "GiB"
+msgstr "GiB"
+
+#: ui/createvol.ui:320
+msgid "Ca_pacity:"
+msgstr "Ie_tilpība:"
+
+#: ui/createvol.ui:331
+msgid "_Allocate entire volume now"
+msgstr "_Piešķirt visu sējumu tagad"
+
+#: ui/createvol.ui:377
+msgid "Pa_th:"
+msgstr "Ce_ļš:"
+
+#: ui/createvol.ui:423
+msgid "_Backing store"
+msgstr "_Pamatkrātuve"
+
+#: ui/delete.ui:9 virtManager/delete.py:294
+msgid "Delete Virtual Machine"
+msgstr "Dzēst virtuālo mašīnu"
+
+#: ui/delete.ui:107
+msgid ""
+"<small>This VM is currently running and will be forced off before being "
+"deleted</small>"
+msgstr ""
+"<small>Šī VM pašlaik darbojas, un pirms dzēšanas tā tiks piespiedu kārtā "
+"izslēgta</small>"
+
+#: ui/delete.ui:124
+msgid "Delete _associated storage files"
+msgstr "Dzēst _saistītos krātuves failus"
+
+#: ui/delete.ui:196 ui/manager.ui:110 virtManager/vmmenu.py:97
+msgid "_Delete"
+msgstr "_Dzēst"
+
+#: ui/details.ui:122
+msgid "A_dd Hardware"
+msgstr "Pie_vienot aparatūru"
+
+#: ui/details.ui:194 ui/snapshotsnew.ui:164
+msgid "Status:"
+msgstr "Statuss:"
+
+#: ui/details.ui:206
+msgid "UUID:"
+msgstr "UUID:"
+
+#: ui/details.ui:257
+msgid "T_itle:"
+msgstr "Vi_rsraksts:"
+
+#: ui/details.ui:288
+msgid "Shut down"
+msgstr "Izslēgt"
+
+#: ui/details.ui:320
+msgid "D_escription:"
+msgstr "_Apraksts:"
+
+#: ui/details.ui:364
+msgid "<b>Basic Details</b>"
+msgstr "<b>Pamatinformācija</b>"
+
+#: ui/details.ui:400
+msgid "Hypervisor:"
+msgstr "Hipervizors:"
+
+#: ui/details.ui:412
+msgid "Architecture:"
+msgstr "Arhitektūra:"
+
+#: ui/details.ui:463
+msgid "Emulator:"
+msgstr "Emulators:"
+
+#: ui/details.ui:475
+msgid "Machine _Type: "
+msgstr "Mašīnas _tips: "
+
+#: ui/details.ui:488
+msgid "Chipse_t:"
+msgstr "Mikroshēmo_jums:"
+
+#: ui/details.ui:503
+msgid "Firm_ware:"
+msgstr "Aparātprogram_matūra:"
+
+#: ui/details.ui:663
+msgid "<b>Hypervisor Details</b>"
+msgstr "<b>Hipervizora informācija</b>"
+
+#: ui/details.ui:767
+msgid "<b>Operating Sys_tem</b>"
+msgstr "<b>Operētājsis_tēma</b>"
+
+#: ui/details.ui:824
+msgid "<b>Applications</b>"
+msgstr "<b>Lietotnes</b>"
+
+#: ui/details.ui:887
+msgid "Refresh"
+msgstr "Atsvaidzināt"
+
+#: ui/details.ui:998 ui/host.ui:263
+msgid "<b>CPU usage</b>"
+msgstr "<b>CPU lietojums</b>"
+
+#: ui/details.ui:1067 ui/host.ui:321
+msgid "<b>Memory usage</b>"
+msgstr "<b>Atmiņas lietojums</b>"
+
+#: ui/details.ui:1115
+msgid "0 KiBytes/s 0 KiBytes/s"
+msgstr "0 KiB/s 0 KiB/s"
+
+#: ui/details.ui:1137
+msgid "<b>Disk I/O</b>"
+msgstr "<b>Diska I/O</b>"
+
+#: ui/details.ui:1207
+msgid "<b>Network I/O</b>"
+msgstr "<b>Tīkla I/O</b>"
+
+#: ui/details.ui:1299
+msgid "Logical host CPUs:"
+msgstr "Resursdatora loģiskie CPU:"
+
+#: ui/details.ui:1312
+msgid "vCPU a_llocation:"
+msgstr "vCPU _piešķīrums:"
+
+#: ui/details.ui:1329
+msgid "2"
+msgstr "2"
+
+#: ui/details.ui:1370
+msgid "<small>Overcommitting vCPUs can hurt performance</small>"
+msgstr "<small>vCPU pārpiešķiršana var pasliktināt veiktspēju</small>"
+
+#: ui/details.ui:1406
+msgid "<b>CPUs</b>"
+msgstr "<b>CPU</b>"
+
+#: ui/details.ui:1443 ui/details.ui:3422 ui/details.ui:3933 ui/details.ui:4069
+#: ui/details.ui:4228
+msgid "M_odel:"
+msgstr "M_odelis:"
+
+#: ui/details.ui:1454 virtManager/details/details.py:1894
+msgid "Copy host CP_U configuration"
+msgstr "Kopēt resursdatora CP_U konfigurāciju"
+
+#: ui/details.ui:1495
+msgid "Enable available CPU security flaw mitigations"
+msgstr "Iespējot pieejamos CPU drošības nepilnību mazināšanas pasākumus"
+
+#: ui/details.ui:1521
+msgid "<b>Configu_ration</b>"
+msgstr "<b>Konfigu_rācija</b>"
+
+#: ui/details.ui:1551
+msgid "Manuall_y set CPU topology"
+msgstr "Manuāli iestatīt CPU _topoloģiju"
+
+#: ui/details.ui:1579
+msgid "Thread_s:"
+msgstr "Pavedi_eni:"
+
+#: ui/details.ui:1593
+msgid "Cor_es:"
+msgstr "Kodo_li:"
+
+#: ui/details.ui:1607
+msgid "Socke_ts:"
+msgstr "Lig_zdas:"
+
+#: ui/details.ui:1623 ui/details.ui:1641 ui/details.ui:1659
+msgid "1"
+msgstr "1"
+
+#: ui/details.ui:1698
+msgid "<b>To_pology</b>"
+msgstr "<b>To_poloģija</b>"
+
+#: ui/details.ui:1763
+msgid "Current a_llocation:"
+msgstr "Pašreizējais pie_šķīrums:"
+
+#: ui/details.ui:1778
+msgid "Ma_ximum allocation:"
+msgstr "Ma_ksimālais piešķīrums:"
+
+#: ui/details.ui:1793
+msgid "Total host memory:"
+msgstr "Kopējā resursdatora atmiņa:"
+
+#: ui/details.ui:1826 ui/details.ui:1875
+msgid "50"
+msgstr "50"
+
+#: ui/details.ui:1850 ui/details.ui:1899 ui/fsdetails.ui:177
+msgid "MiB"
+msgstr "MiB"
+
+#: ui/details.ui:1915
+msgid "Enable shared _memory"
+msgstr "Iespējot koplietojamo _atmiņu"
+
+#: ui/details.ui:1945
+msgid "<b>Memory</b>"
+msgstr "<b>Atmiņa</b>"
+
+#: ui/details.ui:1997
+msgid "Start virt_ual machine on host boot up"
+msgstr "Palaist virt_uālo mašīnu, kad resursdators sāknējas"
+
+#: ui/details.ui:2018
+msgid "<b>Autostart</b>"
+msgstr "<b>Automātiska palaišana</b>"
+
+#: ui/details.ui:2065
+msgid "Init _path:"
+msgstr "Init _ceļš:"
+
+#: ui/details.ui:2079
+msgid "Init ar_gs:"
+msgstr "Init ar_gumenti:"
+
+#: ui/details.ui:2113
+msgid "<b>Container init</b>"
+msgstr "<b>Konteinera init</b>"
+
+#: ui/details.ui:2143
+msgid "Ena_ble direct kernel boot"
+msgstr "Ie_spējot tiešo kodola sāknēšanu"
+
+#: ui/details.ui:2176
+msgid "Ke_rnel path:"
+msgstr "Ko_dola ceļš:"
+
+#: ui/details.ui:2192
+msgid "_Initrd path:"
+msgstr "_Initrd ceļš:"
+
+#: ui/details.ui:2223 ui/details.ui:2268 ui/details.ui:2359
+msgid "Browse"
+msgstr "Pārlūkot"
+
+#: ui/details.ui:2298
+msgid "Kernel ar_gs:"
+msgstr "Kodola ar_gumenti:"
+
+#: ui/details.ui:2328
+msgid "D_TB path:"
+msgstr "D_TB ceļš:"
+
+#: ui/details.ui:2421
+msgid "<b>Dir_ect kernel boot</b>"
+msgstr "<b>Ti_ešā kodola sāknēšana</b>"
+
+#: ui/details.ui:2452
+msgid "Enable boot me_nu"
+msgstr "Iespējot sāknēšanas iz_vēlni"
+
+#: ui/details.ui:2589
+msgid "<b>Boot device order</b>"
+msgstr "<b>Sāknēšanas ierīču secība</b>"
+
+#: ui/details.ui:2657
+msgid "Storage size:"
+msgstr "Krātuves izmērs:"
+
+#: ui/details.ui:2681
+msgid "Source _path:"
+msgstr "Avota _ceļš:"
+
+#: ui/details.ui:2749
+msgid "_Browse"
+msgstr "_Pārlūkot"
+
+#: ui/details.ui:2780 ui/details.ui:3523
+msgid "Device type:"
+msgstr "Ierīces tips:"
+
+#: ui/details.ui:2793
+msgid "Disk b_us:"
+msgstr "Diska ko_pne:"
+
+#: ui/details.ui:2830
+msgid "disk-bus-label"
+msgstr "disk-bus-label"
+
+#: ui/details.ui:2878
+msgid "<b>Virtual Disk</b>"
+msgstr "<b>Virtuālais disks</b>"
+
+#: ui/details.ui:3082
+msgid "Link _state:"
+msgstr "Saites _stāvoklis:"
+
+#: ui/details.ui:3093
+msgid "active"
+msgstr "aktīvs"
+
+#: ui/details.ui:3115 ui/hoststorage.ui:429 ui/snapshots.ui:216
+msgid "label"
+msgstr "label"
+
+#: ui/details.ui:3157
+msgid "I_P address:"
+msgstr "I_P adrese:"
+
+#: ui/details.ui:3179
+msgid "<b>Virtual Network Interface</b>"
+msgstr "<b>Virtuālā tīkla saskarne</b>"
+
+#: ui/details.ui:3242 ui/details.ui:4181 ui/details.ui:4503 ui/details.ui:4679
+msgid "Type:"
+msgstr "Tips:"
+
+#: ui/details.ui:3255
+msgid "Mode:"
+msgstr "Režīms:"
+
+#: ui/details.ui:3301
+msgid "<b>Virtual Input Device</b>"
+msgstr "<b>Virtuālā ievades ierīce</b>"
+
+#: ui/details.ui:3461
+msgid "<b>Sound Device</b>"
+msgstr "<b>Skaņas ierīce</b>"
+
+#: ui/details.ui:3535
+msgid "label506"
+msgstr "label506"
+
+#: ui/details.ui:3548 ui/details.ui:3586
+msgid "label508"
+msgstr "label508"
+
+#: ui/details.ui:3599 ui/details.ui:3612
+msgid "label507"
+msgstr "label507"
+
+#: ui/details.ui:3637
+msgid "Source host:"
+msgstr "Avota resursdators:"
+
+#: ui/details.ui:3649
+msgid "Bind host:"
+msgstr "Piesaistes resursdators:"
+
+#: ui/details.ui:3661
+msgid "Target type:"
+msgstr "Mērķa tips:"
+
+#: ui/details.ui:3673
+msgid "Target name:"
+msgstr "Mērķa nosaukums:"
+
+#: ui/details.ui:3685 ui/hostnets.ui:175 ui/hoststorage.ui:391
+msgid "State:"
+msgstr "Stāvoklis:"
+
+#: ui/details.ui:3697
+msgid "Clipboard:"
+msgstr "Starpliktuve:"
+
+#: ui/details.ui:3709
+msgid "Source path:"
+msgstr "Avota ceļš:"
+
+#: ui/details.ui:3729
+msgid "<b>insert type</b>"
+msgstr "<b>ievietošanas tips</b>"
+
+#: ui/details.ui:3790 ui/hostnets.ui:163
+msgid "Device:"
+msgstr "Ierīce:"
+
+#: ui/details.ui:3816
+msgid "ROM _BAR:"
+msgstr "ROM _BAR:"
+
+#: ui/details.ui:3964
+msgid "_3D acceleration:"
+msgstr "_3D paātrinājums:"
+
+#: ui/details.ui:3992
+msgid "<b>Video</b>"
+msgstr "<b>Video</b>"
+
+#: ui/details.ui:4244
+msgid "Devices:"
+msgstr "Ierīces:"
+
+#: ui/details.ui:4300
+msgid "<b>Controller</b>"
+msgstr "<b>Kontrolieris</b>"
+
+#: ui/details.ui:4346
+msgid "<b>Filesystem</b>"
+msgstr "<b>Failu sistēma</b>"
+
+#: ui/details.ui:4401 ui/migrate.ui:390
+msgid "M_ode:"
+msgstr "Re_žīms:"
+
+#: ui/details.ui:4446
+msgid "<b>Smartcard Device</b>"
+msgstr "<b>Viedkartes ierīce</b>"
+
+#: ui/details.ui:4515
+msgid "Address:"
+msgstr "Adrese:"
+
+#: ui/details.ui:4527
+msgid "foo:12"
+msgstr "foo:12"
+
+#: ui/details.ui:4559
+msgid "<b>Redirected device</b>"
+msgstr "<b>Pāradresēta ierīce</b>"
+
+#: ui/details.ui:4611
+msgid "<b>TPM Device</b>"
+msgstr "<b>TPM ierīce</b>"
+
+#: ui/details.ui:4704
+msgid "Host Device:"
+msgstr "Resursdatora ierīce:"
+
+#: ui/details.ui:4724
+msgid "<b>Random Number Generator</b>"
+msgstr "<b>Nejaušu skaitļu ģenerators</b>"
+
+#: ui/details.ui:4774
+msgid "Model:"
+msgstr "Modelis:"
+
+#: ui/details.ui:4786
+msgid "panic-model"
+msgstr "panic-model"
+
+#: ui/details.ui:4806
+msgid "<b>Panic Notifier</b>"
+msgstr "<b>Panikas paziņotājs</b>"
+
+#: ui/details.ui:4899
+msgid "_Remove"
+msgstr "_Noņemt"
+
+#: ui/details.ui:4940 ui/hostnets.ui:652 ui/hoststorage.ui:186
+#: ui/snapshots.ui:499
+msgid "_Apply"
+msgstr "_Lietot"
+
+#: ui/fsdetails.ui:30
+msgid "E_xport filesystem as readonly mount"
+msgstr "E_ksportēt failu sistēmu kā tikai lasāmu montējumu"
+
+#: ui/fsdetails.ui:101
+msgid "_Driver:"
+msgstr "_Draiveris:"
+
+#: ui/fsdetails.ui:129
+msgid "Ta_rget path:"
+msgstr "Mē_rķa ceļš:"
+
+#: ui/fsdetails.ui:196
+msgid "_Format:"
+msgstr "_Formāts:"
+
+#: ui/fsdetails.ui:280
+msgid "blah foo warning message"
+msgstr "blah foo warning message"
+
+#: ui/gfxdetails.ui:75
+msgid "Show passwor_d"
+msgstr "Rādīt paroli"
+
+#: ui/gfxdetails.ui:121
+msgid "Addr_ess:"
+msgstr "Adr_ese:"
+
+#: ui/gfxdetails.ui:137
+msgid "Pa_ssword:"
+msgstr "Pa_role:"
+
+#: ui/gfxdetails.ui:151 ui/migrate.ui:247
+msgid "_Port:"
+msgstr "_Ports:"
+
+#: ui/gfxdetails.ui:168 ui/vsockdetails.ui:39
+#: virtManager/device/gfxdetails.py:204
+msgid "A_uto"
+msgstr "A_utomātiski"
+
+#: ui/gfxdetails.ui:193 ui/vsockdetails.ui:64
+msgid "5900"
+msgstr "5900"
+
+#: ui/gfxdetails.ui:261
+msgid "Open_GL:"
+msgstr "Open_GL:"
+
+#: ui/gfxdetails.ui:275
+msgid "L_isten type:"
+msgstr "K_lausīšanās tips:"
+
+#: ui/gfxdetails.ui:365
+msgid "OpenGL only works with 'virtio' graphics with '3D acceleration' enabled"
+msgstr ""
+"OpenGL darbojas tikai ar 'virtio' grafiku, ja ir iespējots '3D paātrinājums'"
+
+#: ui/gfxdetails.ui:381
+msgid "OpenGL only works with 'Listen type' value 'none'"
+msgstr "OpenGL darbojas tikai ar 'Klausīšanās tips' vērtību 'none'"
+
+#: ui/host.ui:27 ui/manager.ui:26 ui/vmwindow.ui:25
+msgid "_File"
+msgstr "_Fails"
+
+#: ui/host.ui:36 ui/vmwindow.ui:34
+msgid "_View Manager"
+msgstr "_Skatīt pārvaldnieku"
+
+#: ui/host.ui:116
+msgid "Libvirt URI:"
+msgstr "Libvirt URI:"
+
+#: ui/host.ui:184
+msgid "A_utoconnect:"
+msgstr "A_utomātiska savienošana:"
+
+#: ui/host.ui:199
+msgid "<b>Basic details</b>"
+msgstr "<b>Pamatinformācija</b>"
+
+#: ui/host.ui:352
+msgid "_Overview"
+msgstr "_Pārskats"
+
+#: ui/host.ui:375
+msgid "_Virtual Networks"
+msgstr "_Virtuālie tīkli"
+
+#: ui/host.ui:399
+msgid "_Storage"
+msgstr "_Krātuve"
+
+#: ui/hostnets.ui:187 ui/hoststorage.ui:403
+msgid "A_utostart:"
+msgstr "A_utomātiska palaišana:"
+
+#: ui/hostnets.ui:201
+msgid "Domain:"
+msgstr "Domēns:"
+
+#: ui/hostnets.ui:214 ui/hoststorage.ui:367
+msgid "Name:"
+msgstr "Nosaukums:"
+
+#: ui/hostnets.ui:287 ui/hostnets.ui:403
+msgid "Network:"
+msgstr "Tīkls:"
+
+#: ui/hostnets.ui:299 ui/hostnets.ui:415
+msgid "DHCP range:"
+msgstr "DHCP diapazons:"
+
+#: ui/hostnets.ui:311 ui/hostnets.ui:427
+msgid "Forwarding:"
+msgstr "Pārsūtīšana:"
+
+#: ui/hostnets.ui:328
+msgid "NAT to any device"
+msgstr "NAT uz jebkuru ierīci"
+
+#: ui/hostnets.ui:439 virtManager/createnet.py:108
+msgid "Routed"
+msgstr "Maršrutēts"
+
+#: ui/hostnets.ui:537
+msgid "Add Network"
+msgstr "Pievienot tīklu"
+
+#: ui/hostnets.ui:564
+msgid "Start Network"
+msgstr "Palaist tīklu"
+
+#: ui/hostnets.ui:591
+msgid "Stop Network"
+msgstr "Apturēt tīklu"
+
+#: ui/hostnets.ui:618
+msgid "Delete Network"
+msgstr "Dzēst tīklu"
+
+#: ui/hoststorage.ui:25
+msgid "Add Pool"
+msgstr "Pievienot pūlu"
+
+#: ui/hoststorage.ui:51
+msgid "Start Pool"
+msgstr "Palaist pūlu"
+
+#: ui/hoststorage.ui:77
+msgid "Stop Pool"
+msgstr "Apturēt pūlu"
+
+#: ui/hoststorage.ui:103
+msgid "Delete Pool"
+msgstr "Dzēst pūlu"
+
+#: ui/hoststorage.ui:138
+msgid "_Browse Local"
+msgstr "Pārlūkot _lokāli"
+
+#: ui/hoststorage.ui:142
+msgid "Browse local filesystem"
+msgstr "Pārlūkot lokālo failu sistēmu"
+
+#: ui/hoststorage.ui:158
+msgid "Cancel and close dialog"
+msgstr "Atcelt un aizvērt dialogu"
+
+#: ui/hoststorage.ui:170
+msgid "Ch_oose Volume"
+msgstr "Iz_vēlēties sējumu"
+
+#: ui/hoststorage.ui:174
+msgid "Choose the selected volume"
+msgstr "Izvēlēties atlasīto sējumu"
+
+#: ui/hoststorage.ui:190
+msgid "Apply pool changes"
+msgstr "Lietot pūla izmaiņas"
+
+#: ui/hoststorage.ui:293 virtManager/connection.py:491
+#: virtManager/object/libvirtobject.py:213
+msgid "Active"
+msgstr "Aktīvs"
+
+#: ui/hoststorage.ui:379
+msgid "Location:"
+msgstr "Atrašanās vieta:"
+
+#: ui/hoststorage.ui:459
+msgid "<b>Volumes</b>"
+msgstr "<b>Sējumi</b>"
+
+#: ui/hoststorage.ui:504
+msgid "Refresh volume list"
+msgstr "Atsvaidzināt sējumu sarakstu"
+
+#: ui/hoststorage.ui:530
+msgid "Delete volume"
+msgstr "Dzēst sējumu"
+
+#: ui/manager.ui:35
+msgid "_Add Connection..."
+msgstr "_Pievienot savienojumu..."
+
+#: ui/manager.ui:44
+msgid "_New Virtual Machine"
+msgstr "_Jauna virtuālā mašīna"
+
+#: ui/manager.ui:59 ui/preferences.ui:1013 ui/vmwindow.ui:49
+msgid "_Close"
+msgstr "_Aizvērt"
+
+#: ui/manager.ui:69 ui/vmwindow.ui:59
+msgid "_Quit"
+msgstr "_Iziet"
+
+#: ui/manager.ui:83
+msgid "_Edit"
+msgstr "_Rediģēt"
+
+#: ui/manager.ui:92
+msgid "_Connection Details"
+msgstr "_Savienojuma informācija"
+
+#: ui/manager.ui:101
+msgid "_Virtual Machine Details"
+msgstr "_Virtuālās mašīnas informācija"
+
+#: ui/manager.ui:125
+msgid "_Preferences"
+msgstr "_Iestatījumi"
+
+#: ui/manager.ui:138 ui/vmwindow.ui:112
+msgid "_View"
+msgstr "_Skats"
+
+#: ui/manager.ui:147
+msgid "_Graph"
+msgstr "_Grafiks"
+
+#: ui/manager.ui:157
+msgid "_Guest CPU Usage"
+msgstr "_Viesa CPU lietojums"
+
+#: ui/manager.ui:167
+msgid "_Host CPU Usage"
+msgstr "_Resursdatora CPU lietojums"
+
+#: ui/manager.ui:176
+msgid "_Memory Usage"
+msgstr "_Atmiņas lietojums"
+
+#: ui/manager.ui:185
+msgid "_Disk I/O"
+msgstr "_Diska I/O"
+
+#: ui/manager.ui:195
+msgid "_Network I/O"
+msgstr "_Tīkla I/O"
+
+#: ui/manager.ui:213
+msgid "_Help"
+msgstr "_Palīdzība"
+
+#: ui/manager.ui:222
+msgid "_About"
+msgstr "_Par"
+
+#: ui/manager.ui:253
+msgid "Create a new virtual machine"
+msgstr "Izveidot jaunu virtuālo mašīnu"
+
+#: ui/manager.ui:254
+msgid "New"
+msgstr "Jauna"
+
+#: ui/manager.ui:279
+msgid "Show the virtual machine console and details"
+msgstr "Rādīt virtuālās mašīnas konsoli un informāciju"
+
+#: ui/manager.ui:281 virtManager/storagebrowse.py:32 virtManager/vmmenu.py:101
+msgid "_Open"
+msgstr "_Atvērt"
+
+#: ui/manager.ui:296 ui/vmwindow.ui:339
+msgid "Power on the virtual machine"
+msgstr "Ieslēgt virtuālo mašīnu"
+
+#: ui/manager.ui:297 virtManager/manager.py:752 virtManager/vmmenu.py:88
+#: virtManager/vmwindow.py:370
+msgid "_Run"
+msgstr "_Palaist"
+
+#: ui/manager.ui:312 ui/vmwindow.ui:354 virtManager/manager.py:789
+#: virtManager/vmwindow.py:410
+msgid "Pause the virtual machine"
+msgstr "Pauzēt virtuālo mašīnu"
+
+#: ui/manager.ui:313 virtManager/vmmenu.py:89
+msgid "_Pause"
+msgstr "_Pauzēt"
+
+#: ui/manager.ui:328 ui/vmwindow.ui:369
+msgid "Shut down the virtual machine"
+msgstr "Izslēgt virtuālo mašīnu"
+
+#: ui/manager.ui:329 ui/vmwindow.ui:370 virtManager/vmmenu.py:58
+#: virtManager/vmmenu.py:91
+msgid "_Shut Down"
+msgstr "_Izslēgt"
+
+#: ui/migrate.ui:14
+msgid "Migrate the virtual machine"
+msgstr "Migrēt virtuālo mašīnu"
+
+#: ui/migrate.ui:108
+msgid "Migrating VM:"
+msgstr "Migrējamā VM:"
+
+#: ui/migrate.ui:124
+msgid "Original host:"
+msgstr "Sākotnējais resursdators:"
+
+#: ui/migrate.ui:140
+msgid "New _host:"
+msgstr "Jaunais _resursdators:"
+
+#: ui/migrate.ui:233
+msgid "_Address:"
+msgstr "_Adrese:"
+
+#: ui/migrate.ui:303
+msgid "0"
+msgstr "0"
+
+#: ui/migrate.ui:317 ui/migrate.ui:357
+msgid "Let libvirt decide"
+msgstr "Ļaut libvirt izlemt"
+
+#: ui/migrate.ui:386
+msgid ""
+"Tunnel migration through the libvirtd connection channel, rather than having "
+"the hypervisor open a separate network connection to the destination. The "
+"source libvirt instance connects directly to the destination libvirt "
+"instance.\n"
+"\n"
+"This can simplify setup since no additional firewall ports need to be open, "
+"and will encrypt migration traffic if your libvirt connection is encrypted. "
+"But it can be difficult to make this work with SSH transport."
+msgstr ""
+"Tunelēt migrāciju caur libvirtd savienojuma kanālu, nevis ļaut hipervizoram "
+"atvērt atsevišķu tīkla savienojumu ar mērķi. Avota libvirt instance "
+"savienojas tieši ar mērķa libvirt instanci.\n"
+"\n"
+"Tas var vienkāršot iestatīšanu, jo nav jāatver papildu ugunsmūra porti, un "
+"šifrēs migrācijas datplūsmu, ja jūsu libvirt savienojums ir šifrēts. Taču to "
+"var būt grūti panākt ar SSH transportu."
+
+#: ui/migrate.ui:474
+msgid "_URI:"
+msgstr "_URI:"
+
+#: ui/migrate.ui:509
+msgid "<b>Connectivity</b>"
+msgstr "<b>Savienojamība</b>"
+
+#: ui/migrate.ui:537
+msgid ""
+"By default libvirt will refuse to migrate a VM for certain configurations "
+"that could lead to malfunctioning guests, like if a disk's cache mode is not "
+"'none'.\n"
+"\n"
+"Enabling this option tells libvirt to skip those checks."
+msgstr ""
+"Pēc noklusējuma libvirt atteiksies migrēt VM noteiktās konfigurācijās, kas "
+"var izraisīt viesu nepareizu darbību, piemēram, ja diska kešatmiņas režīms "
+"nav 'none'.\n"
+"\n"
+"Iespējojot šo opciju, libvirt šīs pārbaudes izlaiž."
+
+#: ui/migrate.ui:541
+msgid "A_llow unsafe:"
+msgstr "Atļaut _nedrošu:"
+
+#: ui/migrate.ui:567
+msgid ""
+"By default, the migrated VM config is removed from the source host, and "
+"saved persistently on the destination host. The destination host is "
+"considered the new home of the VM.\n"
+"\n"
+"If 'temporary' is selected, the migration is considered only a temporary "
+"move: the source host maintains a copy of the VM config, and the running "
+"copy moved to the destination is only transient, and will disappear when it "
+"is shutdown."
+msgstr ""
+"Pēc noklusējuma migrētās VM konfigurācija tiek noņemta no avota resursdatora "
+"un pastāvīgi saglabāta mērķa resursdatorā. Mērķa resursdators tiek uzskatīts "
+"par VM jaunajām mājām.\n"
+"\n"
+"Ja izvēlēts 'pagaidu', migrācija tiek uzskatīta tikai par pagaidu "
+"pārvietošanu: avota resursdators patur VM konfigurācijas kopiju, un uz mērķi "
+"pārvietotā darbojošā kopija ir tikai pārejoša un pazudīs, kad tiks izslēgta."
+
+#: ui/migrate.ui:571
+msgid "_Temporary move:"
+msgstr "_Pagaidu pārvietošana:"
+
+#: ui/migrate.ui:599
+msgid "Advanced options"
+msgstr "Papildu opcijas"
+
+#: ui/migrate.ui:653
+msgid "_Migrate"
+msgstr "_Migrēt"
+
+#: ui/netlist.ui:17
+msgid "De_vice name:"
+msgstr "Ie_rīces nosaukums:"
+
+#: ui/netlist.ui:63
+msgid ""
+"<small>In most configurations, macvtap does not work for host to guest "
+"network communication.</small>"
+msgstr ""
+"<small>Vairumā konfigurāciju macvtap nedarbojas tīkla saziņai starp "
+"resursdatoru un viesi.</small>"
+
+#: ui/netlist.ui:122
+msgid "<small>Failed to find a suitable default network.</small>"
+msgstr "<small>Neizdevās atrast piemērotu noklusējuma tīklu.</small>"
+
+#: ui/netlist.ui:146
+msgid "_Portgroup:"
+msgstr "_Portu grupa:"
+
+#: ui/netlist.ui:182
+msgid "_Network source:"
+msgstr "_Tīkla avots:"
+
+#: ui/oslist.ui:56
+msgid ""
+"Can't find the operating system you are looking for?\n"
+"Try selecting a similar distro or version, or use one of the 'Generic' "
+"options."
+msgstr ""
+"Nevarat atrast meklēto operētājsistēmu?\n"
+"Mēģiniet izvēlēties līdzīgu distributīvu vai versiju, vai izmantojiet kādu "
+"no 'Generic' opcijām."
+
+#: ui/oslist.ui:109
+msgid "Include end of life operating systems"
+msgstr "Iekļaut operētājsistēmas, kurām beidzies atbalsts"
+
+#: ui/preferences.ui:14
+msgid "Preferences"
+msgstr "Iestatījumi"
+
+#: ui/preferences.ui:45
+msgid "Enable _system tray icon"
+msgstr "Iespējot _sistēmas paneļa ikonu"
+
+#: ui/preferences.ui:67
+msgid "Enable libgues_tfs VM introspection"
+msgstr "Iespējot libgues_tfs VM introspekciju"
+
+#: ui/preferences.ui:124
+msgid "Enable _XML editing"
+msgstr "Iespējot _XML rediģēšanu"
+
+#: ui/preferences.ui:178
+msgid "<b>General</b>"
+msgstr "<b>Vispārīgi</b>"
+
+#: ui/preferences.ui:193
+msgid "_General"
+msgstr "_Vispārīgi"
+
+#: ui/preferences.ui:222
+msgid "Poll _Disk I/O"
+msgstr "Vaicāt _diska I/O"
+
+#: ui/preferences.ui:250
+msgid "Poll _Network I/O"
+msgstr "Vaicāt _tīkla I/O"
+
+#: ui/preferences.ui:278
+msgid "Poll _Memory stats"
+msgstr "Vaicāt _atmiņas statistiku"
+
+#: ui/preferences.ui:306
+msgid "_Update status every"
+msgstr "_Atjaunināt statusu ik pēc"
+
+#: ui/preferences.ui:343
+msgid "seconds"
+msgstr "sekundēm"
+
+#: ui/preferences.ui:362
+msgid "Poll C_PU usage"
+msgstr "Vaicāt C_PU lietojumu"
+
+#: ui/preferences.ui:391
+msgid "<b>Stats Options</b>"
+msgstr "<b>Statistikas opcijas</b>"
+
+#: ui/preferences.ui:409
+msgid "P_olling"
+msgstr "_Vaicāšana"
+
+#: ui/preferences.ui:443
+msgid "Gra_phics type:"
+msgstr "Gra_fikas tips:"
+
+#: ui/preferences.ui:456 ui/preferences.ui:482
+msgid "Default storage format for new disk images."
+msgstr "Noklusējuma krātuves formāts jauniem diska tēliem."
+
+#: ui/preferences.ui:458
+msgid "_Storage format:"
+msgstr "_Krātuves formāts:"
+
+#: ui/preferences.ui:494
+msgid ""
+"Default CPU setting for new VMs. This is typically a tradeoff between "
+"performance\n"
+"and migration compatibility: if using the 'copy host' option, your servers "
+"will need\n"
+"identical CPUs in order to migrate the VM."
+msgstr ""
+"Noklusējuma CPU iestatījums jaunām VM. Parasti tas ir kompromiss starp "
+"veiktspēju\n"
+"un migrācijas saderību: ja izmantojat opciju 'kopēt resursdatora', jūsu "
+"serveriem\n"
+"vajadzēs identiskus CPU, lai migrētu VM."
+
+#: ui/preferences.ui:498
+msgid "CPU _default:"
+msgstr "CPU _noklusējums:"
+
+#: ui/preferences.ui:522
+msgid "Default Firmware for new VMs. Boot using either BIOS or UEFI."
+msgstr "Noklusējuma aparātprogrammatūra jaunām VM. Sāknēt ar BIOS vai UEFI."
+
+#: ui/preferences.ui:524
+msgid "x86 _Firmware:"
+msgstr "x86 _aparātprogrammatūra:"
+
+#: ui/preferences.ui:550
+msgid "<b>New VM Defaults</b>"
+msgstr "<b>Jaunu VM noklusējumi</b>"
+
+#: ui/preferences.ui:575
+msgid "N_ew VM"
+msgstr "J_auna VM"
+
+#: ui/preferences.ui:603
+msgid "Graphical console _scaling:"
+msgstr "Grafiskās konsoles _mērogošana:"
+
+#: ui/preferences.ui:621
+msgid "Gr_ab keys:"
+msgstr "Tvert _taustiņus:"
+
+#: ui/preferences.ui:636
+msgid "Not supported"
+msgstr "Netiek atbalstīts"
+
+#: ui/preferences.ui:664
+msgid "Change..."
+msgstr "Mainīt..."
+
+#: ui/preferences.ui:681
+msgid ""
+"Change guest resolution when the guest window size is changed. Only works "
+"with properly configured guest using spice and the desktop agent."
+msgstr ""
+"Mainīt viesa izšķirtspēju, kad mainās viesa loga izmērs. Darbojas tikai ar "
+"pareizi konfigurētu viesi, kas izmanto spice un darbvirsmas aģentu."
+
+#: ui/preferences.ui:683
+msgid "_Resize guest with window:"
+msgstr "Mainīt viesa izmēru līdz ar _logu:"
+
+#: ui/preferences.ui:709
+msgid "SPICE _USB Redirection:"
+msgstr "SPICE _USB pāradresācija:"
+
+#: ui/preferences.ui:733
+msgid ""
+"If disabled, the VM window will not automatically connect to the running VM "
+"graphical console."
+msgstr ""
+"Ja atspējots, VM logs automātiski nesavienosies ar darbojošās VM grafisko "
+"konsoli."
+
+#: ui/preferences.ui:735
+msgid "Console autoconnec_t:"
+msgstr "Konsoles automātiska savieno_šana:"
+
+#: ui/preferences.ui:763
+msgid "<b>Graphical Consoles</b>"
+msgstr "<b>Grafiskās konsoles</b>"
+
+#: ui/preferences.ui:781
+msgid "Conso_le"
+msgstr "Kons_ole"
+
+#: ui/preferences.ui:809
+msgid "_Force Poweroff:"
+msgstr "_Piespiedu izslēgšana:"
+
+#: ui/preferences.ui:836
+msgid "Poweroff/_Reboot/Save:"
+msgstr "Izslēgšana/_pārstartēšana/saglabāšana:"
+
+#: ui/preferences.ui:850
+msgid "_Pause:"
+msgstr "_Pauze:"
+
+#: ui/preferences.ui:903
+msgid "Device re_moval:"
+msgstr "Ierīces no_ņemšana:"
+
+#: ui/preferences.ui:917
+msgid "_Unapplied changes:"
+msgstr "_Nelietotas izmaiņas:"
+
+#: ui/preferences.ui:944
+msgid "_Deleting storage:"
+msgstr "_Krātuves dzēšana:"
+
+#: ui/preferences.ui:973
+msgid "<b>Confirmations</b>"
+msgstr "<b>Apstiprinājumi</b>"
+
+#: ui/preferences.ui:991
+msgid "Feed_back"
+msgstr "_Atgriezeniskā saite"
+
+#: ui/snapshots.ui:80
+msgid "Description:"
+msgstr "Apraksts:"
+
+#: ui/snapshots.ui:118
+msgid "VM State:"
+msgstr "VM stāvoklis:"
+
+#: ui/snapshots.ui:166
+msgid "Timestamp:"
+msgstr "Laikspiedols:"
+
+#: ui/snapshots.ui:204
+msgid "Snapshot Mode:"
+msgstr "Momentuzņēmuma režīms:"
+
+#: ui/snapshots.ui:229
+msgid "Screenshot:"
+msgstr "Ekrānuzņēmums:"
+
+#: ui/snapshots.ui:256
+msgid "No screenshot available"
+msgstr "Ekrānuzņēmums nav pieejams"
+
+#: ui/snapshots.ui:293
+msgid "<small><i>This was the most recently applied snapshot.</i></small>"
+msgstr "<small><i>Šis bija pēdējais lietotais momentuzņēmums.</i></small>"
+
+#: ui/snapshots.ui:382 ui/snapshots.ui:383
+msgid "Create new snapshot"
+msgstr "Izveidot jaunu momentuzņēmumu"
+
+#: ui/snapshots.ui:409
+msgid "Run selected snapshot"
+msgstr "Palaist atlasīto momentuzņēmumu"
+
+#: ui/snapshots.ui:435
+msgid "Refresh snapshot list"
+msgstr "Atsvaidzināt momentuzņēmumu sarakstu"
+
+#: ui/snapshots.ui:462 ui/snapshots.ui:463
+msgid "Delete selected snapshot"
+msgstr "Dzēst atlasīto momentuzņēmumu"
+
+#: ui/snapshots.ui:504 ui/snapshots.ui:505
+msgid "Save updated snapshot metadata"
+msgstr "Saglabāt atjauninātos momentuzņēmuma metadatus"
+
+#: ui/snapshotsnew.ui:7
+msgid "Create snapshot"
+msgstr "Izveidot momentuzņēmumu"
+
+#: ui/snapshotsnew.ui:49
+msgid "<span size='large'>Create snapshot</span>"
+msgstr "<span size='large'>Izveidot momentuzņēmumu</span>"
+
+#: ui/snapshotsnew.ui:131
+msgid "_Description:"
+msgstr "_Apraksts:"
+
+#: ui/snapshotsnew.ui:211
+msgid "Snapshot _Mode:"
+msgstr "Momentuzņēmuma _režīms:"
+
+#: ui/snapshotsnew.ui:226
+msgid "_external"
+msgstr "_ārējais"
+
+#: ui/snapshotsnew.ui:243
+msgid "_internal"
+msgstr "_iekšējais"
+
+#: ui/snapshotsnew.ui:269
+msgid "Memory _State:"
+msgstr "Atmiņas _stāvoklis:"
+
+#: ui/snapshotsnew.ui:283
+msgid "_auto"
+msgstr "_automātiski"
+
+#: ui/tpmdetails.ui:22
+msgid "Device _Path:"
+msgstr "Ierīces _ceļš:"
+
+#: ui/tpmdetails.ui:130
+msgid "_Version:"
+msgstr "_Versija:"
+
+#: ui/tpmdetails.ui:162
+msgid "Adva_nced options"
+msgstr "Papildu _opcijas"
+
+#: ui/vmwindow.ui:7
+msgid "Virtual Machine"
+msgstr "Virtuālā mašīna"
+
+#: ui/vmwindow.ui:73
+msgid "Virtual _Machine"
+msgstr "Virtuālā _mašīna"
+
+#: ui/vmwindow.ui:89
+msgid "_Take Screenshot"
+msgstr "_Uzņemt ekrānuzņēmumu"
+
+#: ui/vmwindow.ui:98
+msgid "Redirect host USB device to virtual machine with SPICE graphics."
+msgstr "Pāradresēt resursdatora USB ierīci uz virtuālo mašīnu ar SPICE grafiku."
+
+#: ui/vmwindow.ui:99
+msgid "_Redirect USB device"
+msgstr "_Pāradresēt USB ierīci"
+
+#: ui/vmwindow.ui:121
+msgid "_Console"
+msgstr "_Konsole"
+
+#: ui/vmwindow.ui:143
+msgid "Sna_pshots"
+msgstr "Momentuz_ņēmumi"
+
+#: ui/vmwindow.ui:160
+msgid "_Fullscreen"
+msgstr "_Pilnekrāna režīms"
+
+#: ui/vmwindow.ui:169
+msgid "_Resize to VM"
+msgstr "_Mainīt izmēru atbilstoši VM"
+
+#: ui/vmwindow.ui:178
+msgid "_Scale Display"
+msgstr "_Mērogot displeju"
+
+#: ui/vmwindow.ui:188
+msgid "_Always"
+msgstr "_Vienmēr"
+
+#: ui/vmwindow.ui:198
+msgid "_Only when Fullscreen"
+msgstr "_Tikai pilnekrāna režīmā"
+
+#: ui/vmwindow.ui:209
+msgid "_Never"
+msgstr "_Nekad"
+
+#: ui/vmwindow.ui:226
+msgid "Auto _resize VM with window"
+msgstr "Automātiski _mainīt VM izmēru līdz ar logu"
+
+#: ui/vmwindow.ui:239
+msgid "Co_nsoles"
+msgstr "Kon_soles"
+
+#: ui/vmwindow.ui:247
+msgid "_Autoconnect"
+msgstr "_Automātiska savienošana"
+
+#: ui/vmwindow.ui:262
+msgid "T_oolbar"
+msgstr "_Rīkjosla"
+
+#: ui/vmwindow.ui:276
+msgid "Send _Key"
+msgstr "Sūtīt _taustiņu"
+
+#: ui/vmwindow.ui:299
+msgid "Show the graphical console"
+msgstr "Rādīt grafisko konsoli"
+
+#: ui/vmwindow.ui:300 virtManager/addhardware.py:267
+msgid "Console"
+msgstr "Konsole"
+
+#: ui/vmwindow.ui:314
+msgid "Show virtual hardware details"
+msgstr "Rādīt virtuālās aparatūras informāciju"
+
+#: ui/vmwindow.ui:315 virtManager/error.py:326
+msgid "Details"
+msgstr "Informācija"
+
+#: ui/vmwindow.ui:340
+msgid "Run"
+msgstr "Palaist"
+
+#: ui/vmwindow.ui:355
+msgid "Pause"
+msgstr "Pauzēt"
+
+#: ui/vmwindow.ui:393
+msgid "Snapshots"
+msgstr "Momentuzņēmumi"
+
+#: ui/vmwindow.ui:407
+msgid "Switch to fullscreen view"
+msgstr "Pārslēgties uz pilnekrāna skatu"
+
+#: ui/vmwindow.ui:432
+msgid "Begin Installation"
+msgstr "Sākt instalēšanu"
+
+#: ui/vmwindow.ui:434
+msgid "_Begin Installation"
+msgstr "_Sākt instalēšanu"
+
+#: ui/vmwindow.ui:448
+msgid "_Cancel Installation"
+msgstr "_Atcelt instalēšanu"
+
+#: ui/vsockdetails.ui:23
+msgid "Guest C_ID:"
+msgstr "Viesa C_ID:"
+
+#: ui/xmleditor.ui:96
+msgid ""
+"<small>XML editing is disabled in 'Preferences'. Only enable it if you know "
+"what you are doing.</small>"
+msgstr ""
+"<small>XML rediģēšana ir atspējota sadaļā „Iestatījumi”. Iespējojiet to "
+"tikai tad, ja zināt, ko darāt.</small>"
+
+#: ui/xmleditor.ui:122
+msgid "_XML"
+msgstr "_XML"
+
+#: virtManager/about.py:20
+#, python-format
+msgid "Error launching 'About' dialog: %s"
+msgstr "Kļūda, palaižot dialogu „Par”: %s"
+
+#: virtManager/addhardware.py:174 virtManager/details/details.py:556
+msgid "Hardware"
+msgstr "Aparatūra"
+
+#: virtManager/addhardware.py:217 virtManager/createvm.py:506
+#: virtManager/device/addstorage.py:184
+msgid "Connection does not support storage management."
+msgstr "Savienojums neatbalsta krātuves pārvaldību."
+
+#: virtManager/addhardware.py:234 virtManager/addhardware.py:1008
+msgid "Controller"
+msgstr "Kontrolieris"
+
+#: virtManager/addhardware.py:235 virtManager/addhardware.py:1010
+#: virtManager/createnet.py:332
+msgid "Network"
+msgstr "Tīkls"
+
+#: virtManager/addhardware.py:237 virtManager/addhardware.py:1012
+#: virtManager/details/details.py:191
+msgid "Input"
+msgstr "Ievade"
+
+#: virtManager/addhardware.py:241 virtManager/addhardware.py:249
+#: virtManager/addhardware.py:256 virtManager/addhardware.py:264
+#: virtManager/addhardware.py:273 virtManager/addhardware.py:314
+msgid "Not supported for this guest type."
+msgstr "Šim viesa tipam netiek atbalstīts."
+
+#: virtManager/addhardware.py:243 virtManager/addhardware.py:1014
+msgid "Graphics"
+msgstr "Grafika"
+
+#: virtManager/addhardware.py:245 virtManager/addhardware.py:1016
+msgid "Sound"
+msgstr "Skaņa"
+
+#: virtManager/addhardware.py:260
+msgid "Parallel"
+msgstr "Paralēlais"
+
+#: virtManager/addhardware.py:269
+msgid "Channel"
+msgstr "Kanāls"
+
+#: virtManager/addhardware.py:277
+msgid "USB Host Device"
+msgstr "USB resursdatora ierīce"
+
+#: virtManager/addhardware.py:281 virtManager/addhardware.py:286
+#: virtManager/addhardware.py:299
+msgid "Connection does not support host device enumeration"
+msgstr "Savienojums neatbalsta resursdatora ierīču uzskaitīšanu"
+
+#: virtManager/addhardware.py:289
+msgid "Not supported for containers"
+msgstr "Konteineriem netiek atbalstīts"
+
+#: virtManager/addhardware.py:291
+msgid "PCI Host Device"
+msgstr "PCI resursdatora ierīce"
+
+#: virtManager/addhardware.py:295
+msgid "MDEV Host Device"
+msgstr "MDEV resursdatora ierīce"
+
+#: virtManager/addhardware.py:303
+msgid "Video"
+msgstr "Video"
+
+#: virtManager/addhardware.py:307
+msgid "Libvirt version does not support video devices."
+msgstr "Libvirt versija neatbalsta video ierīces."
+
+#: virtManager/addhardware.py:310 virtManager/details/details.py:253
+#: virtManager/lib/libvirtenummap.py:107
+msgid "Watchdog"
+msgstr "Sargsuns"
+
+#: virtManager/addhardware.py:316
+msgid "Filesystem"
+msgstr "Failu sistēma"
+
+#: virtManager/addhardware.py:317 virtManager/addhardware.py:1024
+#: virtManager/details/details.py:251
+msgid "Smartcard"
+msgstr "Viedkarte"
+
+#: virtManager/addhardware.py:318 virtManager/addhardware.py:1026
+msgid "USB Redirection"
+msgstr "USB pāradresācija"
+
+#: virtManager/addhardware.py:319 virtManager/addhardware.py:1028
+msgid "TPM"
+msgstr "TPM"
+
+#: virtManager/addhardware.py:320 virtManager/details/details.py:243
+msgid "RNG"
+msgstr "RNG"
+
+#: virtManager/addhardware.py:321 virtManager/addhardware.py:1032
+#: virtManager/details/details.py:250
+msgid "Panic Notifier"
+msgstr "Panikas paziņotājs"
+
+#: virtManager/addhardware.py:323 virtManager/details/details.py:252
+msgid "VirtIO VSOCK"
+msgstr "VirtIO VSOCK"
+
+#: virtManager/addhardware.py:327
+msgid "Not supported for this hypervisor/libvirt/arch combination."
+msgstr "Šai hipervizora/libvirt/arhitektūras kombinācijai netiek atbalstīts."
+
+#: virtManager/addhardware.py:392
+#, python-format
+msgid "Error changing VM configuration: %s"
+msgstr "Kļūda, mainot VM konfigurāciju: %s"
+
+#: virtManager/addhardware.py:416
+msgid "These changes will take effect after the next guest shutdown."
+msgstr "Šīs izmaiņas stāsies spēkā pēc nākamās viesa izslēgšanas."
+
+#: virtManager/addhardware.py:460
+msgid "Pseudo TTY"
+msgstr "Pseido TTY"
+
+#: virtManager/addhardware.py:461
+msgid "Output to a file"
+msgstr "Izvade uz failu"
+
+#: virtManager/addhardware.py:462
+msgid "TCP net console"
+msgstr "TCP tīkla konsole"
+
+#: virtManager/addhardware.py:463
+msgid "UDP net console"
+msgstr "UDP tīkla konsole"
+
+#: virtManager/addhardware.py:464
+msgid "UNIX socket"
+msgstr "UNIX ligzda"
+
+#: virtManager/addhardware.py:465
+msgid "Spice agent"
+msgstr "Spice aģents"
+
+#: virtManager/addhardware.py:466
+msgid "Spice port"
+msgstr "Spice ports"
+
+#: virtManager/addhardware.py:467
+msgid "QEMU vdagent"
+msgstr "QEMU vdagent"
+
+#: virtManager/addhardware.py:483 virtManager/addhardware.py:544
+msgid "IDE"
+msgstr "IDE"
+
+#: virtManager/addhardware.py:484 virtManager/details/details.py:2277
+msgid "Floppy"
+msgstr "Diskete"
+
+#: virtManager/addhardware.py:485 virtManager/addhardware.py:546
+msgid "SCSI"
+msgstr "SCSI"
+
+#: virtManager/addhardware.py:486 virtManager/addhardware.py:545
+msgid "SATA"
+msgstr "SATA"
+
+#: virtManager/addhardware.py:487
+msgid "VirtIO Serial"
+msgstr "VirtIO seriālais"
+
+#: virtManager/addhardware.py:488 virtManager/addhardware.py:548
+#: virtManager/addhardware.py:599
+msgid "USB"
+msgstr "USB"
+
+#: virtManager/addhardware.py:489
+msgid "PCI"
+msgstr "PCI"
+
+#: virtManager/addhardware.py:490
+msgid "CCID"
+msgstr "CCID"
+
+#: virtManager/addhardware.py:491
+msgid "xenbus"
+msgstr "xenbus"
+
+#: virtManager/addhardware.py:499 virtManager/addhardware.py:922
+msgid "VirtIO SCSI"
+msgstr "VirtIO SCSI"
+
+#: virtManager/addhardware.py:502
+msgid "PCIe"
+msgstr "PCIe"
+
+#: virtManager/addhardware.py:547
+msgid "SD"
+msgstr "SD"
+
+#: virtManager/addhardware.py:549 virtManager/addhardware.py:600
+msgid "VirtIO"
+msgstr "VirtIO"
+
+#: virtManager/addhardware.py:550 virtManager/addhardware.py:601
+msgid "Xen"
+msgstr "Xen"
+
+#: virtManager/addhardware.py:557
+msgid "Random"
+msgstr "Nejaušs"
+
+#: virtManager/addhardware.py:558
+msgid "Entropy Gathering Daemon"
+msgstr "Entropijas vākšanas dēmons"
+
+#: virtManager/addhardware.py:559
+msgid "Builtin RNG"
+msgstr "Iebūvētais RNG"
+
+#: virtManager/addhardware.py:577
+msgid "Forcefully reset the guest"
+msgstr "Piespiedu kārtā atiestatīt viesi"
+
+#: virtManager/addhardware.py:578
+msgid "Gracefully shutdown the guest"
+msgstr "Pareizi izslēgt viesi"
+
+#: virtManager/addhardware.py:579
+msgid "Forcefully power off the guest"
+msgstr "Piespiedu kārtā izslēgt viesa barošanu"
+
+#: virtManager/addhardware.py:580
+msgid "Pause the guest"
+msgstr "Pauzēt viesi"
+
+#: virtManager/addhardware.py:581
+msgid "No action"
+msgstr "Nav darbības"
+
+#: virtManager/addhardware.py:582
+msgid "Dump guest memory core"
+msgstr "Izmest viesa atmiņas kodolu"
+
+#: virtManager/addhardware.py:589
+msgid "EvTouch USB Graphics Tablet"
+msgstr "EvTouch USB grafikas planšete"
+
+#: virtManager/addhardware.py:592 virtManager/details/details.py:190
+msgid "Keyboard"
+msgstr "Tastatūra"
+
+#: virtManager/addhardware.py:593 virtManager/details/details.py:188
+msgid "Mouse"
+msgstr "Pele"
+
+#: virtManager/addhardware.py:594 virtManager/details/details.py:186
+msgid "Tablet"
+msgstr "Planšete"
+
+#: virtManager/addhardware.py:598
+msgid "PS/2"
+msgstr "PS/2"
+
+#. translators: Examples: 'USB Mouse', 'PS/2 Keyboard'
+#: virtManager/addhardware.py:607
+#, python-format
+msgid "%(input_bus)s %(input_type)s"
+msgstr "%(input_bus)s %(input_type)s"
+
+#: virtManager/addhardware.py:704
+msgid "Disk device"
+msgstr "Diska ierīce"
+
+#: virtManager/addhardware.py:705
+msgid "CDROM device"
+msgstr "CDROM ierīce"
+
+#: virtManager/addhardware.py:706
+msgid "Floppy device"
+msgstr "Disketes ierīce"
+
+#: virtManager/addhardware.py:708
+msgid "LUN Passthrough"
+msgstr "LUN caurlaide"
+
+#: virtManager/addhardware.py:730 virtManager/addhardware.py:764
+#: virtManager/addhardware.py:841 virtManager/addhardware.py:850
+#: virtManager/addhardware.py:896 virtManager/addhardware.py:923
+#: virtManager/device/addstorage.py:98 virtManager/device/addstorage.py:104
+#: virtManager/device/fsdetails.py:87 virtManager/device/gfxdetails.py:105
+#: virtManager/device/tpmdetails.py:77 virtManager/device/tpmdetails.py:88
+#: virtManager/preferences.py:172
+msgid "Hypervisor default"
+msgstr "Hipervizora noklusējums"
+
+#: virtManager/addhardware.py:819
+#, python-format
+msgid ""
+"%s is not active in the host system.\n"
+"Please start the mdev in the host system before adding it to the guest."
+msgstr ""
+"%s resursdatora sistēmā nav aktīvs.\n"
+"Lūdzu, palaidiet mdev resursdatora sistēmā, pirms pievienojat to viesim."
+
+#: virtManager/addhardware.py:828
+msgid "No Devices Available"
+msgstr "Nav pieejamu ierīču"
+
+#: virtManager/addhardware.py:885 virtManager/device/tpmdetails.py:73
+msgid "Passthrough"
+msgstr "Caurlaide"
+
+#: virtManager/addhardware.py:886
+msgid "Host"
+msgstr "Resursdators"
+
+#: virtManager/addhardware.py:891
+msgid "Spice channel"
+msgstr "Spice kanāls"
+
+#: virtManager/addhardware.py:919
+msgid "USB 3"
+msgstr "USB 3"
+
+#: virtManager/addhardware.py:920
+msgid "USB 2"
+msgstr "USB 2"
+
+#: virtManager/addhardware.py:1018
+msgid "Video Device"
+msgstr "Video ierīce"
+
+#: virtManager/addhardware.py:1020
+msgid "Watchdog Device"
+msgstr "Sargsuņa ierīce"
+
+#: virtManager/addhardware.py:1022
+msgid "Filesystem Passthrough"
+msgstr "Failu sistēmas caurlaide"
+
+#: virtManager/addhardware.py:1030
+msgid "Random Number Generator"
+msgstr "Nejaušu skaitļu ģenerators"
+
+#: virtManager/addhardware.py:1034
+msgid "VM Sockets"
+msgstr "VM ligzdas"
+
+#: virtManager/addhardware.py:1038 virtManager/details/details.py:2054
+#, python-format
+msgid "%s Device"
+msgstr "%s ierīce"
+
+#: virtManager/addhardware.py:1042
+msgid "PCI Device"
+msgstr "PCI ierīce"
+
+#: virtManager/addhardware.py:1044
+msgid "MDEV Device"
+msgstr "MDEV ierīce"
+
+#: virtManager/addhardware.py:1045
+msgid "USB Device"
+msgstr "USB ierīce"
+
+#: virtManager/addhardware.py:1162
+#, python-format
+msgid ""
+"%s already has a USB controller attached.\n"
+"Adding more than one USB controller is not supported.\n"
+"You can change the USB controller type in the VM details screen."
+msgstr ""
+"%s jau ir pievienots USB kontrolieris.\n"
+"Vairāk par viena USB kontroliera pievienošana netiek atbalstīta.\n"
+"USB kontroliera tipu var mainīt VM informācijas ekrānā."
+
+#: virtManager/addhardware.py:1256
+msgid "Are you sure you want to add this device?"
+msgstr "Vai tiešām vēlaties pievienot šo ierīci?"
+
+#: virtManager/addhardware.py:1260
+msgid ""
+"This device could not be attached to the running machine. Would you like to "
+"make the device available after the next guest shutdown?"
+msgstr ""
+"Šo ierīci nevarēja pievienot darbojošajai mašīnai. Vai vēlaties, lai ierīce "
+"būtu pieejama pēc nākamās viesa izslēgšanas?"
+
+#: virtManager/addhardware.py:1287
+#, python-format
+msgid "Unable to add device: %s"
+msgstr "Neizdodas pievienot ierīci: %s"
+
+#: virtManager/addhardware.py:1307
+#, python-format
+msgid "Error validating device parameters: %s"
+msgstr "Kļūda, validējot ierīces parametrus: %s"
+
+#: virtManager/addhardware.py:1316
+msgid "Creating device"
+msgstr "Izveido ierīci"
+
+#: virtManager/addhardware.py:1317
+msgid "Depending on the device, this may take a few minutes to complete."
+msgstr "Atkarībā no ierīces tas var aizņemt dažas minūtes."
+
+#: virtManager/addhardware.py:1338
+#, python-format
+msgid "The device is already in use by other guests %s"
+msgstr "Ierīci jau izmanto citi viesi %s"
+
+#: virtManager/addhardware.py:1339
+msgid "Do you really want to use the device?"
+msgstr "Vai tiešām vēlaties izmantot šo ierīci?"
+
+#: virtManager/addhardware.py:1383
+#, python-format
+msgid "Error building device XML: %s"
+msgstr "Kļūda, veidojot ierīces XML: %s"
+
+#: virtManager/asyncjob.py:228
+msgid "Cancelling job..."
+msgstr "Atceļ darbu..."
+
+#: virtManager/clone.py:28 virtinst/cloner.py:199
+msgid "No storage to clone."
+msgstr "Nav klonējamas krātuves."
+
+#: virtManager/clone.py:118
+#, python-format
+msgid "Disk target: %s"
+msgstr "Diska mērķis: %s"
+
+#: virtManager/clone.py:119
+#, python-format
+msgid "Original path: %s"
+msgstr "Sākotnējais ceļš: %s"
+
+#: virtManager/clone.py:121
+#, python-format
+msgid "New path: %s"
+msgstr "Jaunais ceļš: %s"
+
+#: virtManager/clone.py:125
+#, python-format
+msgid "Storage is safe to share: %(reason)s"
+msgstr "Krātuvi var droši koplietot: %(reason)s"
+
+#: virtManager/clone.py:127
+msgid "Sharing this storage is potentially dangerous."
+msgstr "Šīs krātuves koplietošana var būt bīstama."
+
+#: virtManager/clone.py:130
+#, python-format
+msgid "Storage is not cloneable: %(reason)s"
+msgstr "Krātuve nav klonējama: %(reason)s"
+
+#: virtManager/clone.py:141
+msgid "No storage."
+msgstr "Nav krātuves."
+
+#: virtManager/clone.py:146
+#, python-format
+msgid "Share disk with %s"
+msgstr "Koplietot disku ar %s"
+
+#: virtManager/clone.py:148
+msgid "Clone this disk"
+msgstr "Klonēt šo disku"
+
+#: virtManager/clone.py:185
+#, python-format
+msgid "Error launching clone dialog: %s"
+msgstr "Kļūda, palaižot klonēšanas dialogu: %s"
+
+#: virtManager/clone.py:278
+msgid "Clone"
+msgstr "Klonēt"
+
+#: virtManager/clone.py:453
+msgid "Cloning will overwrite the existing file"
+msgstr "Klonēšana pārrakstīs esošo failu"
+
+#: virtManager/clone.py:455
+msgid ""
+"Using an existing image will overwrite the path during the clone process. "
+"Are you sure you want to use this path?"
+msgstr ""
+"Izmantojot esošu tēlu, klonēšanas laikā ceļš tiks pārrakstīts. Vai tiešām "
+"vēlaties izmantot šo ceļu?"
+
+#: virtManager/clone.py:483
+msgid "Sharing storage may cause data to be overwritten."
+msgstr "Krātuves koplietošana var izraisīt datu pārrakstīšanu."
+
+#: virtManager/clone.py:485
+#, python-format
+msgid ""
+"The following disk devices will be shared with %(vmname)s:\n"
+"\n"
+"%(pathlist)s\n"
+"Running the new guest could overwrite data in these disk images."
+msgstr ""
+"Šīs diska ierīces tiks koplietotas ar %(vmname)s:\n"
+"\n"
+"%(pathlist)s\n"
+"Jaunā viesa darbināšana var pārrakstīt šo diska tēlu datus."
+
+#: virtManager/clone.py:502
+#, python-format
+msgid "Error creating virtual machine clone '%(vm)s': %(error)s"
+msgstr "Kļūda, veidojot virtuālās mašīnas klonu '%(vm)s': %(error)s"
+
+#: virtManager/clone.py:562
+#, python-format
+msgid "Error with clone settings: %s"
+msgstr "Kļūda klonēšanas iestatījumos: %s"
+
+#: virtManager/clone.py:567
+#, python-format
+msgid "Creating virtual machine clone '%s'"
+msgstr "Izveido virtuālās mašīnas klonu '%s'"
+
+#: virtManager/clone.py:573
+#, python-format
+msgid ""
+"Creating virtual machine clone '%s' and selected storage (this may take a "
+"while)"
+msgstr ""
+"Izveido virtuālās mašīnas klonu '%s' un atlasīto krātuvi (tas var aizņemt "
+"kādu laiku)"
+
+#: virtManager/connection.py:390
+msgid "User session"
+msgstr "Lietotāja sesija"
+
+#: virtManager/connection.py:488
+msgid "Disconnected"
+msgstr "Atvienots"
+
+#: virtManager/connection.py:490
+msgid "Connecting"
+msgstr "Savienojas"
+
+#: virtManager/connection.py:582
+#, python-format
+msgid ""
+"%(object)s rename failed. Attempting to recover also failed.\n"
+"\n"
+"Original error: %(origerror)s\n"
+"\n"
+"Recover error: %(recovererror)s"
+msgstr ""
+"%(object)s pārdēvēšana neizdevās. Arī atkopšanas mēģinājums neizdevās.\n"
+"\n"
+"Sākotnējā kļūda: %(origerror)s\n"
+"\n"
+"Atkopšanas kļūda: %(recovererror)s"
+
+#: virtManager/createconn.py:51
+#, python-format
+msgid "Error launching connect dialog: %s"
+msgstr "Kļūda, palaižot savienošanas dialogu: %s"
+
+#: virtManager/createconn.py:114
+msgid "user session"
+msgstr "lietotāja sesija"
+
+#: virtManager/createconn.py:120
+msgid "Custom URI..."
+msgstr "Pielāgots URI..."
+
+#: virtManager/createconn.py:236
+msgid "A hostname is required for remote connections."
+msgstr "Attāliem savienojumiem nepieciešams resursdatora nosaukums."
+
+#: virtManager/createconn.py:249
+msgid "Would you still like to remember this connection?"
+msgstr "Vai tomēr vēlaties atcerēties šo savienojumu?"
+
+#: virtManager/createnet.py:98
+msgid "Any physical device"
+msgstr "Jebkura fiziska ierīce"
+
+#: virtManager/createnet.py:99
+msgid "Physical device..."
+msgstr "Fiziska ierīce..."
+
+#: virtManager/createnet.py:107 virtManager/object/network.py:156
+msgid "NAT"
+msgstr "NAT"
+
+#: virtManager/createnet.py:109
+msgid "Open"
+msgstr "Atvērts"
+
+#: virtManager/createnet.py:110
+msgid "Isolated"
+msgstr "Izolēts"
+
+#: virtManager/createnet.py:111
+msgid "SR-IOV pool"
+msgstr "SR-IOV pūls"
+
+#: virtManager/createnet.py:173
+msgid "No available device"
+msgstr "Nav pieejamas ierīces"
+
+#: virtManager/createnet.py:338
+#, python-format
+msgid "Name '%s' already in use by another network."
+msgstr "Nosaukumu '%s' jau izmanto cits tīkls."
+
+#: virtManager/createnet.py:408 virtManager/createpool.py:312
+#: virtManager/createvol.py:255
+#, python-format
+msgid "Error building XML: %s"
+msgstr "Kļūda, veidojot XML: %s"
+
+#: virtManager/createnet.py:414
+#, python-format
+msgid "Error creating virtual network: %s"
+msgstr "Kļūda, veidojot virtuālo tīklu: %s"
+
+#: virtManager/createnet.py:441
+#, python-format
+msgid "Error validating network: %s"
+msgstr "Kļūda, validējot tīklu: %s"
+
+#: virtManager/createnet.py:449
+msgid "Creating virtual network..."
+msgstr "Izveido virtuālo tīklu..."
+
+#: virtManager/createnet.py:450
+msgid "Creating the virtual network may take a while..."
+msgstr "Virtuālā tīkla izveide var aizņemt kādu laiku..."
+
+#: virtManager/createpool.py:210
+msgid "Sou_rce Name:"
+msgstr "Av_ota nosaukums:"
+
+#: virtManager/createpool.py:210
+msgid "Volg_roup Name:"
+msgstr "Sējumu g_rupas nosaukums:"
+
+#: virtManager/createpool.py:213
+msgid "_Source Path:"
+msgstr "_Avota ceļš:"
+
+#: virtManager/createpool.py:215
+msgid "_Source IQN:"
+msgstr "_Avota IQN:"
+
+#: virtManager/createpool.py:217
+msgid "_Source Adapter:"
+msgstr "_Avota adapteris:"
+
+#: virtManager/createpool.py:325
+#, python-format
+msgid "Error creating pool: %s"
+msgstr "Kļūda, veidojot pūlu: %s"
+
+#: virtManager/createpool.py:348
+#, python-format
+msgid "Error validating pool: %s"
+msgstr "Kļūda, validējot pūlu: %s"
+
+#: virtManager/createpool.py:357
+msgid "Creating storage pool..."
+msgstr "Izveido krātuves pūlu..."
+
+#: virtManager/createpool.py:358
+msgid "Creating the storage pool may take a while..."
+msgstr "Krātuves pūla izveide var aizņemt kādu laiku..."
+
+#: virtManager/createpool.py:378
+msgid "Choose source path"
+msgstr "Izvēlieties avota ceļu"
+
+#: virtManager/createpool.py:389
+msgid "Choose target directory"
+msgstr "Izvēlieties mērķa direktoriju"
+
+#: virtManager/createvm.py:66
+#, python-format
+msgid "%.1f GiB"
+msgstr "%.1f GiB"
+
+#: virtManager/createvm.py:70
+#, python-format
+msgid "%d MiB"
+msgstr "%d MiB"
+
+#: virtManager/createvm.py:180
+#, python-format
+msgid "Error launching create dialog: %s"
+msgstr "Kļūda, palaižot izveides dialogu: %s"
+
+#: virtManager/createvm.py:301
+#, python-format
+msgid "Error: %s"
+msgstr "Kļūda: %s"
+
+#: virtManager/createvm.py:306 virtManager/createvm.py:310
+#, python-format
+msgid "<span size='small'>Warning: %s</span>"
+msgstr "<span size='small'>Brīdinājums: %s</span>"
+
+#: virtManager/createvm.py:482
+#, python-format
+msgid ""
+"Failed to setup UEFI: %s\n"
+"Install options are limited."
+msgstr ""
+"Neizdevās iestatīt UEFI: %s\n"
+"Instalēšanas opcijas ir ierobežotas."
+
+#: virtManager/createvm.py:504
+msgid "Libvirt version does not support remote URL installs."
+msgstr "Libvirt versija neatbalsta instalēšanu no attāla URL."
+
+#: virtManager/createvm.py:510
+msgid "CDROM/ISO installs not available for paravirt guests."
+msgstr "Paravirtualizētiem viesiem CDROM/ISO instalēšana nav pieejama."
+
+#: virtManager/createvm.py:513
+#, python-format
+msgid "Architecture '%s' is not installable"
+msgstr "Arhitektūru '%s' nevar instalēt"
+
+#: virtManager/createvm.py:525
+msgid "No install methods available for this connection."
+msgstr "Šim savienojumam nav pieejama neviena instalēšanas metode."
+
+#: virtManager/createvm.py:553
+msgid "No hypervisor options were found for this connection."
+msgstr "Šim savienojumam netika atrasta neviena hipervizora opcija."
+
+#: virtManager/createvm.py:558
+msgid ""
+"This usually means that QEMU or KVM is not installed on your machine, or the "
+"KVM kernel modules are not loaded."
+msgstr ""
+"Parasti tas nozīmē, ka datorā nav instalēts QEMU vai KVM, vai arī nav "
+"ielādēti KVM kodola moduļi."
+
+#: virtManager/createvm.py:583
+msgid ""
+"KVM is not available. This may mean the KVM package is not installed, or the "
+"KVM kernel modules are not loaded. Your virtual machines may perform poorly."
+msgstr ""
+"KVM nav pieejams. Iespējams, KVM pakotne nav instalēta vai KVM kodola moduļi "
+"nav ielādēti. Jūsu virtuālās mašīnas var darboties lēni."
+
+#: virtManager/createvm.py:626
+#, python-format
+msgid "Up to %(maxmem)s available on the host"
+msgstr "Resursdatorā pieejams līdz %(maxmem)s"
+
+#: virtManager/createvm.py:634
+#, python-format
+msgid "Up to %(numcpus)d available"
+msgid_plural "Up to %(numcpus)d available"
+msgstr[0] "Pieejami līdz %(numcpus)d"
+msgstr[1] "Pieejams līdz %(numcpus)d"
+msgstr[2] "Pieejami līdz %(numcpus)d"
+
+#: virtManager/createvm.py:669
+msgid "No active connection to install on."
+msgstr "Nav aktīva savienojuma, kurā instalēt."
+
+#: virtManager/createvm.py:921 virtManager/details/details.py:1718
+#: virtManager/device/gfxdetails.py:98
+msgid "None"
+msgstr "Nav"
+
+#: virtManager/createvm.py:935
+msgid "Local CDROM/ISO"
+msgstr "Lokāls CDROM/ISO"
+
+#: virtManager/createvm.py:937
+msgid "URL Install Tree"
+msgstr "URL instalēšanas koks"
+
+#: virtManager/createvm.py:939
+msgid "Import existing OS image"
+msgstr "Importēt esošu OS tēlu"
+
+#: virtManager/createvm.py:941
+msgid "Manual install"
+msgstr "Manuāla instalēšana"
+
+#: virtManager/createvm.py:943
+msgid "Application container"
+msgstr "Lietotnes konteiners"
+
+#: virtManager/createvm.py:945
+msgid "Operating system container"
+msgstr "Operētājsistēmas konteiners"
+
+#: virtManager/createvm.py:947
+msgid "Virtuozzo container"
+msgstr "Virtuozzo konteiners"
+
+#: virtManager/createvm.py:1086
+msgid "Removing disk images"
+msgstr "Noņem diska tēlus"
+
+#: virtManager/createvm.py:1087
+msgid "Removing disk images we created for this virtual machine."
+msgstr "Noņem šai virtuālajai mašīnai izveidotos diska tēlus."
+
+#: virtManager/createvm.py:1285
+#, python-format
+msgid "Step %(current_page)d of %(max_page)d"
+msgstr "Solis %(current_page)d no %(max_page)d"
+
+#: virtManager/createvm.py:1295
+msgid "Waiting for install media / source"
+msgstr "Gaida instalēšanas datu nesēju / avotu"
+
+#: virtManager/createvm.py:1365
+#, python-format
+msgid "Error populating summary page: %s"
+msgstr "Kļūda, aizpildot kopsavilkuma lapu: %s"
+
+#: virtManager/createvm.py:1407
+#, python-format
+msgid "Uncaught error validating install parameters: %s"
+msgstr "Nenotverta kļūda, validējot instalēšanas parametrus: %s"
+
+#: virtManager/createvm.py:1417
+msgid "Source URL is required"
+msgstr "Nepieciešams avota URL"
+
+#: virtManager/createvm.py:1422
+msgid "Please specify password for accessing source registry"
+msgstr "Lūdzu, norādiet paroli piekļuvei avota reģistram"
+
+#: virtManager/createvm.py:1430
+#, python-format
+msgid "Destination path is not directory: %s"
+msgstr "Mērķa ceļš nav direktorija: %s"
+
+#: virtManager/createvm.py:1433
+#, python-format
+msgid "No write permissions for directory path: %s"
+msgstr "Nav rakstīšanas atļauju direktorijas ceļam: %s"
+
+#: virtManager/createvm.py:1440
+msgid "OS root directory is not empty"
+msgstr "OS saknes direktorija nav tukša"
+
+#: virtManager/createvm.py:1442
+msgid ""
+"Creating root file system in a non-empty directory might fail due to file "
+"conflicts.\n"
+"Would you like to continue?"
+msgstr ""
+"Saknes failu sistēmas izveide netukšā direktorijā var neizdoties failu "
+"konfliktu dēļ.\n"
+"Vai vēlaties turpināt?"
+
+#: virtManager/createvm.py:1463
+msgid "An install media selection is required."
+msgstr "Jāizvēlas instalēšanas datu nesējs."
+
+#: virtManager/createvm.py:1471
+msgid "An install tree is required."
+msgstr "Nepieciešams instalēšanas koks."
+
+#: virtManager/createvm.py:1479
+msgid "A storage path to import is required."
+msgstr "Nepieciešams importējamās krātuves ceļš."
+
+#: virtManager/createvm.py:1483
+msgid "The import path must point to an existing storage."
+msgstr "Importēšanas ceļam jānorāda uz esošu krātuvi."
+
+#: virtManager/createvm.py:1489
+msgid "An application path is required."
+msgstr "Nepieciešams lietotnes ceļš."
+
+#: virtManager/createvm.py:1494
+msgid "An OS directory path is required."
+msgstr "Nepieciešams OS direktorijas ceļš."
+
+#: virtManager/createvm.py:1507
+msgid "A template name is required."
+msgstr "Nepieciešams veidnes nosaukums."
+
+#: virtManager/createvm.py:1510
+msgid "You must select an OS."
+msgstr "Jāizvēlas OS."
+
+#: virtManager/createvm.py:1540
+msgid "Error setting installer parameters."
+msgstr "Kļūda, iestatot instalētāja parametrus."
+
+#: virtManager/createvm.py:1548
+msgid "Error setting default name."
+msgstr "Kļūda, iestatot noklusējuma nosaukumu."
+
+#: virtManager/createvm.py:1643
+msgid "Storage parameter error."
+msgstr "Krātuves parametra kļūda."
+
+#: virtManager/createvm.py:1664
+msgid "Invalid guest name"
+msgstr "Nederīgs viesa nosaukums"
+
+#: virtManager/createvm.py:1750
+msgid "Detecting..."
+msgstr "Nosaka..."
+
+#: virtManager/createvm.py:1812
+msgid "None detected"
+msgstr "Nekas nav noteikts"
+
+#: virtManager/createvm.py:1848
+#, python-format
+msgid "Error starting installation: %s"
+msgstr "Kļūda, sākot instalēšanu: %s"
+
+#: virtManager/createvm.py:1889
+#, python-format
+msgid "Unable to complete install: '%s'"
+msgstr "Neizdodas pabeigt instalēšanu: '%s'"
+
+#: virtManager/createvm.py:1929
+msgid "Creating Virtual Machine"
+msgstr "Izveido virtuālo mašīnu"
+
+#: virtManager/createvm.py:1931
+msgid ""
+"The virtual machine is now being created. Allocation of disk storage and "
+"retrieval of the installation images may take a few minutes to complete."
+msgstr ""
+"Virtuālā mašīna tiek izveidota. Diska krātuves piešķiršana un instalēšanas "
+"tēlu iegūšana var aizņemt dažas minūtes."
+
+#: virtManager/createvm.py:1987
+#, python-format
+msgid "VM '%s' didn't show up after expected time."
+msgstr "VM '%s' neparādījās gaidītajā laikā."
+
+#: virtManager/createvm.py:2039
+#, python-format
+msgid "Error continuing install: %s"
+msgstr "Kļūda, turpinot instalēšanu: %s"
+
+#: virtManager/createvm.py:2055
+msgid "Bootstrapping container"
+msgstr "Sagatavo konteineru"
+
+#: virtManager/createvol.py:134
+#, python-format
+msgid "<b>%(volume)s's</b> available space: %(size)s"
+msgstr "<b>%(volume)s</b> pieejamā vieta: %(size)s"
+
+#: virtManager/createvol.py:269
+#, python-format
+msgid "Error creating vol: %s"
+msgstr "Kļūda, veidojot sējumu: %s"
+
+#: virtManager/createvol.py:284
+#, python-format
+msgid "Error validating volume: %s"
+msgstr "Kļūda, validējot sējumu: %s"
+
+#: virtManager/createvol.py:292
+msgid "Creating storage volume..."
+msgstr "Izveido krātuves sējumu..."
+
+#: virtManager/createvol.py:293
+msgid "Creating the storage volume may take a while..."
+msgstr "Krātuves sējuma izveide var aizņemt kādu laiku..."
+
+#: virtManager/delete.py:149
+msgid "Are you sure you want to delete the storage?"
+msgstr "Vai tiešām vēlaties dzēst krātuvi?"
+
+#: virtManager/delete.py:150
+#, python-format
+msgid ""
+"The following paths will be deleted:\n"
+"\n"
+"%s"
+msgstr ""
+"Tiks dzēsti šie ceļi:\n"
+"\n"
+"%s"
+
+#: virtManager/delete.py:197
+#, python-format
+msgid "Error deleting virtual machine '%(vm)s': %(error)s"
+msgstr "Kļūda, dzēšot virtuālo mašīnu '%(vm)s': %(error)s"
+
+#: virtManager/delete.py:215
+msgid "Additionally, there were errors removing certain storage devices: \n"
+msgstr "Turklāt, noņemot dažas krātuves ierīces, radās kļūdas: \n"
+
+#: virtManager/delete.py:218
+msgid "Errors encountered while removing certain storage devices."
+msgstr "Noņemot dažas krātuves ierīces, radās kļūdas."
+
+#: virtManager/delete.py:228
+#, python-format
+msgid "Deleting path '%s'"
+msgstr "Dzēš ceļu '%s'"
+
+#: virtManager/delete.py:291
+#, python-format
+msgid "Error launching delete dialog: %s"
+msgstr "Kļūda, palaižot dzēšanas dialogu: %s"
+
+#: virtManager/delete.py:297
+#, python-format
+msgid "Delete '%(vmname)s'"
+msgstr "Dzēst '%(vmname)s'"
+
+#: virtManager/delete.py:302
+#, python-format
+msgid ""
+"Deleting virtual machine '%s' and selected storage (this may take a while)"
+msgstr ""
+"Dzēš virtuālo mašīnu '%s' un atlasīto krātuvi (tas var aizņemt kādu laiku)"
+
+#: virtManager/delete.py:307
+#, python-format
+msgid "Deleting virtual machine '%s'"
+msgstr "Dzēš virtuālo mašīnu '%s'"
+
+#: virtManager/delete.py:350
+#, python-format
+msgid "Error Removing Device: %s"
+msgstr "Kļūda, noņemot ierīci: %s"
+
+#: virtManager/delete.py:364
+msgid "This change will take effect after the next guest shutdown."
+msgstr "Šīs izmaiņas stāsies spēkā pēc nākamās viesa izslēgšanas."
+
+#: virtManager/delete.py:367
+msgid "Storage will not be deleted."
+msgstr "Krātuve netiks dzēsta."
+
+#: virtManager/delete.py:370
+msgid "Device could not be removed from the running machine"
+msgstr "Ierīci nevarēja noņemt no darbojošās mašīnas"
+
+#: virtManager/delete.py:382
+msgid "Remove Disk Device"
+msgstr "Noņemt diska ierīci"
+
+#: virtManager/delete.py:385
+#, python-format
+msgid "Remove disk device '%(target)s'"
+msgstr "Noņemt diska ierīci '%(target)s'"
+
+#: virtManager/delete.py:390
+#, python-format
+msgid "Removing disk device '%s' and selected storage (this may take a while)"
+msgstr ""
+"Noņem diska ierīci '%s' un atlasīto krātuvi (tas var aizņemt kādu laiku)"
+
+#: virtManager/delete.py:394
+#, python-format
+msgid "Removing disk device '%s'"
+msgstr "Noņem diska ierīci '%s'"
+
+#: virtManager/delete.py:526
+msgid "Target"
+msgstr "Mērķis"
+
+#: virtManager/delete.py:528
+msgid "Storage Path"
+msgstr "Krātuves ceļš"
+
+#: virtManager/delete.py:589
+msgid "Cannot delete iSCSI share."
+msgstr "Nevar dzēst iSCSI koplietojumu."
+
+#: virtManager/delete.py:591
+msgid "Cannot delete SCSI device."
+msgstr "Nevar dzēst SCSI ierīci."
+
+#: virtManager/delete.py:594
+msgid "Cannot delete unmanaged remote storage."
+msgstr "Nevar dzēst nepārvaldītu attālu krātuvi."
+
+#: virtManager/delete.py:596
+msgid "Path does not exist."
+msgstr "Ceļš neeksistē."
+
+#: virtManager/delete.py:598
+msgid "No write access to parent directory."
+msgstr "Nav rakstīšanas piekļuves vecākdirektorijai."
+
+#: virtManager/delete.py:600
+msgid "Cannot delete unmanaged block device."
+msgstr "Nevar dzēst nepārvaldītu bloka ierīci."
+
+#: virtManager/delete.py:611
+msgid "Storage is read-only."
+msgstr "Krātuve ir tikai lasāma."
+
+#: virtManager/delete.py:613
+msgid "No write access to path."
+msgstr "Nav rakstīšanas piekļuves ceļam."
+
+#: virtManager/delete.py:616
+msgid "Storage is marked as shareable."
+msgstr "Krātuve ir atzīmēta kā koplietojama."
+
+#: virtManager/delete.py:619
+msgid "Storage is a media device."
+msgstr "Krātuve ir datu nesēja ierīce."
+
+#: virtManager/delete.py:627
+msgid "Storage is in use by the following virtual machines"
+msgstr "Krātuvi izmanto šīs virtuālās mašīnas"
+
+#: virtManager/delete.py:632
+msgid "Failed to check disk usage conflict."
+msgstr "Neizdevās pārbaudīt diska lietojuma konfliktu."
+
+#: virtManager/details/console.py:155
+msgid "Leave Fullscreen"
+msgstr "Iziet no pilnekrāna režīma"
+
+#: virtManager/details/console.py:157
+msgid "Leave fullscreen"
+msgstr "Iziet no pilnekrāna režīma"
+
+#: virtManager/details/console.py:165
+msgid "Send key combination"
+msgstr "Sūtīt taustiņu kombināciju"
+
+#: virtManager/details/console.py:196
+#, python-format
+msgid "Cannot display graphical console type '%s'"
+msgstr "Nevar parādīt grafiskās konsoles tipu '%s'"
+
+#: virtManager/details/console.py:224
+#, python-format
+msgid "Text Console %d"
+msgstr "Teksta konsole %d"
+
+#: virtManager/details/console.py:226
+#, python-format
+msgid "Serial %d"
+msgstr "Seriālais %d"
+
+#: virtManager/details/console.py:232
+msgid "No text console available"
+msgstr "Teksta konsole nav pieejama"
+
+#: virtManager/details/console.py:246
+msgid "Graphical Console"
+msgstr "Grafiskā konsole"
+
+#: virtManager/details/console.py:258
+msgid "virt-manager does not support more than one graphical console"
+msgstr "virt-manager neatbalsta vairāk par vienu grafisko konsoli"
+
+#: virtManager/details/console.py:263
+msgid "Graphical console not configured for guest"
+msgstr "Viesim nav konfigurēta grafiskā konsole"
+
+#: virtManager/details/console.py:540
+msgid "Guest has crashed."
+msgstr "Viesis ir avarējis."
+
+#: virtManager/details/console.py:542
+msgid "Guest is not running."
+msgstr "Viesis nedarbojas."
+
+#: virtManager/details/console.py:651
+msgid "Connecting to graphical console for guest"
+msgstr "Savienojas ar viesa grafisko konsoli"
+
+#: virtManager/details/console.py:671
+#, python-format
+msgid ""
+"Error connecting to graphical console:\n"
+"%s"
+msgstr ""
+"Kļūda, savienojoties ar grafisko konsoli:\n"
+"%s"
+
+#: virtManager/details/console.py:724
+#, python-format
+msgid "Viewer authentication error: %s"
+msgstr "Skatītāja autentifikācijas kļūda: %s"
+
+#: virtManager/details/console.py:746
+msgid "USB redirection error"
+msgstr "USB pāradresācijas kļūda"
+
+#: virtManager/details/console.py:755
+msgid "Viewer was disconnected."
+msgstr "Skatītājs tika atvienots."
+
+#: virtManager/details/console.py:762
+#, python-format
+msgid "SSH tunnel error output: %s"
+msgstr "SSH tuneļa kļūdu izvade: %s"
+
+#: virtManager/details/console.py:775
+msgid "Viewer is disconnecting."
+msgstr "Skatītājs atvienojas."
+
+#: virtManager/details/console.py:914
+msgid "Viewer window closed."
+msgstr "Skatītāja logs aizvērts."
+
+#: virtManager/details/console.py:919
+#, python-format
+msgid "Press %s to release pointer."
+msgstr "Nospiediet %s, lai atbrīvotu rādītāju."
+
+#: virtManager/details/details.py:159
+#, python-format
+msgid "Floppy %(index)d"
+msgstr "Diskete %(index)d"
+
+#: virtManager/details/details.py:165
+#, python-format
+msgid "%(bus)s CDROM %(index)d"
+msgstr "%(bus)s CDROM %(index)d"
+
+#: virtManager/details/details.py:170
+#, python-format
+msgid "%(bus)s Disk %(index)d"
+msgstr "%(bus)s disks %(index)d"
+
+#: virtManager/details/details.py:174
+#, python-format
+msgid "%(bus)s %(device)s %(index)d"
+msgstr "%(bus)s %(device)s %(index)d"
+
+#: virtManager/details/details.py:182
+#, python-format
+msgid "NIC %(mac)s"
+msgstr "NIC %(mac)s"
+
+#: virtManager/details/details.py:195
+#, python-format
+msgid "Serial %(num)d"
+msgstr "Seriālais %(num)d"
+
+#: virtManager/details/details.py:199
+#, python-format
+msgid "Parallel %(num)d"
+msgstr "Paralēlais %(num)d"
+
+#: virtManager/details/details.py:203
+#, python-format
+msgid "Console %(num)d"
+msgstr "Konsole %(num)d"
+
+#: virtManager/details/details.py:211
+#, python-format
+msgid "Channel (%(name)s)"
+msgstr "Kanāls (%(name)s)"
+
+#: virtManager/details/details.py:212
+#, python-format
+msgid "Channel %(type)s"
+msgstr "Kanāls %(type)s"
+
+#: virtManager/details/details.py:216
+#, python-format
+msgid "Display %s"
+msgstr "Displejs %s"
+
+#: virtManager/details/details.py:218
+#, python-format
+msgid "%(bus)s Redirector %(index)d"
+msgstr "%(bus)s pāradresētājs %(index)d"
+
+#: virtManager/details/details.py:225
+#, python-format
+msgid "Sound %s"
+msgstr "Skaņa %s"
+
+#: virtManager/details/details.py:227
+#, python-format
+msgid "Video %s"
+msgstr "Video %s"
+
+#: virtManager/details/details.py:229
+#, python-format
+msgid "Filesystem %(path)s"
+msgstr "Failu sistēma %(path)s"
+
+#: virtManager/details/details.py:233
+#, python-format
+msgid "Controller %(controller)s %(index)s"
+msgstr "Kontrolieris %(controller)s %(index)s"
+
+#: virtManager/details/details.py:237
+#, python-format
+msgid "Controller %(controller)s"
+msgstr "Kontrolieris %(controller)s"
+
+#: virtManager/details/details.py:242
+#, python-format
+msgid "RNG %(device)s"
+msgstr "RNG %(device)s"
+
+#: virtManager/details/details.py:246
+#, python-format
+msgid "TPM %(device)s"
+msgstr "TPM %(device)s"
+
+#: virtManager/details/details.py:247
+#, python-format
+msgid "TPM v%(version)s"
+msgstr "TPM v%(version)s"
+
+#: virtManager/details/details.py:498
+msgid "_Add Hardware"
+msgstr "_Pievienot aparatūru"
+
+#: virtManager/details/details.py:506
+msgid "_Remove Hardware"
+msgstr "_Noņemt aparatūru"
+
+#: virtManager/details/details.py:626 virtManager/details/details.py:1725
+msgid "UEFI"
+msgstr "UEFI"
+
+#: virtManager/details/details.py:634
+msgid "Libvirt or hypervisor does not support UEFI."
+msgstr "Libvirt vai hipervizors neatbalsta UEFI."
+
+#: virtManager/details/details.py:637
+msgid ""
+"Libvirt did not detect any UEFI/OVMF firmware image installed on the host."
+msgstr ""
+"Libvirt resursdatorā nekonstatēja nevienu instalētu UEFI/OVMF "
+"aparātprogrammatūras tēlu."
+
+#: virtManager/details/details.py:683
+msgid "Version"
+msgstr "Versija"
+
+#: virtManager/details/details.py:745
+msgid "Application Default"
+msgstr "Lietotnes noklusējums"
+
+#: virtManager/details/details.py:748
+msgid "Hypervisor Default"
+msgstr "Hipervizora noklusējums"
+
+#: virtManager/details/details.py:751
+msgid "Clear CPU configuration"
+msgstr "Notīrīt CPU konfigurāciju"
+
+#: virtManager/details/details.py:769
+msgid "Disk bus:"
+msgstr "Diska kopne:"
+
+#: virtManager/details/details.py:979
+#, python-format
+msgid "Error launching hardware dialog: %s"
+msgstr "Kļūda, palaižot aparatūras dialogu: %s"
+
+#: virtManager/details/details.py:985
+msgid "Are you sure you want to remove this device?"
+msgstr "Vai tiešām vēlaties noņemt šo ierīci?"
+
+#: virtManager/details/details.py:1236 virtManager/details/details.py:1717
+#: virtManager/details/details.py:1734 virtManager/details/details.py:1935
+#: virtManager/lib/libvirtenummap.py:82
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: virtManager/details/details.py:1317
+#, python-format
+msgid "Error applying changes: %s"
+msgstr "Kļūda, lietojot izmaiņas: %s"
+
+#: virtManager/details/details.py:1444
+#, python-format
+msgid "Error changing autostart value: %s"
+msgstr "Kļūda, mainot automātiskās palaišanas vērtību: %s"
+
+#: virtManager/details/details.py:1460
+msgid "Cannot set initrd without specifying a kernel path"
+msgstr "Nevar iestatīt initrd, nenorādot kodola ceļu"
+
+#: virtManager/details/details.py:1463
+msgid "Cannot set kernel arguments without specifying a kernel path"
+msgstr "Nevar iestatīt kodola argumentus, nenorādot kodola ceļu"
+
+#: virtManager/details/details.py:1470
+msgid "An init path must be specified"
+msgstr "Jānorāda init ceļš"
+
+#: virtManager/details/details.py:1482 virtManager/device/addstorage.py:271
+#, python-format
+msgid "Disk '%(path)s' is already in use by other guests %(names)s"
+msgstr "Disku '%(path)s' jau izmanto citi viesi %(names)s"
+
+#: virtManager/details/details.py:1486 virtManager/device/addstorage.py:275
+msgid "Do you really want to use the disk?"
+msgstr "Vai tiešām vēlaties izmantot šo disku?"
+
+#: virtManager/details/details.py:1639
+msgid "Remove this device from the virtual machine"
+msgstr "Noņemt šo ierīci no virtuālās mašīnas"
+
+#: virtManager/details/details.py:1696
+#, python-format
+msgid "Error refreshing hardware page: %s"
+msgstr "Kļūda, atsvaidzinot aparatūras lapu: %s"
+
+#: virtManager/details/details.py:1786
+#, python-format
+msgid "%(summary)s ..."
+msgstr "%(summary)s ..."
+
+#: virtManager/details/details.py:1800
+#, python-format
+msgid "%(received)d %(units)s read"
+msgstr "%(received)d %(units)s lasīts"
+
+#: virtManager/details/details.py:1800
+#, python-format
+msgid "%(transferred)d %(units)s write"
+msgstr "%(transferred)d %(units)s rakstīts"
+
+#: virtManager/details/details.py:1806
+#, python-format
+msgid "%(received)d %(units)s in"
+msgstr "%(received)d %(units)s ienākošie"
+
+#: virtManager/details/details.py:1806
+#, python-format
+msgid "%(transferred)d %(units)s out"
+msgstr "%(transferred)d %(units)s izejošie"
+
+#: virtManager/details/details.py:1809 virtManager/details/details.py:1810
+#: virtManager/details/details.py:1811 virtManager/details/details.py:1812
+#: virtManager/hostnets.py:203 virtManager/hostnets.py:222
+msgid "Disabled"
+msgstr "Atspējots"
+
+#: virtManager/details/details.py:1820
+#, python-format
+msgid "%(current-memory)s of %(total-memory)s"
+msgstr "%(current-memory)s no %(total-memory)s"
+
+#: virtManager/details/details.py:1983
+msgid "Absolute Movement"
+msgstr "Absolūta kustība"
+
+#: virtManager/details/details.py:1985
+msgid "Relative Movement"
+msgstr "Relatīva kustība"
+
+#: virtManager/details/details.py:1994 virtManager/details/details.py:2158
+#: virtManager/details/details.py:2160
+msgid "Hypervisor does not support removing this device"
+msgstr "Hipervizors neatbalsta šīs ierīces noņemšanu"
+
+#: virtManager/details/details.py:1998
+#, python-format
+msgid "%(graphicstype)s Server"
+msgstr "%(graphicstype)s serveris"
+
+#: virtManager/details/details.py:2046
+msgid "Serial Device"
+msgstr "Seriālā ierīce"
+
+#: virtManager/details/details.py:2048
+msgid "Parallel Device"
+msgstr "Paralēlā ierīce"
+
+#: virtManager/details/details.py:2050
+msgid "Console Device"
+msgstr "Konsoles ierīce"
+
+#: virtManager/details/details.py:2052
+msgid "Channel Device"
+msgstr "Kanāla ierīce"
+
+#: virtManager/details/details.py:2061
+msgid "Primary Console"
+msgstr "Primārā konsole"
+
+#: virtManager/details/details.py:2095 virtManager/preferences.py:122
+msgid "Off"
+msgstr "Izslēgts"
+
+#: virtManager/details/details.py:2095 virtManager/preferences.py:123
+msgid "On"
+msgstr "Ieslēgts"
+
+#: virtManager/details/details.py:2127
+#, python-format
+msgid "Physical %s Device"
+msgstr "Fiziska %s ierīce"
+
+#: virtManager/details/details.py:2143
+msgid "Cannot remove last video device while Graphics/Display is attached."
+msgstr "Pēdējo video ierīci nevar noņemt, kamēr pievienota grafika/displejs."
+
+#: virtManager/details/details.py:2167
+#, python-format
+msgid "%(device)s on %(address)s"
+msgstr "%(device)s adresē %(address)s"
+
+#: virtManager/details/details.py:2173 virtManager/details/details.py:2182
+msgid "Cannot remove controller while devices are attached."
+msgstr "Kontrolieri nevar noņemt, kamēr pievienotas ierīces."
+
+#: virtManager/details/details.py:2274
+msgid "Hard Disk"
+msgstr "Cietais disks"
+
+#: virtManager/details/details.py:2275
+msgid "CDROM"
+msgstr "CDROM"
+
+#: virtManager/details/details.py:2276
+msgid "Network (PXE)"
+msgstr "Tīkls (PXE)"
+
+#: virtManager/details/details.py:2291
+msgid "No bootable devices"
+msgstr "Nav sāknējamu ierīču"
+
+#: virtManager/details/details.py:2337
+msgid "Overview"
+msgstr "Pārskats"
+
+#: virtManager/details/details.py:2338
+msgid "OS information"
+msgstr "OS informācija"
+
+#: virtManager/details/details.py:2340
+msgid "Performance"
+msgstr "Veiktspēja"
+
+#: virtManager/details/details.py:2341
+msgid "CPUs"
+msgstr "CPU"
+
+#: virtManager/details/details.py:2343
+msgid "Boot Options"
+msgstr "Sāknēšanas opcijas"
+
+#: virtManager/details/serialcon.py:189
+#, python-format
+msgid "Console for device type '%s' is not supported"
+msgstr "Ierīces tipa '%s' konsole netiek atbalstīta"
+
+#: virtManager/details/serialcon.py:251
+msgid "_Copy"
+msgstr "_Kopēt"
+
+#: virtManager/details/serialcon.py:255
+msgid "_Paste"
+msgstr "_Ielīmēt"
+
+#: virtManager/details/serialcon.py:342
+#, python-format
+msgid "Error connecting to text console: %s"
+msgstr "Kļūda, savienojoties ar teksta konsoli: %s"
+
+#: virtManager/details/snapshots.py:125
+msgid "external snapshots not supported with this libvirt connection"
+msgstr "šis libvirt savienojums neatbalsta ārējos momentuzņēmumus"
+
+#: virtManager/details/snapshots.py:291
+#, python-format
+msgid "Error creating snapshot: %s"
+msgstr "Kļūda, veidojot momentuzņēmumu: %s"
+
+#: virtManager/details/snapshots.py:312
+msgid "Snapshot"
+msgstr "Momentuzņēmums"
+
+#: virtManager/details/snapshots.py:315
+#, python-format
+msgid "Error validating snapshot: %s"
+msgstr "Kļūda, validējot momentuzņēmumu: %s"
+
+#: virtManager/details/snapshots.py:357 virtManager/lib/libvirtenummap.py:110
+msgid "Creating snapshot"
+msgstr "Izveido momentuzņēmumu"
+
+#: virtManager/details/snapshots.py:358
+msgid "Creating virtual machine snapshot"
+msgstr "Izveido virtuālās mašīnas momentuzņēmumu"
+
+#: virtManager/details/snapshots.py:388
+msgid ""
+"Mixing external and internal snapshots for the same VM is not recommended. "
+"Are you sure you want to continue?"
+msgstr ""
+"Ārējo un iekšējo momentuzņēmumu jaukšana vienai VM nav ieteicama. Vai tiešām "
+"vēlaties turpināt?"
+
+#: virtManager/details/snapshots.py:503
+msgid "_Start snapshot"
+msgstr "_Palaist momentuzņēmumu"
+
+#: virtManager/details/snapshots.py:508
+msgid "_Delete snapshot"
+msgstr "_Dzēst momentuzņēmumu"
+
+#: virtManager/details/snapshots.py:561
+#, python-format
+msgid "Error refreshing snapshot list: %s"
+msgstr "Kļūda, atsvaidzinot momentuzņēmumu sarakstu: %s"
+
+#: virtManager/details/snapshots.py:573
+#, python-format
+msgid ""
+"%(vm)s\n"
+"<span size='small'>VM State: %(state)s (External)</span>"
+msgstr ""
+"%(vm)s\n"
+"<span size='small'>VM stāvoklis: %(state)s (ārējs)</span>"
+
+#: virtManager/details/snapshots.py:577
+#, python-format
+msgid ""
+"%(vm)s\n"
+"<span size='small'>VM State: %(state)s</span>"
+msgstr ""
+"%(vm)s\n"
+"<span size='small'>VM stāvoklis: %(state)s</span>"
+
+#: virtManager/details/snapshots.py:634
+#, python-format
+msgid "<b>Snapshot '%(name)s':</b>"
+msgstr "<b>Momentuzņēmums '%(name)s':</b>"
+
+#: virtManager/details/snapshots.py:650
+msgid "External disk and memory"
+msgstr "Ārējs disks un atmiņa"
+
+#: virtManager/details/snapshots.py:652
+msgid "External memory only"
+msgstr "Tikai ārēja atmiņa"
+
+#: virtManager/details/snapshots.py:654
+msgid "External disk only"
+msgstr "Tikai ārējs disks"
+
+#: virtManager/details/snapshots.py:743
+msgid "Saved memory state will not be part of the snapshot"
+msgstr "Saglabātais atmiņas stāvoklis nebūs momentuzņēmuma daļa"
+
+#: virtManager/details/snapshots.py:745
+msgid ""
+"The domain is currently saved. Due to technical limitations that saved "
+"memory state will not become part of the snapshot. Running it later will be "
+"the same as having forced the system off mid-flight. It is recommended to "
+"snapshot either the running or shut down system instead."
+msgstr ""
+"Domēns pašlaik ir saglabāts. Tehnisku ierobežojumu dēļ saglabātais atmiņas "
+"stāvoklis nebūs momentuzņēmuma daļa. Vēlāk to palaižot, tas būs tāpat kā "
+"sistēmas piespiedu izslēgšana darbības vidū. Ieteicams veidot darbojošās vai "
+"izslēgtas sistēmas momentuzņēmumu."
+
+#: virtManager/details/snapshots.py:769
+#, python-format
+msgid ""
+"Are you sure you want to run the snapshot '%(name)s'? All the disk changes "
+"since the last snapshot was created will be discarded."
+msgstr ""
+"Vai tiešām vēlaties palaist momentuzņēmumu '%(name)s'? Visas diska izmaiņas "
+"kopš pēdējā momentuzņēmuma izveides tiks atmestas."
+
+#: virtManager/details/snapshots.py:775
+#, python-format
+msgid ""
+"Are you sure you want to run the snapshot '%(name)s'? All the disk and "
+"configuration changes since the last snapshot was created will be discarded."
+msgstr ""
+"Vai tiešām vēlaties palaist momentuzņēmumu '%(name)s'? Visas diska un "
+"konfigurācijas izmaiņas kopš pēdējā momentuzņēmuma izveides tiks atmestas."
+
+#: virtManager/details/snapshots.py:787
+msgid "Saved state will be removed to avoid filesystem corruption"
+msgstr ""
+"Saglabātais stāvoklis tiks noņemts, lai izvairītos no failu sistēmas "
+"bojājumiem"
+
+#: virtManager/details/snapshots.py:789
+#, python-format
+msgid ""
+"Snapshot '%s' contains only disk and no memory state. Restoring the snapshot "
+"would leave the existing saved state in place, effectively switching a disk "
+"underneath a running system. Running the domain afterwards would likely "
+"result in extensive filesystem corruption. Therefore the saved state will be "
+"removed before restoring the snapshot."
+msgstr ""
+"Momentuzņēmums '%s' satur tikai disku, bez atmiņas stāvokļa. Atjaunojot "
+"momentuzņēmumu, esošais saglabātais stāvoklis paliktu vietā, faktiski "
+"nomainot disku zem darbojošās sistēmas. Pēc tam palaižot domēnu, visticamāk, "
+"rastos plaši failu sistēmas bojājumi. Tāpēc pirms momentuzņēmuma "
+"atjaunošanas saglabātais stāvoklis tiks noņemts."
+
+#: virtManager/details/snapshots.py:807
+msgid "Running snapshot"
+msgstr "Palaiž momentuzņēmumu"
+
+#: virtManager/details/snapshots.py:808
+#, python-format
+msgid "Running snapshot '%s'"
+msgstr "Palaiž momentuzņēmumu '%s'"
+
+#: virtManager/details/snapshots.py:809
+#, python-format
+msgid "Error running snapshot '%s'"
+msgstr "Kļūda, palaižot momentuzņēmumu '%s'"
+
+#: virtManager/details/snapshots.py:819
+msgid "Are you sure you want to permanently delete the selected snapshots?"
+msgstr "Vai tiešām vēlaties neatgriezeniski dzēst atlasītos momentuzņēmumus?"
+
+#: virtManager/details/snapshots.py:830
+msgid "Deleting snapshot"
+msgstr "Dzēš momentuzņēmumu"
+
+#: virtManager/details/snapshots.py:831
+#, python-format
+msgid "Deleting snapshot '%s'"
+msgstr "Dzēš momentuzņēmumu '%s'"
+
+#: virtManager/details/snapshots.py:832
+#, python-format
+msgid "Error deleting snapshot '%s'"
+msgstr "Kļūda, dzēšot momentuzņēmumu '%s'"
+
+#: virtManager/details/snapshots.py:840
+msgid "No snapshot selected."
+msgstr "Nav atlasīts neviens momentuzņēmums."
+
+#: virtManager/details/snapshots.py:843
+msgid "Multiple snapshots selected."
+msgstr "Atlasīti vairāki momentuzņēmumi."
+
+#: virtManager/details/snapshots.py:853
+#, python-format
+msgid "Error selecting snapshot: %s"
+msgstr "Kļūda, atlasot momentuzņēmumu: %s"
+
+#: virtManager/details/sshtunnels.py:66
+msgid ""
+"Guest is on a remote host, but is only configured to allow local file "
+"descriptor connections."
+msgstr ""
+"Viesis atrodas attālā resursdatorā, bet ir konfigurēts atļaut tikai lokālus "
+"faila deskriptora savienojumus."
+
+#: virtManager/details/sshtunnels.py:71
+msgid "Guest is configured for TLS only which does not work over SSH."
+msgstr "Viesis ir konfigurēts tikai TLS, kas nedarbojas caur SSH."
+
+#: virtManager/details/sshtunnels.py:81
+#, python-format
+msgid ""
+"Guest is on a remote host with transport '%s' but is only configured to "
+"listen locally. To connect remotely you will need to change the guest's "
+"listen address."
+msgstr ""
+"Viesis atrodas attālā resursdatorā ar transportu '%s', bet ir konfigurēts "
+"klausīties tikai lokāli. Lai savienotos attāli, jāmaina viesa klausīšanās "
+"adrese."
+
+#: virtManager/details/viewers.py:389
+#, python-format
+msgid ""
+"Unable to provide requested credentials to the VNC server.\n"
+"The credential type %s is not supported"
+msgstr ""
+"Neizdodas nodrošināt pieprasītos akreditācijas datus VNC serverim.\n"
+"Akreditācijas datu tips %s netiek atbalstīts"
+
+#: virtManager/details/viewers.py:446
+msgid "GTK-VNC viewer is too old"
+msgstr "GTK-VNC skatītājs ir pārāk vecs"
+
+#: virtManager/details/viewers.py:594
+#, python-format
+msgid "Encountered SPICE %(error-name)s"
+msgstr "Radās SPICE %(error-name)s"
+
+#: virtManager/details/viewers.py:741
+msgid "Guest agent is not available."
+msgstr "Viesa aģents nav pieejams."
+
+#: virtManager/device/addstorage.py:92
+#, python-format
+msgid "%s available in the default location"
+msgstr "Noklusējuma vietā pieejams %s"
+
+#: virtManager/device/addstorage.py:128
+#, python-format
+msgid "The emulator may not have search permissions for the path '%s'."
+msgstr "Emulatoram var nebūt meklēšanas atļauju ceļam '%s'."
+
+#: virtManager/device/addstorage.py:129
+msgid "Do you want to correct this now?"
+msgstr "Vai vēlaties to izlabot tagad?"
+
+#: virtManager/device/addstorage.py:130 virtManager/device/addstorage.py:154
+msgid "Don't ask about these directories again."
+msgstr "Vairs nejautāt par šīm direktorijām."
+
+#: virtManager/device/addstorage.py:144
+msgid ""
+"Errors were encountered changing permissions for the following directories:"
+msgstr "Mainot atļaujas šīm direktorijām, radās kļūdas:"
+
+#: virtManager/device/addstorage.py:263
+msgid "A storage path must be specified."
+msgstr "Jānorāda krātuves ceļš."
+
+#: virtManager/device/fsdetails.py:140
+msgid "Te_mplate:"
+msgstr "Ve_idne:"
+
+#: virtManager/device/fsdetails.py:142
+msgid "_Source path:"
+msgstr "_Avota ceļš:"
+
+#: virtManager/device/fsdetails.py:154
+msgid "You may need to 'Enable shared memory' on the 'Memory' screen."
+msgstr "Iespējams, ekrānā „Atmiņa” jāiespējo „Iespējot koplietojamo atmiņu”."
+
+#: virtManager/device/gfxdetails.py:89
+msgid "Spice server"
+msgstr "Spice serveris"
+
+#: virtManager/device/gfxdetails.py:90
+msgid "VNC server"
+msgstr "VNC serveris"
+
+#: virtManager/device/gfxdetails.py:97
+msgid "Address"
+msgstr "Adrese"
+
+#: virtManager/device/gfxdetails.py:106
+msgid "Localhost only"
+msgstr "Tikai localhost"
+
+#: virtManager/device/gfxdetails.py:107
+msgid "All interfaces"
+msgstr "Visas saskarnes"
+
+#: virtManager/device/gfxdetails.py:114
+msgid "Auto"
+msgstr "Automātiski"
+
+#: virtManager/device/gfxdetails.py:211
+#, python-format
+msgid "A_uto (Port %(port)d)"
+msgstr "A_utomātiski (ports %(port)d)"
+
+#: virtManager/device/mediacombo.py:65
+msgid "No media selected"
+msgstr "Nav atlasīts datu nesējs"
+
+#: virtManager/device/mediacombo.py:100
+msgid "Media Unknown"
+msgstr "Datu nesējs nav zināms"
+
+#: virtManager/device/mediacombo.py:102
+msgid "No media detected"
+msgstr "Datu nesējs nav noteikts"
+
+#: virtManager/device/netlist.py:40
+msgid "Usermode networking"
+msgstr "Lietotāja režīma tīklošana"
+
+#: virtManager/device/netlist.py:44
+msgid "Virtual network"
+msgstr "Virtuāls tīkls"
+
+#: virtManager/device/netlist.py:121 virtManager/object/libvirtobject.py:214
+msgid "Inactive"
+msgstr "Neaktīvs"
+
+#: virtManager/device/netlist.py:136
+msgid "Bridge device..."
+msgstr "Tilta ierīce..."
+
+#: virtManager/device/netlist.py:141
+msgid "Macvtap device..."
+msgstr "Macvtap ierīce..."
+
+#: virtManager/device/netlist.py:146
+msgid "vDPA device..."
+msgstr "vDPA ierīce..."
+
+#: virtManager/device/netlist.py:204
+msgid "Virtual Network is not active."
+msgstr "Virtuālais tīkls nav aktīvs."
+
+#: virtManager/device/netlist.py:205
+#, python-format
+msgid ""
+"Virtual Network '%s' is not active. Would you like to start the network now?"
+msgstr "Virtuālais tīkls '%s' nav aktīvs. Vai vēlaties tīklu palaist tagad?"
+
+#: virtManager/device/netlist.py:217
+#, python-format
+msgid "Could not start virtual network '%(device)s': %(error)s"
+msgstr "Nevarēja palaist virtuālo tīklu '%(device)s': %(error)s"
+
+#: virtManager/device/tpmdetails.py:12
+msgid "TIS"
+msgstr "TIS"
+
+#: virtManager/device/tpmdetails.py:13
+msgid "CRB"
+msgstr "CRB"
+
+#: virtManager/device/tpmdetails.py:14
+msgid "SPAPR"
+msgstr "SPAPR"
+
+#: virtManager/device/tpmdetails.py:72
+msgid "Emulated"
+msgstr "Emulēts"
+
+#: virtManager/device/vsockdetails.py:58
+msgid "CID"
+msgstr "CID"
+
+#: virtManager/engine.py:120
+msgid "Checking for virtualization packages..."
+msgstr "Pārbauda virtualizācijas pakotnes..."
+
+#: virtManager/error.py:145
+msgid "Input Error"
+msgstr "Ievades kļūda"
+
+#: virtManager/error.py:146
+#, python-format
+msgid "Validation Error: %s"
+msgstr "Validācijas kļūda: %s"
+
+#: virtManager/error.py:186
+msgid "There are unapplied changes. Would you like to apply them now?"
+msgstr "Ir nelietotas izmaiņas. Vai vēlaties tās lietot tagad?"
+
+#: virtManager/error.py:187
+msgid "Don't warn me again."
+msgstr "Vairs nebrīdināt."
+
+#: virtManager/error.py:212
+msgid "Don't ask me again"
+msgstr "Vairs nejautāt"
+
+#: virtManager/host.py:31
+#, python-format
+msgid "Error launching host dialog: %s"
+msgstr "Kļūda, palaižot resursdatora dialogu: %s"
+
+#: virtManager/host.py:165
+#, python-format
+msgid "%(currentmem)s of %(maxmem)s"
+msgstr "%(currentmem)s no %(maxmem)s"
+
+#: virtManager/host.py:175
+#, python-format
+msgid "%(connection)s - Connection Details"
+msgstr "%(connection)s — savienojuma informācija"
+
+#: virtManager/hostnets.py:100
+msgid "Networks"
+msgstr "Tīkli"
+
+#: virtManager/hostnets.py:131
+msgid "Libvirt connection does not support virtual network management."
+msgstr "Libvirt savienojums neatbalsta virtuālo tīklu pārvaldību."
+
+#: virtManager/hostnets.py:139 virtManager/hoststorage.py:268
+msgid "Connection not active."
+msgstr "Savienojums nav aktīvs."
+
+#: virtManager/hostnets.py:155
+msgid "No virtual network selected."
+msgstr "Nav atlasīts neviens virtuālais tīkls."
+
+#: virtManager/hostnets.py:164
+#, python-format
+msgid "Error selecting network: %s"
+msgstr "Kļūda, atlasot tīklu: %s"
+
+#: virtManager/hostnets.py:215 virtManager/object/network.py:161
+msgid "Routed network"
+msgstr "Maršrutēts tīkls"
+
+#: virtManager/hostnets.py:217
+msgid "Isolated network, internal routing only"
+msgstr "Izolēts tīkls, tikai iekšēja maršrutēšana"
+
+#: virtManager/hostnets.py:219
+msgid "Isolated network, routing disabled"
+msgstr "Izolēts tīkls, maršrutēšana atspējota"
+
+#: virtManager/hostnets.py:248 virtManager/hoststorage.py:310
+msgid "On Boot"
+msgstr "Sāknēšanas laikā"
+
+#: virtManager/hostnets.py:265
+#, python-format
+msgid "Are you sure you want to permanently delete the network %s?"
+msgstr "Vai tiešām vēlaties neatgriezeniski dzēst tīklu %s?"
+
+#: virtManager/hostnets.py:272
+#, python-format
+msgid "Error deleting network '%s'"
+msgstr "Kļūda, dzēšot tīklu '%s'"
+
+#: virtManager/hostnets.py:282
+#, python-format
+msgid "Error starting network '%s'"
+msgstr "Kļūda, palaižot tīklu '%s'"
+
+#: virtManager/hostnets.py:292
+#, python-format
+msgid "Error stopping network '%s'"
+msgstr "Kļūda, apturot tīklu '%s'"
+
+#: virtManager/hostnets.py:302
+#, python-format
+msgid "Error launching network wizard: %s"
+msgstr "Kļūda, palaižot tīkla vedni: %s"
+
+#: virtManager/hostnets.py:325
+#, python-format
+msgid "Error changing network settings: %s"
+msgstr "Kļūda, mainot tīkla iestatījumus: %s"
+
+#: virtManager/hoststorage.py:173
+msgid "Copy Volume Path"
+msgstr "Kopēt sējuma ceļu"
+
+#: virtManager/hoststorage.py:183
+msgid "Volumes"
+msgstr "Sējumi"
+
+#: virtManager/hoststorage.py:191
+msgid "Size"
+msgstr "Izmērs"
+
+#: virtManager/hoststorage.py:200
+msgid "Format"
+msgstr "Formāts"
+
+#: virtManager/hoststorage.py:208
+msgid "Used By"
+msgstr "Izmanto"
+
+#: virtManager/hoststorage.py:224
+msgid "Storage Pools"
+msgstr "Krātuves pūli"
+
+#: virtManager/hoststorage.py:260
+msgid "Libvirt connection does not support storage management."
+msgstr "Libvirt savienojums neatbalsta krātuves pārvaldību."
+
+#: virtManager/hoststorage.py:302
+#, python-format
+msgid "%(bytesfree)s Free / <i>%(bytesinuse)s In Use</i>"
+msgstr "%(bytesfree)s brīvs / <i>%(bytesinuse)s izmantots</i>"
+
+#: virtManager/hoststorage.py:321
+msgid "Create new volume"
+msgstr "Izveidot jaunu sējumu"
+
+#: virtManager/hoststorage.py:326
+msgid "Pool does not support volume creation"
+msgstr "Pūls neatbalsta sējumu izveidi"
+
+#: virtManager/hoststorage.py:341
+msgid "No storage pool selected."
+msgstr "Nav atlasīts neviens krātuves pūls."
+
+#: virtManager/hoststorage.py:350
+#, python-format
+msgid "Error selecting pool: %s"
+msgstr "Kļūda, atlasot pūlu: %s"
+
+#: virtManager/hoststorage.py:454
+#, python-format
+msgid "Error stopping pool '%s'"
+msgstr "Kļūda, apturot pūlu '%s'"
+
+#: virtManager/hoststorage.py:464
+#, python-format
+msgid "Error starting pool '%s'"
+msgstr "Kļūda, palaižot pūlu '%s'"
+
+#: virtManager/hoststorage.py:475
+#, python-format
+msgid "Error launching pool wizard: %s"
+msgstr "Kļūda, palaižot pūla vedni: %s"
+
+#: virtManager/hoststorage.py:483
+#, python-format
+msgid "Are you sure you want to permanently delete the pool %s?"
+msgstr "Vai tiešām vēlaties neatgriezeniski dzēst pūlu %s?"
+
+#: virtManager/hoststorage.py:490
+#, python-format
+msgid "Error deleting pool '%s'"
+msgstr "Kļūda, dzēšot pūlu '%s'"
+
+#: virtManager/hoststorage.py:502
+#, python-format
+msgid "Error refreshing pool '%s'"
+msgstr "Kļūda, atsvaidzinot pūlu '%s'"
+
+#: virtManager/hoststorage.py:535
+#, python-format
+msgid "Error launching volume wizard: %s"
+msgstr "Kļūda, palaižot sējuma vedni: %s"
+
+#: virtManager/hoststorage.py:544
+#, python-format
+msgid "Are you sure you want to permanently delete the volume %s?"
+msgstr "Vai tiešām vēlaties neatgriezeniski dzēst sējumu %s?"
+
+#: virtManager/hoststorage.py:559
+#, python-format
+msgid "Error deleting volume '%s'"
+msgstr "Kļūda, dzēšot sējumu '%s'"
+
+#: virtManager/hoststorage.py:584
+#, python-format
+msgid "Error changing pool settings: %s"
+msgstr "Kļūda, mainot pūla iestatījumus: %s"
+
+#: virtManager/lib/connectauth.py:54
+msgid "Authentication required"
+msgstr "Nepieciešama autentifikācija"
+
+#: virtManager/lib/connectauth.py:159
+msgid ""
+"The remote host requires a version of netcat/nc which supports the -U option."
+msgstr ""
+"Attālajam resursdatoram nepieciešama netcat/nc versija, kas atbalsta opciju -"
+"U."
+
+#: virtManager/lib/connectauth.py:165
+msgid ""
+"Configure SSH key access for the remote host, or install an SSH askpass "
+"package locally."
+msgstr ""
+"Konfigurējiet attālajam resursdatoram SSH atslēgas piekļuvi vai lokāli "
+"instalējiet SSH askpass pakotni."
+
+#: virtManager/lib/connectauth.py:170
+msgid ""
+"Verify that an appropriate libvirt daemon is running on the remote host."
+msgstr ""
+"Pārbaudiet, vai attālajā resursdatorā darbojas atbilstošs libvirt dēmons."
+
+#: virtManager/lib/connectauth.py:174
+msgid ""
+"Verify that:\n"
+" - A Xen host kernel was booted\n"
+" - The Xen service has been started"
+msgstr ""
+"Pārbaudiet, vai:\n"
+" - tika sāknēts Xen resursdatora kodols\n"
+" - ir palaists Xen pakalpojums"
+
+#: virtManager/lib/connectauth.py:182
+msgid ""
+"Could not detect a local session: if you are running virt-manager over ssh "
+"-X or VNC, you may not be able to connect to libvirt as a regular user. Try "
+"running as root."
+msgstr ""
+"Neizdevās noteikt lokālu sesiju: ja virt-manager darbināt caur ssh -X vai "
+"VNC, iespējams, nevarēsiet savienoties ar libvirt kā parasts lietotājs. "
+"Mēģiniet palaist kā root."
+
+#: virtManager/lib/connectauth.py:189
+msgid "Verify that an appropriate libvirt daemon is running."
+msgstr "Pārbaudiet, vai darbojas atbilstošs libvirt dēmons."
+
+#: virtManager/lib/connectauth.py:192
+#, python-format
+msgid "Unable to connect to libvirt %s."
+msgstr "Neizdodas savienoties ar libvirt %s."
+
+#: virtManager/lib/connectauth.py:204
+msgid "Virtual Machine Manager Connection Failure"
+msgstr "Virtuālo mašīnu pārvaldnieka savienojuma kļūme"
+
+#: virtManager/lib/connectauth.py:219
+msgid ""
+"Could not detect a default hypervisor. Make sure the appropriate QEMU/KVM "
+"virtualization and libvirt packages are installed to manage virtualization "
+"on this host."
+msgstr ""
+"Neizdevās noteikt noklusējuma hipervizoru. Pārliecinieties, ka ir instalētas "
+"atbilstošās QEMU/KVM virtualizācijas un libvirt pakotnes, lai pārvaldītu "
+"virtualizāciju šajā resursdatorā."
+
+#: virtManager/lib/connectauth.py:227
+msgid ""
+"A virtualization connection can be manually added via File->Add Connection"
+msgstr ""
+"Virtualizācijas savienojumu var pievienot manuāli caur Fails->Pievienot "
+"savienojumu"
+
+#: virtManager/lib/inspection.py:77
+#, python-format
+msgid "Error launching libguestfs appliance: %s"
+msgstr "Kļūda, palaižot libguestfs ierīci: %s"
+
+#: virtManager/lib/inspection.py:85
+msgid "Inspection found no operating systems."
+msgstr "Pārbaudē netika atrasta neviena operētājsistēma."
+
+#: virtManager/lib/inspection.py:319
+#, python-format
+msgid "Error inspection VM: %s"
+msgstr "Kļūda, pārbaudot VM: %s"
+
+#: virtManager/lib/inspection.py:329
+msgid "Cannot inspect VM on remote connection"
+msgstr "Attālā savienojumā VM nevar pārbaudīt"
+
+#: virtManager/lib/libvirtenummap.py:66
+msgid "Running"
+msgstr "Darbojas"
+
+#: virtManager/lib/libvirtenummap.py:68
+msgid "Paused"
+msgstr "Pauzēta"
+
+#: virtManager/lib/libvirtenummap.py:70
+msgid "Shutting Down"
+msgstr "Izslēdzas"
+
+#: virtManager/lib/libvirtenummap.py:73 virtManager/lib/libvirtenummap.py:121
+msgid "Saved"
+msgstr "Saglabāta"
+
+#: virtManager/lib/libvirtenummap.py:75
+msgid "Shutoff"
+msgstr "Izslēgta"
+
+#: virtManager/lib/libvirtenummap.py:77 virtManager/lib/libvirtenummap.py:99
+#: virtManager/lib/libvirtenummap.py:111 virtManager/lib/libvirtenummap.py:119
+msgid "Crashed"
+msgstr "Avarējusi"
+
+#: virtManager/lib/libvirtenummap.py:79
+msgid "Suspended"
+msgstr "Iesnaudināta"
+
+#: virtManager/lib/libvirtenummap.py:91
+msgid "Booted"
+msgstr "Sāknēta"
+
+#: virtManager/lib/libvirtenummap.py:92 virtManager/lib/libvirtenummap.py:120
+msgid "Migrated"
+msgstr "Migrēta"
+
+#: virtManager/lib/libvirtenummap.py:93
+msgid "Restored"
+msgstr "Atjaunota"
+
+#: virtManager/lib/libvirtenummap.py:94 virtManager/lib/libvirtenummap.py:108
+#: virtManager/lib/libvirtenummap.py:123
+msgid "From snapshot"
+msgstr "No momentuzņēmuma"
+
+#: virtManager/lib/libvirtenummap.py:95
+msgid "Unpaused"
+msgstr "Atpauzēta"
+
+#: virtManager/lib/libvirtenummap.py:96
+msgid "Migration canceled"
+msgstr "Migrācija atcelta"
+
+#: virtManager/lib/libvirtenummap.py:97
+msgid "Save canceled"
+msgstr "Saglabāšana atcelta"
+
+#: virtManager/lib/libvirtenummap.py:98
+msgid "Event wakeup"
+msgstr "Notikuma pamodināšana"
+
+#: virtManager/lib/libvirtenummap.py:102 virtManager/lib/libvirtenummap.py:114
+msgid "User"
+msgstr "Lietotājs"
+
+#: virtManager/lib/libvirtenummap.py:103
+msgid "Migrating"
+msgstr "Migrē"
+
+#: virtManager/lib/libvirtenummap.py:104
+msgid "Saving"
+msgstr "Saglabā"
+
+#: virtManager/lib/libvirtenummap.py:105
+msgid "Dumping"
+msgstr "Izmet"
+
+#: virtManager/lib/libvirtenummap.py:106
+msgid "I/O error"
+msgstr "I/O kļūda"
+
+#: virtManager/lib/libvirtenummap.py:109
+msgid "Shutting down"
+msgstr "Izslēdzas"
+
+#: virtManager/lib/libvirtenummap.py:117
+msgid "Shut Down"
+msgstr "Izslēgta"
+
+#: virtManager/lib/libvirtenummap.py:118
+msgid "Destroyed"
+msgstr "Iznīcināta"
+
+#: virtManager/lib/libvirtenummap.py:122
+msgid "Failed"
+msgstr "Neizdevās"
+
+#: virtManager/lib/libvirtenummap.py:126
+msgid "Panicked"
+msgstr "Panika"
+
+#: virtManager/manager.py:83
+#, python-format
+msgid "Error launching manager: %s"
+msgstr "Kļūda, palaižot pārvaldnieku: %s"
+
+#: virtManager/manager.py:289
+msgid "_New"
+msgstr "_Jauns"
+
+#: virtManager/manager.py:290
+msgid "_Connect"
+msgstr "_Savienoties"
+
+#: virtManager/manager.py:291
+msgid "Dis_connect"
+msgstr "Atvie_not"
+
+#: virtManager/manager.py:293
+msgid "De_lete"
+msgstr "Dz_ēst"
+
+#: virtManager/manager.py:370
+msgid "CPU usage"
+msgstr "CPU lietojums"
+
+#: virtManager/manager.py:371
+msgid "Host CPU usage"
+msgstr "Resursdatora CPU lietojums"
+
+#: virtManager/manager.py:372
+msgid "Memory usage"
+msgstr "Atmiņas lietojums"
+
+#: virtManager/manager.py:373
+msgid "Disk I/O"
+msgstr "Diska I/O"
+
+#: virtManager/manager.py:374
+msgid "Network I/O"
+msgstr "Tīkla I/O"
+
+#: virtManager/manager.py:493
+#, python-format
+msgid ""
+"This will remove the connection:\n"
+"\n"
+"%s\n"
+"\n"
+"Are you sure?"
+msgstr ""
+"Tiks noņemts savienojums:\n"
+"\n"
+"%s\n"
+"\n"
+"Vai tiešām to vēlaties?"
+
+#: virtManager/manager.py:570
+#, python-format
+msgid "%(uri)s (Double click to connect)"
+msgstr "%(uri)s (dubultklikšķis, lai savienotos)"
+
+#: virtManager/manager.py:577
+#, python-format
+msgid "%(connection)s - Not Connected"
+msgstr "%(connection)s — nav savienots"
+
+#: virtManager/manager.py:579
+#, python-format
+msgid "%(connection)s - Connecting..."
+msgstr "%(connection)s — savienojas..."
+
+#: virtManager/manager.py:750 virtManager/vmwindow.py:368
+msgid "_Restore"
+msgstr "_Atjaunot"
+
+#: virtManager/manager.py:787 virtManager/vmwindow.py:408
+msgid "Resume the virtual machine"
+msgstr "Atsākt virtuālo mašīnu"
+
+#: virtManager/manager.py:898
+msgid "Disabled in preferences dialog."
+msgstr "Atspējots iestatījumu dialogā."
+
+#: virtManager/migrate.py:35
+#, python-format
+msgid "Error launching migrate dialog: %s"
+msgstr "Kļūda, palaižot migrācijas dialogu: %s"
+
+#: virtManager/migrate.py:139
+msgid "Direct"
+msgstr "Tiešā"
+
+#: virtManager/migrate.py:140
+msgid "Tunnelled"
+msgstr "Tunelēta"
+
+#: virtManager/migrate.py:159
+#, python-format
+msgid "<span size='large'>Migrate '%(vm)s'</span>"
+msgstr "<span size='large'>Migrēt '%(vm)s'</span>"
+
+#: virtManager/migrate.py:219
+msgid "A valid destination connection must be selected."
+msgstr "Jāatlasa derīgs mērķa savienojums."
+
+#: virtManager/migrate.py:235
+msgid ""
+"A remotely accessible libvirt URI is required for tunneled migration, but "
+"the selected connection is a local URI. Libvirt will reject this unless you "
+"add a transport."
+msgstr ""
+"Tunelētai migrācijai nepieciešams attāli pieejams libvirt URI, bet "
+"atlasītais savienojums ir lokāls URI. Libvirt to noraidīs, ja nepievienosiet "
+"transportu."
+
+#: virtManager/migrate.py:287
+#, python-format
+msgid "%(uri)s (Hypervisors do not match)"
+msgstr "%(uri)s (hipervizori nesakrīt)"
+
+#: virtManager/migrate.py:289
+#, python-format
+msgid "%(uri)s (Disconnected)"
+msgstr "%(uri)s (atvienots)"
+
+#: virtManager/migrate.py:291
+#, python-format
+msgid "%(uri)s (Same connection)"
+msgstr "%(uri)s (tas pats savienojums)"
+
+#: virtManager/migrate.py:307
+msgid "No usable connections available."
+msgstr "Nav lietojamu savienojumu."
+
+#: virtManager/migrate.py:346
+#, python-format
+msgid "Unable to migrate guest: %s"
+msgstr "Neizdodas migrēt viesi: %s"
+
+#: virtManager/migrate.py:374
+#, python-format
+msgid "Uncaught error validating input: %s"
+msgstr "Nenotverta kļūda, validējot ievadi: %s"
+
+#: virtManager/migrate.py:391
+#, python-format
+msgid "Migrating VM '%s'"
+msgstr "Migrē VM '%s'"
+
+#: virtManager/migrate.py:393
+#, python-format
+msgid "Migrating VM '%(name)s' to %(host)s. This may take a while."
+msgstr "Migrē VM '%(name)s' uz %(host)s. Tas var aizņemt kādu laiku."
+
+#: virtManager/migrate.py:407
+#, python-format
+msgid "Error cancelling migrate job: %s"
+msgstr "Kļūda, atceļot migrācijas darbu: %s"
+
+#: virtManager/object/domain.py:446
+msgid "Can not change shared memory setting when <numa> is configured."
+msgstr ""
+"Koplietojamās atmiņas iestatījumu nevar mainīt, ja ir konfigurēts <numa>."
+
+#: virtManager/object/domain.py:450
+msgid "Libvirt may not be new enough to support memfd."
+msgstr "Libvirt var nebūt pietiekami jauns, lai atbalstītu memfd."
+
+#: virtManager/object/domain.py:468
+msgid "Libvirt connection does not support snapshots."
+msgstr "Libvirt savienojums neatbalsta momentuzņēmumus."
+
+#: virtManager/object/domain.py:501
+#, python-format
+msgid "Could not find specified device in the inactive VM configuration: %s"
+msgstr "Neaktīvās VM konfigurācijā nevarēja atrast norādīto ierīci: %s"
+
+#: virtManager/object/domain.py:1490
+msgid "Saving domain to disk"
+msgstr "Saglabā domēnu diskā"
+
+#: virtManager/object/domain.py:1555
+msgid "Migrating domain"
+msgstr "Migrē domēnu"
+
+#: virtManager/object/network.py:150
+msgid "Isolated network"
+msgstr "Izolēts tīkls"
+
+#: virtManager/object/network.py:154
+#, python-format
+msgid "NAT to %s"
+msgstr "NAT uz %s"
+
+#: virtManager/object/network.py:159
+#, python-format
+msgid "Route to %s"
+msgstr "Maršruts uz %s"
+
+#: virtManager/object/network.py:164
+#, python-format
+msgid "%s network"
+msgstr "%s tīkls"
+
+#: virtManager/object/nodedev.py:25
+#, python-format
+msgid "Interface %s"
+msgstr "Saskarne %s"
+
+#: virtManager/object/storagepool.py:25
+msgid "Filesystem Directory"
+msgstr "Failu sistēmas direktorija"
+
+#: virtManager/object/storagepool.py:26
+msgid "Pre-Formatted Block Device"
+msgstr "Iepriekš formatēta bloka ierīce"
+
+#: virtManager/object/storagepool.py:27
+msgid "Network Exported Directory"
+msgstr "Tīklā eksportēta direktorija"
+
+#: virtManager/object/storagepool.py:28
+msgid "LVM Volume Group"
+msgstr "LVM sējumu grupa"
+
+#: virtManager/object/storagepool.py:29
+msgid "Physical Disk Device"
+msgstr "Fiziska diska ierīce"
+
+#: virtManager/object/storagepool.py:30
+msgid "iSCSI Target"
+msgstr "iSCSI mērķis"
+
+#: virtManager/object/storagepool.py:31
+msgid "SCSI Host Adapter"
+msgstr "SCSI resursdatora adapteris"
+
+#: virtManager/object/storagepool.py:32
+msgid "Multipath Device Enumerator"
+msgstr "Vairākceļu ierīču uzskaitītājs"
+
+#: virtManager/object/storagepool.py:33
+msgid "Gluster Filesystem"
+msgstr "Gluster failu sistēma"
+
+#: virtManager/object/storagepool.py:34
+msgid "RADOS Block Device/Ceph"
+msgstr "RADOS bloka ierīce/Ceph"
+
+#: virtManager/object/storagepool.py:35
+msgid "ZFS Pool"
+msgstr "ZFS pūls"
+
+#: virtManager/oslist.py:29
+msgid "Type to start searching..."
+msgstr "Rakstiet, lai sāktu meklēt..."
+
+#: virtManager/preferences.py:28
+#, python-format
+msgid "Error launching preferences: %s"
+msgstr "Kļūda, palaižot iestatījumus: %s"
+
+#: virtManager/preferences.py:113
+msgid "Always"
+msgstr "Vienmēr"
+
+#: virtManager/preferences.py:113
+msgid "Fullscreen only"
+msgstr "Tikai pilnekrāna režīmā"
+
+#: virtManager/preferences.py:113
+msgid "Never"
+msgstr "Nekad"
+
+#: virtManager/preferences.py:125 virtManager/preferences.py:147
+#: virtManager/preferences.py:159
+#, python-format
+msgid "System default (%s)"
+msgstr "Sistēmas noklusējums (%s)"
+
+#: virtManager/preferences.py:135
+msgid "Manual redirect only"
+msgstr "Tikai manuāla pāradresācija"
+
+#: virtManager/preferences.py:136
+msgid "Auto redirect on USB attach"
+msgstr "Automātiska pāradresācija, pievienojot USB"
+
+#: virtManager/preferences.py:171
+msgid "Application default"
+msgstr "Lietotnes noklusējums"
+
+#: virtManager/preferences.py:173
+msgid "Nearest host CPU model"
+msgstr "Tuvākais resursdatora CPU modelis"
+
+#: virtManager/preferences.py:185
+msgid "System default"
+msgstr "Sistēmas noklusējums"
+
+#: virtManager/preferences.py:193
+msgid "python libguestfs support is not installed"
+msgstr "python libguestfs atbalsts nav instalēts"
+
+#: virtManager/preferences.py:338
+msgid "Configure grab key combination"
+msgstr "Konfigurēt tveršanas taustiņu kombināciju"
+
+#: virtManager/preferences.py:348
+msgid ""
+"You can now define grab keys by pressing them.\n"
+"To confirm your selection please click OK button\n"
+"while you have desired keys pressed."
+msgstr ""
+"Tagad varat definēt tveršanas taustiņus, tos nospiežot.\n"
+"Lai apstiprinātu izvēli, noklikšķiniet uz pogas „Labi”,\n"
+"kamēr vēlamie taustiņi ir nospiesti."
+
+#: virtManager/preferences.py:353
+msgid "Please press desired grab key combination"
+msgstr "Lūdzu, nospiediet vēlamo tveršanas taustiņu kombināciju"
+
+#: virtManager/storagebrowse.py:29
+msgid "Locate existing storage"
+msgstr "Atrast esošu krātuvi"
+
+#: virtManager/storagebrowse.py:30
+msgid "Locate or create storage volume"
+msgstr "Atrast vai izveidot krātuves sējumu"
+
+#: virtManager/storagebrowse.py:36
+msgid "Locate ISO media"
+msgstr "Atrast ISO datu nesēju"
+
+#: virtManager/storagebrowse.py:37
+msgid "Locate ISO media volume"
+msgstr "Atrast ISO datu nesēja sējumu"
+
+#: virtManager/storagebrowse.py:41
+msgid "Locate floppy media"
+msgstr "Atrast disketes datu nesēju"
+
+#: virtManager/storagebrowse.py:42
+msgid "Locate floppy media volume"
+msgstr "Atrast disketes datu nesēja sējumu"
+
+#: virtManager/storagebrowse.py:46 virtManager/storagebrowse.py:47
+msgid "Locate directory volume"
+msgstr "Atrast direktorijas sējumu"
+
+#: virtManager/storagebrowse.py:52
+msgid "Choose Storage Volume"
+msgstr "Izvēlēties krātuves sējumu"
+
+#: virtManager/storagebrowse.py:122
+msgid "Cannot use local storage on remote connection."
+msgstr "Attālā savienojumā nevar izmantot lokālu krātuvi."
+
+#: virtManager/systray.py:118
+msgid "_Show Virtual Machine Manager"
+msgstr "_Rādīt virtuālo mašīnu pārvaldnieku"
+
+#: virtManager/systray.py:419
+msgid ""
+"AppIndicator not installed or usable, system tray icon not available on "
+"Wayland"
+msgstr ""
+"AppIndicator nav instalēts vai lietojams, sistēmas paneļa ikona Wayland vidē "
+"nav pieejama"
+
+#: virtManager/virtmanager.py:43
+msgid "Error starting Virtual Machine Manager"
+msgstr "Kļūda, palaižot virtuālo mašīnu pārvaldnieku"
+
+#: virtManager/virtmanager.py:44
+#, python-format
+msgid "Error starting Virtual Machine Manager: %(error)s"
+msgstr "Kļūda, palaižot virtuālo mašīnu pārvaldnieku: %(error)s"
+
+#: virtManager/vmmenu.py:57
+msgid "_Reboot"
+msgstr "_Pārstartēt"
+
+#: virtManager/vmmenu.py:59
+msgid "F_orce Reset"
+msgstr "Piespiedu _atiestatīšana"
+
+#: virtManager/vmmenu.py:60
+msgid "_Force Off"
+msgstr "Piespiedu iz_slēgšana"
+
+#: virtManager/vmmenu.py:62
+msgid "Sa_ve"
+msgstr "Sa_glabāt"
+
+#: virtManager/vmmenu.py:90
+msgid "R_esume"
+msgstr "A_tsākt"
+
+#: virtManager/vmmenu.py:95
+msgid "Clone..."
+msgstr "Klonēt..."
+
+#: virtManager/vmmenu.py:96
+msgid "Migrate..."
+msgstr "Migrēt..."
+
+#: virtManager/vmmenu.py:151
+#, python-format
+msgid "Error cancelling save job: %s"
+msgstr "Kļūda, atceļot saglabāšanas darbu: %s"
+
+#: virtManager/vmmenu.py:161
+#, python-format
+msgid "Are you sure you want to save '%s'?"
+msgstr "Vai tiešām vēlaties saglabāt '%s'?"
+
+#: virtManager/vmmenu.py:174
+#, python-format
+msgid "Error saving domain: %s"
+msgstr "Kļūda, saglabājot domēnu: %s"
+
+#: virtManager/vmmenu.py:182
+msgid "Saving Virtual Machine"
+msgstr "Saglabā virtuālo mašīnu"
+
+#: virtManager/vmmenu.py:183
+msgid "Saving virtual machine memory to disk "
+msgstr "Saglabā virtuālās mašīnas atmiņu diskā "
+
+#: virtManager/vmmenu.py:194
+#, python-format
+msgid "Are you sure you want to force poweroff '%s'?"
+msgstr "Vai tiešām vēlaties piespiedu kārtā izslēgt '%s'?"
+
+#: virtManager/vmmenu.py:196
+msgid ""
+"This will immediately poweroff the VM without shutting down the OS and may "
+"cause data loss."
+msgstr ""
+"Tas nekavējoties izslēgs VM barošanu, neizslēdzot OS, un var izraisīt datu "
+"zudumu."
+
+#: virtManager/vmmenu.py:203 virtManager/vmmenu.py:272
+msgid "Error shutting down domain"
+msgstr "Kļūda, izslēdzot domēnu"
+
+#: virtManager/vmmenu.py:210
+#, python-format
+msgid "Are you sure you want to pause '%s'?"
+msgstr "Vai tiešām vēlaties pauzēt '%s'?"
+
+#: virtManager/vmmenu.py:215
+msgid "Error pausing domain"
+msgstr "Kļūda, pauzējot domēnu"
+
+#: virtManager/vmmenu.py:220
+msgid "Error unpausing domain"
+msgstr "Kļūda, atpauzējot domēnu"
+
+#: virtManager/vmmenu.py:231
+#, python-format
+msgid "Error restoring domain: %s"
+msgstr "Kļūda, atjaunojot domēnu: %s"
+
+#: virtManager/vmmenu.py:234
+msgid ""
+"The domain could not be restored. Would you like\n"
+"to remove the saved state and perform a regular\n"
+"start up?"
+msgstr ""
+"Domēnu nevarēja atjaunot. Vai vēlaties\n"
+"noņemt saglabāto stāvokli un veikt parastu\n"
+"palaišanu?"
+
+#: virtManager/vmmenu.py:250
+#, python-format
+msgid "Error removing domain state: %s"
+msgstr "Kļūda, noņemot domēna stāvokli: %s"
+
+#: virtManager/vmmenu.py:253
+msgid "Restoring Virtual Machine"
+msgstr "Atjauno virtuālo mašīnu"
+
+#: virtManager/vmmenu.py:254
+msgid "Restoring virtual machine memory from disk"
+msgstr "Atjauno virtuālās mašīnas atmiņu no diska"
+
+#: virtManager/vmmenu.py:259
+msgid "Error starting domain"
+msgstr "Kļūda, palaižot domēnu"
+
+#: virtManager/vmmenu.py:267
+#, python-format
+msgid "Are you sure you want to poweroff '%s'?"
+msgstr "Vai tiešām vēlaties izslēgt '%s'?"
+
+#: virtManager/vmmenu.py:279
+#, python-format
+msgid "Are you sure you want to reboot '%s'?"
+msgstr "Vai tiešām vēlaties pārstartēt '%s'?"
+
+#: virtManager/vmmenu.py:284
+msgid "Error rebooting domain"
+msgstr "Kļūda, pārstartējot domēnu"
+
+#: virtManager/vmmenu.py:291
+#, python-format
+msgid "Are you sure you want to force reset '%s'?"
+msgstr "Vai tiešām vēlaties piespiedu kārtā atiestatīt '%s'?"
+
+#: virtManager/vmmenu.py:293
+msgid ""
+"This will immediately reset the VM without shutting down the OS and may "
+"cause data loss."
+msgstr ""
+"Tas nekavējoties atiestatīs VM, neizslēdzot OS, un var izraisīt datu zudumu."
+
+#: virtManager/vmmenu.py:300
+msgid "Error resetting domain"
+msgstr "Kļūda, atiestatot domēnu"
+
+#: virtManager/vmwindow.py:43
+#, python-format
+msgid "Error launching details: %s"
+msgstr "Kļūda, palaižot informāciju: %s"
+
+#: virtManager/vmwindow.py:217
+msgid "This will abort the installation. Are you sure?"
+msgstr "Tas pārtrauks instalēšanu. Vai tiešām to vēlaties?"
+
+#: virtManager/vmwindow.py:377
+#, python-format
+msgid "%(vm-name)s on %(connection-name)s"
+msgstr "%(vm-name)s savienojumā %(connection-name)s"
+
+#: virtManager/vmwindow.py:420
+msgid "Manage VM snapshots"
+msgstr "Pārvaldīt VM momentuzņēmumus"
+
+#: virtManager/vmwindow.py:497
+#, python-format
+msgid "Error taking screenshot: %s"
+msgstr "Kļūda, uzņemot ekrānuzņēmumu: %s"
+
+#: virtManager/vmwindow.py:505
+msgid "Error initializing spice USB device widget"
+msgstr "Kļūda, inicializējot spice USB ierīču logdaļu"
+
+#: virtManager/vmwindow.py:510
+msgid "Select USB devices for redirection"
+msgstr "Izvēlieties pāradresējamās USB ierīces"
+
+#: virtManager/vmwindow.py:545
+msgid "Save Virtual Machine Screenshot"
+msgstr "Saglabāt virtuālās mašīnas ekrānuzņēmumu"
+
+#: virtManager/vmwindow.py:546
+msgid "PNG files"
+msgstr "PNG faili"
+
+#: virtManager/vmwindow.py:548
+msgid "_Save"
+msgstr "_Saglabāt"
+
+#: virtManager/xmleditor.py:131 virtManager/xmleditor.py:144
+msgid "There are unapplied changes."
+msgstr "Ir nelietotas izmaiņas."
+
+#: virtManager/xmleditor.py:132
+msgid "Your changes will be lost if you leave this tab. Really leave this tab?"
+msgstr ""
+"Ja pametīsiet šo cilni, jūsu izmaiņas tiks zaudētas. Vai tiešām pamest šo "
+"cilni?"
+
+#: virtManager/xmleditor.py:145
+msgid ""
+"Your XML changes will be lost if you leave this tab. Really leave this tab?"
+msgstr ""
+"Ja pametīsiet šo cilni, jūsu XML izmaiņas tiks zaudētas. Vai tiešām pamest "
+"šo cilni?"
+
+#: virtinst/capabilities.py:300
+#, python-format
+msgid ""
+"Host does not support virtualization type '%(virttype)s' for architecture "
+"'%(arch)s'"
+msgstr ""
+"Resursdators neatbalsta virtualizācijas tipu '%(virttype)s' arhitektūrai '%"
+"(arch)s'"
+
+#: virtinst/capabilities.py:305
+#, python-format
+msgid ""
+"Host does not support any virtualization options for architecture '%(arch)s'"
+msgstr ""
+"Resursdators neatbalsta nevienu virtualizācijas opciju arhitektūrai '%(arch)"
+"s'"
+
+#: virtinst/capabilities.py:309
+#, python-format
+msgid "Host does not support virtualization type '%(virttype)s'"
+msgstr "Resursdators neatbalsta virtualizācijas tipu '%(virttype)s'"
+
+#: virtinst/capabilities.py:313
+msgid "Host does not support any virtualization options"
+msgstr "Resursdators neatbalsta nevienu virtualizācijas opciju"
+
+#: virtinst/capabilities.py:320
+#, python-format
+msgid ""
+"Host does not support domain type %(domain)s with machine '%(machine)s' for "
+"virtualization type '%(virttype)s' with architecture '%(arch)s'"
+msgstr ""
+"Resursdators neatbalsta domēna tipu %(domain)s ar mašīnu '%(machine)s' "
+"virtualizācijas tipam '%(virttype)s' ar arhitektūru '%(arch)s'"
+
+#: virtinst/capabilities.py:331
+#, python-format
+msgid ""
+"Host does not support domain type %(domain)s for virtualization type "
+"'%(virttype)s' with architecture '%(arch)s'"
+msgstr ""
+"Resursdators neatbalsta domēna tipu %(domain)s virtualizācijas tipam '%"
+"(virttype)s' ar arhitektūru '%(arch)s'"
+
+#: virtinst/cli.py:115
+msgid "See man page for examples and full option syntax."
+msgstr "Piemērus un pilnu opciju sintaksi skatiet rokasgrāmatas lapā."
+
+#: virtinst/cli.py:118
+msgid "Use '--option=?' or '--option help' to see available suboptions"
+msgstr ""
+"Lai redzētu pieejamās apakšopcijas, izmantojiet '--option=?' vai '--option "
+"help'"
+
+#: virtinst/cli.py:295
+#, python-format
+msgid ""
+"Domain installation does not appear to have been successful.\n"
+"If it was, you can restart your domain by running:\n"
+"  %s\n"
+"otherwise, please restart your installation."
+msgstr ""
+"Šķiet, ka domēna instalēšana nav bijusi veiksmīga.\n"
+"Ja tā bija, domēnu var restartēt, izpildot:\n"
+"  %s\n"
+"pretējā gadījumā, lūdzu, sāciet instalēšanu no jauna."
+
+#: virtinst/cli.py:316
+#, python-format
+msgid ""
+"%(path)s may not be accessible by the hypervisor. You will need to grant the "
+"'%(user)s' user search permissions for the following directories: %(dirs)s"
+msgstr ""
+"%(path)s hipervizoram var nebūt pieejams. Lietotājam '%(user)s' jāpiešķir "
+"meklēšanas atļaujas šīm direktorijām: %(dirs)s"
+
+#: virtinst/cli.py:329
+#, python-format
+msgid " (Use --check %s=off or --check all=off to override)"
+msgstr " (Lai to apietu, izmantojiet --check %s=off vai --check all=off)"
+
+#: virtinst/cli.py:360
+#, python-format
+msgid "This will overwrite the existing path '%s'"
+msgstr "Tas pārrakstīs esošo ceļu '%s'"
+
+#: virtinst/cli.py:370
+#, python-format
+msgid "Disk %(path)s is already in use by other guests %(names)s."
+msgstr "Disku %(path)s jau izmanto citi viesi %(names)s."
+
+#: virtinst/cli.py:414
+#, python-format
+msgid "Running graphical console command: %(command)s"
+msgstr "Izpilda grafiskās konsoles komandu: %(command)s"
+
+#: virtinst/cli.py:426
+#, python-format
+msgid "Running text console command: %(command)s"
+msgstr "Izpilda teksta konsoles komandu: %(command)s"
+
+#: virtinst/cli.py:470
+#, python-format
+msgid "Could not find domain '%(domain)s': %(error)s"
+msgstr "Nevarēja atrast domēnu '%(domain)s': %(error)s"
+
+#. translators: option1 and option2 are command line options,
+#. e.g. -a or --disk
+#: virtinst/cli.py:490
+#, python-format
+msgid "Cannot use %(option1)s and %(option2)s at the same time"
+msgstr "Nevar vienlaikus izmantot %(option1)s un %(option2)s"
+
+#: virtinst/cli.py:608 virtinst/cli.py:612
+msgid "Connect to hypervisor with libvirt URI"
+msgstr "Savienoties ar hipervizoru, izmantojot libvirt URI"
+
+#: virtinst/cli.py:635
+msgid ""
+"Configure guest console auto connect. Example:\n"
+"--autoconsole text\n"
+"--autoconsole graphical\n"
+"--autoconsole none"
+msgstr ""
+"Konfigurēt viesa konsoles automātisku savienošanu. Piem.:\n"
+"--autoconsole text\n"
+"--autoconsole graphical\n"
+"--autoconsole none"
+
+#: virtinst/cli.py:646
+msgid "Don't automatically try to connect to the guest console"
+msgstr "Automātiski nemēģināt savienoties ar viesa konsoli"
+
+#: virtinst/cli.py:651
+msgid "Don't boot guest after completing install."
+msgstr "Pēc instalēšanas pabeigšanas viesi nesāknēt."
+
+#: virtinst/cli.py:658
+msgid "Don't check name collision, overwrite any guest with the same name."
+msgstr ""
+"Nepārbaudīt nosaukumu sadursmi, pārrakstīt jebkuru viesi ar tādu pašu "
+"nosaukumu."
+
+#: virtinst/cli.py:665
+msgid "Print the generated domain XML rather than create the guest."
+msgstr "Izvadīt izveidoto domēna XML, nevis izveidot viesi."
+
+#: virtinst/cli.py:685
+msgid ""
+"Run through install process, but do not create devices or define the guest."
+msgstr ""
+"Iziet cauri instalēšanas procesam, bet neveidot ierīces un nedefinēt viesi."
+
+#: virtinst/cli.py:693
+msgid ""
+"Enable or disable validation checks. Example:\n"
+"--check path_in_use=off\n"
+"--check all=off"
+msgstr ""
+"Iespējot vai atspējot validācijas pārbaudes. Piem.:\n"
+"--check path_in_use=off\n"
+"--check all=off"
+
+#: virtinst/cli.py:698
+msgid "Suppress non-error output"
+msgstr "Nerādīt izvadi, kas nav kļūdas"
+
+#: virtinst/cli.py:699
+msgid "Print debugging information"
+msgstr "Izvadīt atkļūdošanas informāciju"
+
+#: virtinst/cli.py:708
+msgid ""
+"Configure guest metadata. Ex:\n"
+"--metadata name=foo,title=\"My pretty title\",uuid=...\n"
+"--metadata description=\"My nice long description\""
+msgstr ""
+"Konfigurēt viesa metadatus. Piem.:\n"
+"--metadata name=foo,title=\"My pretty title\",uuid=...\n"
+"--metadata description=\"My nice long description\""
+
+#: virtinst/cli.py:721
+msgid ""
+"Configure guest memory allocation. Ex:\n"
+"--memory 1024 (in MiB)\n"
+"--memory memory=1024,currentMemory=512\n"
+msgstr ""
+"Konfigurēt viesa atmiņas piešķiršanu. Piem.:\n"
+"--memory 1024 (MiB)\n"
+"--memory memory=1024,currentMemory=512\n"
+
+#: virtinst/cli.py:738
+msgid ""
+"Number of vCPUs to configure for your guest. Ex:\n"
+"--vcpus 5\n"
+"--vcpus 5,maxvcpus=10,cpuset=1-4,6,8\n"
+"--vcpus sockets=2,cores=4,threads=2"
+msgstr ""
+"Viesim konfigurējamo vCPU skaits. Piem.:\n"
+"--vcpus 5\n"
+"--vcpus 5,maxvcpus=10,cpuset=1-4,6,8\n"
+"--vcpus sockets=2,cores=4,threads=2"
+
+#: virtinst/cli.py:751
+msgid ""
+"CPU model and features. Ex:\n"
+"--cpu coreduo,+x2apic\n"
+"--cpu host-passthrough\n"
+msgstr ""
+"CPU modelis un funkcijas. Piem.:\n"
+"--cpu coreduo,+x2apic\n"
+"--cpu host-passthrough\n"
+
+#: virtinst/cli.py:766
+msgid ""
+"Configure guest display settings. Ex:\n"
+"--graphics spice\n"
+"--graphics vnc,port=5901,listen=0.0.0.0\n"
+"--graphics none\n"
+msgstr ""
+"Konfigurēt viesa displeja iestatījumus. Piem.:\n"
+"--graphics spice\n"
+"--graphics vnc,port=5901,listen=0.0.0.0\n"
+"--graphics none\n"
+
+#: virtinst/cli.py:781
+msgid ""
+"Configure a guest network interface. Ex:\n"
+"--network bridge=mybr0\n"
+"--network network=my_libvirt_virtual_net\n"
+"--network network=mynet,model=virtio,mac=00:11...\n"
+"--network none\n"
+"--network help"
+msgstr ""
+"Konfigurēt viesa tīkla saskarni. Piem.:\n"
+"--network bridge=mybr0\n"
+"--network network=my_libvirt_virtual_net\n"
+"--network network=mynet,model=virtio,mac=00:11...\n"
+"--network none\n"
+"--network help"
+
+#: virtinst/cli.py:797
+msgid ""
+"Configure a guest controller device. Ex:\n"
+"--controller type=usb,model=qemu-xhci\n"
+"--controller type=scsi,model=virtio-scsi\n"
+msgstr ""
+"Konfigurēt viesa kontroliera ierīci. Piem.:\n"
+"--controller type=usb,model=qemu-xhci\n"
+"--controller type=scsi,model=virtio-scsi\n"
+
+#: virtinst/cli.py:806
+msgid ""
+"Configure a guest input device. Ex:\n"
+"--input tablet\n"
+"--input keyboard,bus=usb"
+msgstr ""
+"Konfigurēt viesa ievades ierīci. Piem.:\n"
+"--input tablet\n"
+"--input keyboard,bus=usb"
+
+#: virtinst/cli.py:809
+msgid "Configure a guest serial device"
+msgstr "Konfigurēt viesa seriālo ierīci"
+
+#: virtinst/cli.py:811
+msgid "Configure a guest parallel device"
+msgstr "Konfigurēt viesa paralēlo ierīci"
+
+#: virtinst/cli.py:814
+msgid "Configure a guest communication channel"
+msgstr "Konfigurēt viesa saziņas kanālu"
+
+#: virtinst/cli.py:820
+msgid "Configure a text console connection between the guest and host"
+msgstr "Konfigurēt teksta konsoles savienojumu starp viesi un resursdatoru"
+
+#: virtinst/cli.py:826
+msgid "Configure physical USB/PCI/etc host devices to be shared with the guest"
+msgstr ""
+"Konfigurēt fiziskas USB/PCI/u. c. resursdatora ierīces koplietošanai ar viesi"
+
+#: virtinst/cli.py:836
+msgid ""
+"Pass host directory to the guest. Ex: \n"
+"--filesystem /my/source/dir,/dir/in/guest\n"
+"--filesystem template_name,/,type=template"
+msgstr ""
+"Nodot resursdatora direktoriju viesim. Piem.: \n"
+"--filesystem /my/source/dir,/dir/in/guest\n"
+"--filesystem template_name,/,type=template"
+
+#: virtinst/cli.py:846
+msgid "Configure guest sound device emulation"
+msgstr "Konfigurēt viesa skaņas ierīces emulāciju"
+
+#: virtinst/cli.py:856
+msgid "Configure host audio backend for sound devices"
+msgstr "Konfigurēt resursdatora audio aizmugursistēmu skaņas ierīcēm"
+
+#: virtinst/cli.py:860
+msgid "Configure a guest watchdog device"
+msgstr "Konfigurēt viesa sargsuņa ierīci"
+
+#: virtinst/cli.py:862
+msgid "Configure guest video hardware."
+msgstr "Konfigurēt viesa video aparatūru."
+
+#: virtinst/cli.py:867
+msgid ""
+"Configure a guest smartcard device. Ex:\n"
+"--smartcard mode=passthrough"
+msgstr ""
+"Konfigurēt viesa viedkartes ierīci. Piem.:\n"
+"--smartcard mode=passthrough"
+
+#: virtinst/cli.py:874
+msgid ""
+"Configure a guest redirection device. Ex:\n"
+"--redirdev usb,type=tcp,server=192.168.1.1:4000"
+msgstr ""
+"Konfigurēt viesa pāradresācijas ierīci. Piem.:\n"
+"--redirdev usb,type=tcp,server=192.168.1.1:4000"
+
+#: virtinst/cli.py:882
+msgid ""
+"Configure a guest memballoon device. Ex:\n"
+"--memballoon model=virtio"
+msgstr ""
+"Konfigurēt viesa memballoon ierīci. Piem.:\n"
+"--memballoon model=virtio"
+
+#: virtinst/cli.py:886
+msgid ""
+"Configure a guest TPM device. Ex:\n"
+"--tpm /dev/tpm"
+msgstr ""
+"Konfigurēt viesa TPM ierīci. Piem.:\n"
+"--tpm /dev/tpm"
+
+#: virtinst/cli.py:890
+msgid ""
+"Configure a guest RNG device. Ex:\n"
+"--rng /dev/urandom"
+msgstr ""
+"Konfigurēt viesa RNG ierīci. Piem.:\n"
+"--rng /dev/urandom"
+
+#: virtinst/cli.py:896
+msgid ""
+"Configure a guest panic device. Ex:\n"
+"--panic default"
+msgstr ""
+"Konfigurēt viesa panikas ierīci. Piem.:\n"
+"--panic default"
+
+#: virtinst/cli.py:902
+msgid ""
+"Configure a guest shared memory device. Ex:\n"
+"--shmem name=shmem0"
+msgstr ""
+"Konfigurēt viesa koplietojamās atmiņas ierīci. Piem.:\n"
+"--shmem name=shmem0"
+
+#: virtinst/cli.py:908
+msgid ""
+"Configure a guest memory device. Ex:\n"
+"--memdev dimm,target.size=1024"
+msgstr ""
+"Konfigurēt viesa atmiņas ierīci. Piem.:\n"
+"--memdev dimm,target.size=1024"
+
+#: virtinst/cli.py:914
+msgid ""
+"Configure guest vsock sockets. Ex:\n"
+"--vsock cid.auto=yes\n"
+"--vsock cid.address=7"
+msgstr ""
+"Konfigurēt viesa vsock ligzdas. Piem.:\n"
+"--vsock cid.auto=yes\n"
+"--vsock cid.address=7"
+
+#: virtinst/cli.py:920
+msgid ""
+"Configure an IOMMU device. Ex:\n"
+"--iommu model=intel,driver.aw_bits=48"
+msgstr ""
+"Konfigurēt IOMMU ierīci. Piem.:\n"
+"--iommu model=intel,driver.aw_bits=48"
+
+#: virtinst/cli.py:927
+msgid ""
+"Configure a nvram storage device.\n"
+"It's for guest kernel to record oops/panic logs. Ex:\n"
+"--pstore backend=acpi-erst,size=8"
+msgstr ""
+"Konfigurēt nvram krātuves ierīci.\n"
+"Tā paredzēta viesa kodolam oops/panikas žurnālu ierakstīšanai. Piem.:\n"
+"--pstore backend=acpi-erst,size=8"
+
+#: virtinst/cli.py:939
+msgid "Set domain <iothreads> and <iothreadids> configuration."
+msgstr "Iestatīt domēna <iothreads> un <iothreadids> konfigurāciju."
+
+#: virtinst/cli.py:944
+msgid "Set domain seclabel configuration."
+msgstr "Iestatīt domēna seclabel konfigurāciju."
+
+#: virtinst/cli.py:951
+msgid "Set guest to perform the S390 cryptographic key management operations."
+msgstr ""
+"Iestatīt viesi S390 kriptogrāfisko atslēgu pārvaldības darbību veikšanai."
+
+#: virtinst/cli.py:956
+msgid "Tune CPU parameters for the domain process."
+msgstr "Noskaņot domēna procesa CPU parametrus."
+
+#: virtinst/cli.py:961
+msgid "Tune NUMA policy for the domain process."
+msgstr "Noskaņot domēna procesa NUMA politiku."
+
+#: virtinst/cli.py:966
+msgid "Tune memory policy for the domain process."
+msgstr "Noskaņot domēna procesa atmiņas politiku."
+
+#: virtinst/cli.py:971
+msgid "Tune blkio policy for the domain process."
+msgstr "Noskaņot domēna procesa blkio politiku."
+
+#: virtinst/cli.py:979
+msgid ""
+"Set memory backing policy for the domain process. Ex:\n"
+"--memorybacking hugepages=on"
+msgstr ""
+"Iestatīt domēna procesa atmiņas nodrošinājuma politiku. Piem.:\n"
+"--memorybacking hugepages=on"
+
+#: virtinst/cli.py:988
+msgid ""
+"Set domain <features> XML. Ex:\n"
+"--features acpi=off\n"
+"--features apic=on,apic.eoi=on"
+msgstr ""
+"Iestatīt domēna <features> XML. Piem.:\n"
+"--features acpi=off\n"
+"--features apic=on,apic.eoi=on"
+
+#: virtinst/cli.py:998
+msgid ""
+"Set domain <clock> XML. Ex:\n"
+"--clock offset=localtime,rtc_tickpolicy=catchup"
+msgstr ""
+"Iestatīt domēna <clock> XML. Piem.:\n"
+"--clock offset=localtime,rtc_tickpolicy=catchup"
+
+#: virtinst/cli.py:1002
+msgid "Configure VM power management features"
+msgstr "Konfigurēt VM barošanas pārvaldības funkcijas"
+
+#: virtinst/cli.py:1006
+msgid "Configure VM lifecycle management policy"
+msgstr "Konfigurēt VM dzīves cikla pārvaldības politiku"
+
+#: virtinst/cli.py:1011
+msgid "Configure VM resource partitioning (cgroups)"
+msgstr "Konfigurēt VM resursu sadalīšanu (cgroups)"
+
+#: virtinst/cli.py:1019
+msgid ""
+"Configure SMBIOS System Information. Ex:\n"
+"--sysinfo host\n"
+"--sysinfo bios.vendor=MyVendor,bios.version=1.2.3,...\n"
+msgstr ""
+"Konfigurēt SMBIOS sistēmas informāciju. Piem.:\n"
+"--sysinfo host\n"
+"--sysinfo bios.vendor=MyVendor,bios.version=1.2.3,...\n"
+
+#: virtinst/cli.py:1030
+msgid ""
+"Pass arguments directly to the QEMU emulator. Ex:\n"
+"--qemu-commandline='-display gtk,gl=on'\n"
+"--qemu-commandline env=DISPLAY=:0.1"
+msgstr ""
+"Nodot argumentus tieši QEMU emulatoram. Piem.:\n"
+"--qemu-commandline='-display gtk,gl=on'\n"
+"--qemu-commandline env=DISPLAY=:0.1"
+
+#: virtinst/cli.py:1042
+msgid ""
+"Configure VM launch security (e.g. SEV memory encryption). Ex:\n"
+"--launchSecurity sev"
+msgstr ""
+"Konfigurēt VM palaišanas drošību (piem., SEV atmiņas šifrēšanu). Piem.:\n"
+"--launchSecurity sev"
+
+#: virtinst/cli.py:1054
+msgid ""
+"Configure guest boot settings. Ex:\n"
+"--boot hd,cdrom,menu=on\n"
+"--boot init=/sbin/init (for containers)"
+msgstr ""
+"Konfigurēt viesa sāknēšanas iestatījumus. Piem.:\n"
+"--boot hd,cdrom,menu=on\n"
+"--boot init=/sbin/init (konteineriem)"
+
+#: virtinst/cli.py:1065
+msgid ""
+"Enable user namespace for LXC container. Ex:\n"
+"--idmap uid.start=0,uid.target=1000,uid.count=10"
+msgstr ""
+"Iespējot LXC konteinerim lietotāju nosaukumvietu. Piem.:\n"
+"--idmap uid.start=0,uid.target=1000,uid.count=10"
+
+#: virtinst/cli.py:1080
+msgid ""
+"Specify storage with various options. Ex.\n"
+"--disk size=10 (new 10GiB image in default location)\n"
+"--disk /my/existing/disk,cache=none\n"
+"--disk device=cdrom,bus=scsi\n"
+"--disk=?"
+msgstr ""
+"Norādīt krātuvi ar dažādām opcijām. Piem.\n"
+"--disk size=10 (jauns 10 GiB tēls noklusējuma vietā)\n"
+"--disk /my/existing/disk,cache=none\n"
+"--disk device=cdrom,bus=scsi\n"
+"--disk=?"
+
+#: virtinst/cli.py:1091
+msgid "OS options"
+msgstr "OS opcijas"
+
+#: virtinst/cli.py:1094
+msgid "The OS being installed in the guest."
+msgstr "Viesī instalējamā OS."
+
+#: virtinst/cli.py:1096
+msgid "The OS installed in the guest."
+msgstr "Viesī instalētā OS."
+
+#: virtinst/cli.py:1099
+msgid ""
+"This is used for deciding optimal defaults like VirtIO.\n"
+"Example values: fedora29, rhel7.0, win10, ...\n"
+"Use '--osinfo list' to see a full list."
+msgstr ""
+"To izmanto optimālu noklusējumu, piemēram, VirtIO, noteikšanai.\n"
+"Vērtību piemēri: fedora29, rhel7.0, win10, ...\n"
+"Pilnu sarakstu skatiet ar '--osinfo list'."
+
+#: virtinst/cli.py:1115
+msgid ""
+"Perform raw XML XPath options on the final XML. Example:\n"
+"--xml ./cpu/@mode=host-passthrough\n"
+"--xml ./devices/disk[2]/serial=new-serial\n"
+"--xml xpath.delete=./clock"
+msgstr ""
+"Izpildīt neapstrādātas XML XPath opcijas gala XML. Piemērs:\n"
+"--xml ./cpu/@mode=host-passthrough\n"
+"--xml ./devices/disk[2]/serial=new-serial\n"
+"--xml xpath.delete=./clock"
+
+#: virtinst/cli.py:1148
+#, python-format
+msgid "%(key)s must be 'yes' or 'no'"
+msgstr "%(key)s jābūt 'yes' vai 'no'"
+
+#: virtinst/cli.py:1343
+#, python-format
+msgid ""
+"Don't know how to match device type '%(device_type)s' property "
+"'%(property_name)s'"
+msgstr ""
+"Nav zināms, kā saskaņot ierīces tipa '%(device_type)s' īpašību '%"
+"(property_name)s'"
+
+#: virtinst/cli.py:1673
+#, python-format
+msgid "Unknown %(optionflag)s options: %(string)s"
+msgstr "Nezināmas %(optionflag)s opcijas: %(string)s"
+
+#: virtinst/cli.py:1729 virtinst/cli.py:1760
+#, python-format
+msgid "Error: %(cli_flag_name)s %(options)s: %(err)s"
+msgstr "Kļūda: %(cli_flag_name)s %(options)s: %(err)s"
+
+#: virtinst/cli.py:2193
+msgid "No display detected. Not running virt-viewer."
+msgstr "Displejs nav noteikts. virt-viewer netiek palaists."
+
+#: virtinst/cli.py:2199
+msgid ""
+"Unable to connect to graphical console: virt-viewer not installed. Please "
+"install the 'virt-viewer' package."
+msgstr ""
+"Neizdodas savienoties ar grafisko konsoli: virt-viewer nav instalēts. Lūdzu, "
+"instalējiet pakotni 'virt-viewer'."
+
+#: virtinst/cli.py:2213
+#, python-format
+msgid "Unknown autoconsole type '%s'"
+msgstr "Nezināms autoconsole tips '%s'"
+
+#: virtinst/cli.py:2615
+msgid "CPU model=host is deprecated, use model=host-model"
+msgstr "CPU model=host ir novecojis, izmantojiet model=host-model"
+
+#: virtinst/cli.py:3914
+#, python-format
+msgid "Improper value for 'size': %s"
+msgstr "Nepareiza 'size' vērtība: %s"
+
+#: virtinst/cli.py:3928
+#, python-format
+msgid "Unknown '%(optionname)s' value '%(string)s'"
+msgstr "Nezināma '%(optionname)s' vērtība '%(string)s'"
+
+#: virtinst/cli.py:3944
+msgid "Storage volume must be specified as vol=poolname/volname"
+msgstr "Krātuves sējums jānorāda formā vol=pūla_nosaukums/sējuma_nosaukums"
+
+#: virtinst/cli.py:4470
+#, python-format
+msgid "Expected PCI format string for '%s'"
+msgstr "'%s' tika gaidīta PCI formāta virkne"
+
+#: virtinst/cli.py:5229
+#, python-format
+msgid "%s corresponds to multiple node devices"
+msgstr "%s atbilst vairākām mezglu ierīcēm"
+
+#: virtinst/cli.py:5231
+#, python-format
+msgid "Did not find a matching node device for '%s'"
+msgstr "Netika atrasta atbilstoša mezgla ierīce '%s'"
+
+#: virtinst/cli.py:5378
+msgid ""
+"You can see additional information with:\n"
+"\n"
+"  osinfo-query os\n"
+msgstr ""
+"Papildu informāciju var redzēt ar:\n"
+"\n"
+"  osinfo-query os\n"
+
+#: virtinst/cloner.py:46
+#, python-format
+msgid "Could not remove old vm '%(vm)s': %(error)s"
+msgstr "Nevarēja noņemt veco VM '%(vm)s': %(error)s"
+
+#: virtinst/cloner.py:111
+#, python-format
+msgid "Domain '%s' was not found."
+msgstr "Domēns '%s' netika atrasts."
+
+#: virtinst/cloner.py:161
+#, python-format
+msgid "Clone onto existing storage volume is not currently supported: '%s'"
+msgstr "Klonēšana uz esošu krātuves sējumu pašlaik netiek atbalstīta: '%s'"
+
+#: virtinst/cloner.py:182
+#, python-format
+msgid "Disk path '%s' does not exist."
+msgstr "Diska ceļš '%s' neeksistē."
+
+#: virtinst/cloner.py:191
+msgid "Cloning rbd volumes is not yet supported."
+msgstr "rbd sējumu klonēšana vēl netiek atbalstīta."
+
+#: virtinst/cloner.py:194
+#, python-format
+msgid "Disk network type '%s' is not cloneable."
+msgstr "Diska tīkla tips '%s' nav klonējams."
+
+#: virtinst/cloner.py:201
+msgid "Read Only"
+msgstr "Tikai lasāms"
+
+#: virtinst/cloner.py:203
+msgid "Marked as shareable"
+msgstr "Atzīmēts kā koplietojams"
+
+#: virtinst/cloner.py:277
+#, python-format
+msgid "Could not use path '%(path)s' for cloning: %(error)s"
+msgstr "Nevarēja izmantot ceļu '%(path)s' klonēšanai: %(error)s"
+
+#: virtinst/cloner.py:297
+#, python-format
+msgid "Could not determine original disk information: %s"
+msgstr "Nevarēja noteikt sākotnējā diska informāciju: %s"
+
+#: virtinst/cloner.py:350
+msgid "Domain to clone must be shutoff."
+msgstr "Klonējamajam domēnam jābūt izslēgtam."
+
+#: virtinst/cloner.py:385
+msgid ""
+"Setting the graphics device port to autoport, in order to avoid conflicting."
+msgstr ""
+"Grafikas ierīces ports tiek iestatīts uz autoport, lai izvairītos no "
+"konflikta."
+
+#: virtinst/cloner.py:545
+#, python-format
+msgid "Invalid name for new guest: %s"
+msgstr "Nederīgs jaunā viesa nosaukums: %s"
+
+#: virtinst/devices/disk.py:394
+#, python-format
+msgid "Size must be specified for non existent volume '%s'"
+msgstr "Neeksistējošam sējumam '%s' jānorāda izmērs"
+
+#: virtinst/devices/disk.py:400
+#, python-format
+msgid ""
+"Don't know how to create storage for path '%s'. Use libvirt APIs to manage "
+"the parent directory as a pool first."
+msgstr ""
+"Nav zināms, kā izveidot krātuvi ceļam '%s'. Vispirms ar libvirt API "
+"pārvaldiet vecākdirektoriju kā pūlu."
+
+#: virtinst/devices/disk.py:425
+msgid "Format attribute not supported for this volume type"
+msgstr "Formāta atribūts šim sējuma tipam netiek atbalstīts"
+
+#: virtinst/devices/disk.py:861
+#, python-format
+msgid "Device type '%s' requires a path"
+msgstr "Ierīces tipam '%s' nepieciešams ceļš"
+
+#: virtinst/devices/disk.py:867
+#, python-format
+msgid "Must specify storage creation parameters for non-existent path '%s'."
+msgstr "Neeksistējošam ceļam '%s' jānorāda krātuves izveides parametri."
+
+#: virtinst/devices/disk.py:982
+#, python-format
+msgid "Only %(number)s disk for bus '%(bus)s' are supported"
+msgid_plural "Only %(number)s disks for bus '%(bus)s' are supported"
+msgstr[0] "Kopnei '%(bus)s' tiek atbalstīti tikai %(number)s disku"
+msgstr[1] "Kopnei '%(bus)s' tiek atbalstīts tikai %(number)s disks"
+msgstr[2] "Kopnei '%(bus)s' tiek atbalstīti tikai %(number)s diski"
+
+#: virtinst/devices/filesystem.py:127
+#, python-format
+msgid "Filesystem target '%s' must be an absolute path"
+msgstr "Failu sistēmas mērķim '%s' jābūt absolūtam ceļam"
+
+#: virtinst/devices/graphics.py:20
+#, python-format
+msgid "%s must be above 5900, or -1 for auto allocation"
+msgstr "%s jābūt virs 5900 vai -1 automātiskai piešķiršanai"
+
+#: virtinst/devices/hostdev.py:87
+#, python-format
+msgid "Don't know how to generate nodedev for mdev type id '%s'"
+msgstr "Nav zināms, kā izveidot nodedev mdev tipa ID '%s'"
+
+#: virtinst/devices/hostdev.py:93 virtinst/devices/interface.py:357
+#, python-format
+msgid "Unsupported node device type '%s'"
+msgstr "Neatbalstīts mezgla ierīces tips '%s'"
+
+#: virtinst/devices/interface.py:218
+#, python-format
+msgid "The MAC address '%s' is in use by another virtual machine."
+msgstr "MAC adresi '%s' izmanto cita virtuālā mašīna."
+
+#: virtinst/diskbackend.py:108
+#, python-format
+msgid "Cannot use storage %(path)s: %(err)s"
+msgstr "Nevar izmantot krātuvi %(path)s: %(err)s"
+
+#: virtinst/diskbackend.py:284
+#, python-format
+msgid "Permissions on '%s' did not stick"
+msgstr "Atļaujas '%s' nesaglabājās"
+
+#: virtinst/diskbackend.py:558
+msgid ""
+"The filesystem will not have enough free space to fully allocate the sparse "
+"file when the guest is running."
+msgstr ""
+"Failu sistēmā nebūs pietiekami daudz brīvas vietas, lai pilnībā piešķirtu "
+"retināto failu, kad viesis darbojas."
+
+#: virtinst/diskbackend.py:564
+msgid "There is not enough free space to create the disk."
+msgstr "Nepietiek brīvas vietas diska izveidei."
+
+#: virtinst/diskbackend.py:568
+#, python-format
+msgid "%(mem1)s M requested > %(mem2)s M available"
+msgstr "Pieprasīti %(mem1)s M > pieejami %(mem2)s M"
+
+#: virtinst/diskbackend.py:576
+#, python-format
+msgid "size is required for non-existent disk '%s'"
+msgstr "neeksistējošam diskam '%s' nepieciešams izmērs"
+
+#: virtinst/diskbackend.py:585
+#, python-format
+msgid "Cloning %(srcfile)s"
+msgstr "Klonē %(srcfile)s"
+
+#: virtinst/diskbackend.py:656
+#, python-format
+msgid "Error cloning diskimage %(inputpath)s to %(outputpath)s: %(error)s"
+msgstr "Kļūda, klonējot diska tēlu %(inputpath)s uz %(outputpath)s: %(error)s"
+
+#: virtinst/domain/cpu.py:60
+#, python-format
+msgid ""
+"Total CPUs implied by topology (sockets=%(sockets)d * dies=%(dies)d * "
+"cores=%(cores)d * threads=%(threads)d == %(total)d) does not match vCPU "
+"count %(vcpus)d"
+msgstr ""
+"Topoloģijas noteiktais kopējais CPU skaits (sockets=%(sockets)d * dies=%"
+"(dies)d * cores=%(cores)d * threads=%(threads)d == %(total)d) neatbilst vCPU "
+"skaitam %(vcpus)d"
+
+#: virtinst/domain/launch_security.py:33
+msgid "SEV launch security requires a Q35 UEFI machine"
+msgstr "SEV palaišanas drošībai nepieciešama Q35 UEFI mašīna"
+
+#: virtinst/domain/launch_security.py:47
+msgid "SEV-SNP launch security requires a Q35 UEFI machine"
+msgstr "SEV-SNP palaišanas drošībai nepieciešama Q35 UEFI mašīna"
+
+#: virtinst/domain/launch_security.py:51
+msgid "TDX launch security requires a Q35 UEFI machine"
+msgstr "TDX palaišanas drošībai nepieciešama Q35 UEFI mašīna"
+
+#: virtinst/domcapabilities.py:217
+#, python-format
+msgid "Failed to get expanded CPU XML: %s"
+msgstr "Neizdevās iegūt izvērsto CPU XML: %s"
+
+#: virtinst/domcapabilities.py:346
+msgid "BIOS"
+msgstr "BIOS"
+
+#: virtinst/domcapabilities.py:347
+msgid "Default"
+msgstr "Noklusējums"
+
+#: virtinst/domcapabilities.py:352
+#, python-format
+msgid "UEFI %(arch)s: %(path)s"
+msgstr "UEFI %(arch)s: %(path)s"
+
+#: virtinst/domcapabilities.py:354
+#, python-format
+msgid "Custom: %(path)s"
+msgstr "Pielāgots: %(path)s"
+
+#: virtinst/guest.py:114
+msgid "Guest"
+msgstr "Viesis"
+
+#: virtinst/guest.py:122
+#, python-format
+msgid "Guest name '%s' is already in use."
+msgstr "Viesa nosaukums '%s' jau tiek izmantots."
+
+#: virtinst/guest.py:1088
+msgid "Libvirt version does not support UEFI."
+msgstr "Libvirt versija neatbalsta UEFI."
+
+#: virtinst/guest.py:1092
+#, python-format
+msgid "Don't know how to setup UEFI for arch '%s'"
+msgstr "Nav zināms, kā iestatīt UEFI arhitektūrai '%s'"
+
+#: virtinst/guest.py:1097
+#, python-format
+msgid "Did not find any UEFI binary path for arch '%s'"
+msgstr "Netika atrasts neviens UEFI binārā faila ceļš arhitektūrai '%s'"
+
+#: virtinst/install/installer.py:120
+#, python-format
+msgid "Removing disk '%s'"
+msgstr "Noņem disku '%s'"
+
+#: virtinst/install/installer.py:286
+#, python-format
+msgid ""
+"Overriding memory to %(number)s MiB needed for %(osname)s network install."
+msgstr ""
+"Atmiņa tiek pārdefinēta uz %(number)s MiB, kas nepieciešami %(osname)s tīkla "
+"instalēšanai."
+
+#: virtinst/install/installer.py:652
+msgid "Creating domain..."
+msgstr "Izveido domēnu..."
+
+#: virtinst/install/installer.py:659
+msgid "Domain type 'vz' doesn't support transient installs."
+msgstr "Domēna tips 'vz' neatbalsta pārejošu instalēšanu."
+
+#: virtinst/install/installertreemedia.py:66
+#, python-format
+msgid "Validating install media '%(media)s' failed: %(error)s"
+msgstr "Instalēšanas datu nesēja '%(media)s' validācija neizdevās: %(error)s"
+
+#: virtinst/install/installertreemedia.py:125
+msgid "location kernel/initrd may only be specified with a location URL/path"
+msgstr "location kernel/initrd var norādīt tikai ar atrašanās vietas URL/ceļu"
+
+#: virtinst/install/installertreemedia.py:128
+msgid "location kernel/initrd must be specified as a pair"
+msgstr "location kernel/initrd jānorāda pārī"
+
+#: virtinst/install/installertreemedia.py:155
+#, python-format
+msgid "Cannot access install tree on remote connection: %s"
+msgstr "Attālā savienojumā nevar piekļūt instalēšanas kokam: %s"
+
+#: virtinst/install/installertreemedia.py:213
+msgid "Couldn't find kernel for install tree."
+msgstr "Neizdevās atrast instalēšanas koka kodolu."
+
+#: virtinst/install/installertreemedia.py:270
+msgid ""
+"Directory tree installs typically do not work unless extra kernel args are "
+"passed to point the installer at a network accessible install tree."
+msgstr ""
+"Instalēšana no direktoriju koka parasti nedarbojas, ja netiek nodoti papildu "
+"kodola argumenti, kas norāda instalētājam uz tīklā pieejamu instalēšanas "
+"koku."
+
+#: virtinst/install/unattended.py:64
+#, python-format
+msgid "%(osname)s cannot use '%(loginname)s' as user-login."
+msgstr "%(osname)s nevar izmantot '%(loginname)s' kā user-login."
+
+#: virtinst/install/unattended.py:74
+#, python-format
+msgid "%s requires the user-password to be set."
+msgstr "%s nepieciešams iestatīt user-password."
+
+#: virtinst/install/unattended.py:80
+#, python-format
+msgid "%s requires the admin-password to be set."
+msgstr "%s nepieciešams iestatīt admin-password."
+
+#: virtinst/install/unattended.py:176
+msgid "libosinfo or osinfo-db is too old to support unattended installs."
+msgstr ""
+"libosinfo vai osinfo-db ir pārāk vecs, lai atbalstītu neuzraudzītu "
+"instalēšanu."
+
+#: virtinst/install/unattended.py:194
+#, python-format
+msgid ""
+"OS '%(osname)s' does not support required injection method '%(methodname)s'"
+msgstr ""
+"OS '%(osname)s' neatbalsta nepieciešamo ievadīšanas metodi '%(methodname)s'"
+
+#: virtinst/install/unattended.py:323
+#, python-format
+msgid "OS '%s' media does not support unattended installation"
+msgstr "OS '%s' datu nesējs neatbalsta neuzraudzītu instalēšanu"
+
+#: virtinst/install/unattended.py:333
+#, python-format
+msgid "OS '%s' does not support unattended installation."
+msgstr "OS '%s' neatbalsta neuzraudzītu instalēšanu."
+
+#: virtinst/install/unattended.py:342
+#, python-format
+msgid ""
+"OS '%(osname)s' does not support unattended installation for the "
+"'%(profilename)s' profile. Available profiles: %(profiles)s"
+msgstr ""
+"OS '%(osname)s' neatbalsta neuzraudzītu instalēšanu profilam '%(profilename)"
+"s'. Pieejamie profili: %(profiles)s"
+
+#: virtinst/install/unattended.py:354
+#, python-format
+msgid "Using unattended profile '%s'"
+msgstr "Izmanto neuzraudzītas instalēšanas profilu '%s'"
+
+#: virtinst/install/urldetect.py:315
+msgid "The URL could not be accessed, maybe you mistyped?"
+msgstr "URL nevarēja piekļūt; iespējams, tas ievadīts nepareizi?"
+
+#: virtinst/install/urldetect.py:317
+#, python-format
+msgid "Could not find an installable distribution at URL '%s'"
+msgstr "URL '%s' nevarēja atrast instalējamu distributīvu"
+
+#: virtinst/install/urldetect.py:321
+msgid ""
+"The location must be the root directory of an install tree.\n"
+"See virt-install man page for various distro examples."
+msgstr ""
+"Atrašanās vietai jābūt instalēšanas koka saknes direktorijai.\n"
+"Dažādu distributīvu piemērus skatiet virt-install rokasgrāmatas lapā."
+
+#: virtinst/install/urlfetcher.py:101
+#, python-format
+msgid "Couldn't acquire file %(url)s: %(error)s"
+msgstr "Nevarēja iegūt failu %(url)s: %(error)s"
+
+#: virtinst/install/urlfetcher.py:105
+#, python-format
+msgid "Retrieving '%(filename)s'"
+msgstr "Iegūst '%(filename)s'"
+
+#: virtinst/install/urlfetcher.py:278
+#, python-format
+msgid "Opening URL %(url)s failed: %(error)s"
+msgstr "URL %(url)s atvēršana neizdevās: %(error)s"
+
+#: virtinst/install/volumeupload.py:107
+#, python-format
+msgid "Transferring '%(filename)s'"
+msgstr "Pārsūta '%(filename)s'"
+
+#: virtinst/osdict.py:72
+msgid "Generic or unknown OS. Usage is not recommended."
+msgstr "Vispārīga vai nezināma OS. Lietošana nav ieteicama."
+
+#: virtinst/osdict.py:97
+#, python-format
+msgid "Unknown libosinfo ID '%s'"
+msgstr "Nezināms libosinfo ID '%s'"
+
+#: virtinst/osdict.py:111
+#, python-format
+msgid "Unknown OS name '%s'. See `--osinfo list` for valid values."
+msgstr ""
+"Nezināms OS nosaukums '%s'. Derīgās vērtības skatiet ar `--osinfo list`."
+
+#: virtinst/osdict.py:535
+#, python-format
+msgid "OS '%s' does not have a URL location"
+msgstr "OS '%s' nav URL atrašanās vietas"
+
+#: virtinst/osdict.py:547
+#, python-format
+msgid ""
+"OS '%(osname)s' does not have a URL location for the architecture "
+"'%(archname)s'"
+msgstr "OS '%(osname)s' nav URL atrašanās vietas arhitektūrai '%(archname)s'"
+
+#: virtinst/storage.py:162
+#, python-format
+msgid "Couldn't create default storage pool '%(path)s': %(error)s"
+msgstr "Nevarēja izveidot noklusējuma krātuves pūlu '%(path)s': %(error)s"
+
+#: virtinst/storage.py:218 virtinst/storage.py:563
+msgid "Storage object"
+msgstr "Krātuves objekts"
+
+#: virtinst/storage.py:224
+#, python-format
+msgid "Name '%s' already in use by another pool."
+msgstr "Nosaukumu '%s' jau izmanto cits pūls."
+
+#: virtinst/storage.py:401
+#, python-format
+msgid "Could not define storage pool: %s"
+msgstr "Nevarēja definēt krātuves pūlu: %s"
+
+#: virtinst/storage.py:409
+#, python-format
+msgid "Could not build storage pool: %s"
+msgstr "Nevarēja izveidot krātuves pūlu: %s"
+
+#: virtinst/storage.py:415
+#, python-format
+msgid "Could not start storage pool: %s"
+msgstr "Nevarēja palaist krātuves pūlu: %s"
+
+#: virtinst/storage.py:421
+#, python-format
+msgid "Could not set pool autostart flag: %s"
+msgstr "Nevarēja iestatīt pūla automātiskās palaišanas karogu: %s"
+
+#: virtinst/storage.py:570
+#, python-format
+msgid "Name '%s' already in use by another volume."
+msgstr "Nosaukumu '%s' jau izmanto cits sējums."
+
+#: virtinst/storage.py:662
+msgid ""
+"Sparse logical volumes are not supported, setting allocation equal to "
+"capacity"
+msgstr ""
+"Retināti loģiskie sējumi netiek atbalstīti, piešķīrums tiek iestatīts "
+"vienāds ar ietilpību"
+
+#: virtinst/storage.py:714
+#, python-format
+msgid "Allocating '%(filename)s'"
+msgstr "Piešķir '%(filename)s'"
+
+#: virtinst/storage.py:755
+#, python-format
+msgid ""
+"There is not enough free space on the storage pool to create the volume. "
+"(%(mem1)s M requested allocation > %(mem2)s M available)"
+msgstr ""
+"Krātuves pūlā nepietiek brīvas vietas sējuma izveidei. (Pieprasītais "
+"piešķīrums %(mem1)s M > pieejami %(mem2)s M)"
+
+#: virtinst/storage.py:762
+#, python-format
+msgid ""
+"The requested volume capacity will exceed the available pool space when the "
+"volume is fully allocated. (%(mem1)s M requested capacity > %(mem2)s M "
+"available)"
+msgstr ""
+"Pieprasītā sējuma ietilpība pārsniegs pieejamo pūla vietu, kad sējums būs "
+"pilnībā piešķirts. (Pieprasītā ietilpība %(mem1)s M > pieejami %(mem2)s M)"
+
+#: virtinst/virtclone.py:20
+msgid ""
+"An original machine name is required, use '--original src_name' and try "
+"again."
+msgstr ""
+"Nepieciešams sākotnējās mašīnas nosaukums; izmantojiet '--original src_name' "
+"un mēģiniet vēlreiz."
+
+#: virtinst/virtclone.py:66
+msgid ""
+"Duplicate a virtual machine, changing all the unique host side configuration "
+"like MAC address, name, etc. \n"
+"\n"
+"The VM contents are NOT altered: virt-clone does not change anything "
+"_inside_ the guest OS, it only duplicates disks and does host side changes. "
+"So things like changing passwords, changing static IP address, etc are "
+"outside the scope of this tool. For these types of changes, please see virt-"
+"sysprep(1)."
+msgstr ""
+"Dublēt virtuālo mašīnu, mainot visu unikālo resursdatora puses "
+"konfigurāciju, piemēram, MAC adresi, nosaukumu u. c. \n"
+"\n"
+"VM saturs NETIEK mainīts: virt-clone neko nemaina viesa OS _iekšienē_, tas "
+"tikai dublē diskus un veic izmaiņas resursdatora pusē. Tāpēc tādas darbības "
+"kā paroļu vai statisko IP adrešu maiņa ir ārpus šī rīka darbības jomas. Šāda "
+"veida izmaiņām, lūdzu, skatiet virt-sysprep(1)."
+
+#: virtinst/virtclone.py:77 virtinst/virtinstall.py:1056
+msgid "General Options"
+msgstr "Vispārīgās opcijas"
+
+#: virtinst/virtclone.py:79
+msgid "Name of the original guest to clone."
+msgstr "Klonējamā sākotnējā viesa nosaukums."
+
+#: virtinst/virtclone.py:81
+msgid "XML file to use as the original guest."
+msgstr "XML fails, ko izmantot kā sākotnējo viesi."
+
+#: virtinst/virtclone.py:85
+msgid ""
+"Auto generate clone name and storage paths from the original guest "
+"configuration."
+msgstr ""
+"Automātiski izveidot klona nosaukumu un krātuves ceļus no sākotnējā viesa "
+"konfigurācijas."
+
+#: virtinst/virtclone.py:87
+msgid "Name for the new guest"
+msgstr "Jaunā viesa nosaukums"
+
+#: virtinst/virtclone.py:89
+msgid "use btrfs COW lightweight copy"
+msgstr "izmantot btrfs COW vieglo kopiju"
+
+#: virtinst/virtclone.py:91
+msgid "Storage Configuration"
+msgstr "Krātuves konfigurācija"
+
+#: virtinst/virtclone.py:97
+msgid "New file to use as the disk image for the new guest"
+msgstr "Jauns fails, ko izmantot kā jaunā viesa diska tēlu"
+
+#: virtinst/virtclone.py:103
+msgid ""
+"Force to copy devices (eg, if 'hdc' is a readonly cdrom device, --force-"
+"copy=hdc)"
+msgstr ""
+"Piespiedu kārtā kopēt ierīces (piem., ja 'hdc' ir tikai lasāma cdrom "
+"ierīce, --force-copy=hdc)"
+
+#: virtinst/virtclone.py:109
+msgid ""
+"Skip copy of the device target. (eg, if 'vda' is a disk you don't want to "
+"copy and use the same path in the new VM, use --skip-copy=vda)"
+msgstr ""
+"Izlaist ierīces mērķa kopēšanu. (piem., ja 'vda' ir disks, ko nevēlaties "
+"kopēt un vēlaties jaunajā VM izmantot to pašu ceļu, izmantojiet --skip-"
+"copy=vda)"
+
+#: virtinst/virtclone.py:119
+msgid "Do not use a sparse file for the clone's disk image"
+msgstr "Klona diska tēlam neizmantot retinātu failu"
+
+#: virtinst/virtclone.py:127
+msgid ""
+"Do not clone storage contents to specified file paths, their contents will "
+"be left untouched. This requires specifying existing paths for every "
+"cloneable disk image."
+msgstr ""
+"Neklonēt krātuves saturu uz norādītajiem failu ceļiem; to saturs paliks "
+"neskarts. Tam katram klonējamajam diska tēlam jānorāda esoši ceļi."
+
+#: virtinst/virtclone.py:134
+msgid "New file to use as storage for nvram VARS"
+msgstr "Jauns fails, ko izmantot kā nvram VARS krātuvi"
+
+#: virtinst/virtclone.py:137
+msgid "Networking Configuration"
+msgstr "Tīkla konfigurācija"
+
+#: virtinst/virtclone.py:143
+msgid ""
+"New fixed MAC address for the clone guest. Default is a randomly generated "
+"MAC"
+msgstr ""
+"Jauna fiksēta klona viesa MAC adrese. Noklusējums ir nejauši izveidota MAC"
+
+#: virtinst/virtclone.py:146 virtinst/virtinstall.py:1187
+#: virtinst/virtxml.py:567
+msgid "Miscellaneous Options"
+msgstr "Dažādas opcijas"
+
+#: virtinst/virtclone.py:179
+msgid ""
+"Either --auto-clone or --file is required, use '--auto-clone or --file' and "
+"try again."
+msgstr ""
+"Nepieciešams --auto-clone vai --file; izmantojiet '--auto-clone vai --file' "
+"un mēģiniet vēlreiz."
+
+#: virtinst/virtclone.py:215
+msgid ""
+"A name is required for the new virtual machine, use '--name NEW_VM_NAME' to "
+"specify one."
+msgstr ""
+"Jaunajai virtuālajai mašīnai nepieciešams nosaukums; norādiet to ar '--name "
+"JAUNĀS_VM_NOSAUKUMS'."
+
+#: virtinst/virtclone.py:234
+#, python-format
+msgid "Clone '%s' created successfully."
+msgstr "Klons '%s' veiksmīgi izveidots."
+
+#: virtinst/virtclone.py:245 virtinst/virtinstall.py:1313
+msgid "Installation aborted at user request"
+msgstr "Instalēšana pārtraukta pēc lietotāja pieprasījuma"
+
+#: virtinst/virtinstall.py:59
+msgid ""
+"-c specified with what looks like a libvirt URI. Did you mean to use --"
+"connect? If not, use --cdrom instead"
+msgstr ""
+"-c norādīts ar kaut ko, kas izskatās pēc libvirt URI. Vai domājāt --connect? "
+"Ja nē, izmantojiet --cdrom"
+
+#: virtinst/virtinstall.py:128
+msgid "Cannot specify storage and use --nodisks"
+msgstr "Nevar norādīt krātuvi un izmantot --nodisks"
+
+#: virtinst/virtinstall.py:133
+msgid ""
+"Cannot mix --file, --nonsparse, or --file-size with --disk options. Use --"
+"disk PATH[,size=SIZE][,sparse=yes|no]"
+msgstr ""
+"--file, --nonsparse vai --file-size nevar jaukt ar --disk opcijām. "
+"Izmantojiet --disk CEĻŠ[,size=IZMĒRS][,sparse=yes|no]"
+
+#: virtinst/virtinstall.py:154
+msgid "--os-type is deprecated and does nothing. Please stop using it."
+msgstr "--os-type ir novecojis un neko nedara. Lūdzu, pārtrauciet to izmantot."
+
+#: virtinst/virtinstall.py:229
+msgid "Cannot mix --graphics and old style graphical options"
+msgstr "--graphics nevar jaukt ar vecā stila grafikas opcijām"
+
+#: virtinst/virtinstall.py:233
+msgid "Can't specify more than one of VNC, SDL, --graphics or --nographics"
+msgstr "Nevar norādīt vairāk par vienu no VNC, SDL, --graphics vai --nographics"
+
+#: virtinst/virtinstall.py:315
+msgid "--memory amount in MiB is required"
+msgstr "Nepieciešams --memory apjoms MiB"
+
+#: virtinst/virtinstall.py:318
+msgid "--disk storage must be specified (override with --disk none)"
+msgstr "Jānorāda --disk krātuve (to var aizstāt ar --disk none)"
+
+#: virtinst/virtinstall.py:322
+#, python-format
+msgid ""
+"An install method must be specified\n"
+"(%(methods)s)"
+msgstr ""
+"Jānorāda instalēšanas metode\n"
+"(%(methods)s)"
+
+#: virtinst/virtinstall.py:336
+msgid ""
+"CDROM media does not print to the text console by default, so you likely "
+"will not see text install output. You might want to use --location."
+msgstr ""
+"CDROM datu nesējs pēc noklusējuma neizvada uz teksta konsoli, tāpēc teksta "
+"instalēšanas izvadi, visticamāk, neredzēsiet. Iespējams, vēlēsieties "
+"izmantot --location."
+
+#: virtinst/virtinstall.py:341
+msgid "See the man page for examples of using --location with CDROM media"
+msgstr ""
+"--location izmantošanas ar CDROM datu nesēju piemērus skatiet rokasgrāmatas "
+"lapā"
+
+#: virtinst/virtinstall.py:356
+#, python-format
+msgid ""
+"Requested memory %(mem1)s MiB is less than the recommended %(mem2)s MiB for "
+"OS %(osname)s"
+msgstr ""
+"Pieprasītā atmiņa %(mem1)s MiB ir mazāka par OS %(osname)s ieteicamajiem %"
+"(mem2)s MiB"
+
+#: virtinst/virtinstall.py:363
+#, python-format
+msgid ""
+"Requested memory %s MiB is abnormally low. Were you trying to specify GiB?"
+msgstr "Pieprasītā atmiņa %s MiB ir neparasti maza. Vai mēģinājāt norādīt GiB?"
+
+#: virtinst/virtinstall.py:380
+msgid "The guest's network configuration may not support PXE"
+msgstr "Viesa tīkla konfigurācija var neatbalstīt PXE"
+
+#: virtinst/virtinstall.py:385
+#, python-brace-format
+msgid ""
+"Using --osinfo {osname}, VM performance may suffer. Specify an accurate OS "
+"for optimal results."
+msgstr ""
+"Izmantojot --osinfo {osname}, VM veiktspēja var ciest. Optimāliem "
+"rezultātiem norādiet precīzu OS."
+
+#: virtinst/virtinstall.py:401
+#, python-brace-format
+msgid "Using {osname} --location {url}"
+msgstr "Izmanto {osname} --location {url}"
+
+#: virtinst/virtinstall.py:484
+#, python-brace-format
+msgid "Using default --name {vm_name}"
+msgstr "Izmanto noklusējuma --name {vm_name}"
+
+#: virtinst/virtinstall.py:495
+#, python-brace-format
+msgid "Using container default --memory {megabytes}"
+msgstr "Izmanto konteinera noklusējuma --memory {megabytes}"
+
+#: virtinst/virtinstall.py:515
+#, python-brace-format
+msgid "Using {os_name} default --memory {megabytes}"
+msgstr "Izmanto {os_name} noklusējuma --memory {megabytes}"
+
+#: virtinst/virtinstall.py:528
+#, python-brace-format
+msgid "Using {os_name} default --disk {disk_options}"
+msgstr "Izmanto {os_name} noklusējuma --disk {disk_options}"
+
+#: virtinst/virtinstall.py:580
+#, python-brace-format
+msgid ""
+"Failed to detect osinfo OS name from install media, using fallback name "
+"'{name}'.\n"
+"Please file a bug against virt-install if you expected the detection to "
+"succeed."
+msgstr ""
+"Neizdevās noteikt osinfo OS nosaukumu no instalēšanas datu nesēja, tiek "
+"izmantots rezerves nosaukums '{name}'.\n"
+"Ja gaidījāt, ka noteikšana izdosies, lūdzu, iesniedziet kļūdas ziņojumu par "
+"virt-install."
+
+#: virtinst/virtinstall.py:587
+#, python-format
+msgid "Error validating install location: %s"
+msgstr "Kļūda, validējot instalēšanas atrašanās vietu: %s"
+
+#: virtinst/virtinstall.py:589
+msgid ""
+"--osinfo/--os-variant OS name is required, but no value was\n"
+"set or detected."
+msgstr ""
+"--osinfo/--os-variant OS nosaukums ir nepieciešams, bet vērtība nav\n"
+"iestatīta vai noteikta."
+
+#: virtinst/virtinstall.py:600
+msgid ""
+"This is now a fatal error. Specifying an OS name is required\n"
+"for modern, performant, and secure virtual machine defaults.\n"
+msgstr ""
+"Tagad tā ir fatāla kļūda. OS nosaukuma norādīšana ir nepieciešama\n"
+"moderniem, veiktspējīgiem un drošiem virtuālo mašīnu noklusējumiem.\n"
+
+#: virtinst/virtinstall.py:605
+msgid ""
+"If you expected virt-install to detect an OS name from the\n"
+"install media, you can set a fallback OS name with:\n"
+"\n"
+"  --osinfo detect=on,name=OSNAME\n"
+msgstr ""
+"Ja gaidījāt, ka virt-install noteiks OS nosaukumu no\n"
+"instalēšanas datu nesēja, varat iestatīt rezerves OS nosaukumu ar:\n"
+"\n"
+"  --osinfo detect=on,name=OSNAME\n"
+
+#: virtinst/virtinstall.py:615
+msgid ""
+"You can see a full list of possible OS name values with:\n"
+"\n"
+"   virt-install --osinfo list\n"
+msgstr ""
+"Pilnu iespējamo OS nosaukumu vērtību sarakstu var redzēt ar:\n"
+"\n"
+"   virt-install --osinfo list\n"
+
+#: virtinst/virtinstall.py:622
+#, python-brace-format
+msgid ""
+"If your Linux distro is not listed, try one of generic values\n"
+"such as: {oslist}\n"
+msgstr ""
+"Ja jūsu Linux distributīvs nav uzskaitīts, mēģiniet kādu no vispārīgajām "
+"vērtībām,\n"
+"piemēram: {oslist}\n"
+
+#: virtinst/virtinstall.py:629
+#, python-brace-format
+msgid ""
+"If you just need to get the old behavior back, you can use:\n"
+"\n"
+"  --osinfo detect=on,require=off\n"
+"\n"
+"Or export {env_var}=1\n"
+msgstr ""
+"Ja jums vienkārši jāatgriež vecā darbība, varat izmantot:\n"
+"\n"
+"  --osinfo detect=on,require=off\n"
+"\n"
+"Vai eksportējiet {env_var}=1\n"
+
+#: virtinst/virtinstall.py:639
+#, python-brace-format
+msgid "{env_var} set. Skipping fatal error."
+msgstr "{env_var} iestatīts. Fatālā kļūda tiek izlaista."
+
+#: virtinst/virtinstall.py:723
+msgid "No console to launch for the guest, defaulting to --wait -1"
+msgstr "Viesim nav palaižamas konsoles, noklusējums --wait -1"
+
+#: virtinst/virtinstall.py:761
+msgid "Waiting for the installation to complete."
+msgstr "Gaida, līdz instalēšana tiks pabeigta."
+
+#: virtinst/virtinstall.py:763
+#, python-format
+msgid "Waiting %(minutes)d minute for the installation to complete."
+msgid_plural "Waiting %(minutes)d minutes for the installation to complete."
+msgstr[0] "Gaida %(minutes)d minūtes, līdz instalēšana tiks pabeigta."
+msgstr[1] "Gaida %(minutes)d minūti, līdz instalēšana tiks pabeigta."
+msgstr[2] "Gaida %(minutes)d minūtes, līdz instalēšana tiks pabeigta."
+
+#: virtinst/virtinstall.py:787
+#, python-format
+msgid "Password for first root login is: %s"
+msgstr "Parole pirmajai root pieteikšanās reizei ir: %s"
+
+#: virtinst/virtinstall.py:797
+msgid "Installation will continue in 10 seconds (press Enter to skip)..."
+msgstr ""
+"Instalēšana turpināsies pēc 10 sekundēm (nospiediet Enter, lai izlaistu)..."
+
+#: virtinst/virtinstall.py:823
+msgid "Console command returned failure."
+msgstr "Konsoles komanda atgrieza kļūmi."
+
+#: virtinst/virtinstall.py:862
+msgid "Domain has crashed."
+msgstr "Domēns ir avarējis."
+
+#: virtinst/virtinstall.py:872
+#, python-format
+msgid "VM disappeared unexpectedly: %s"
+msgstr "VM negaidīti pazuda: %s"
+
+#: virtinst/virtinstall.py:894
+msgid "Domain is still running. Installation may be in progress."
+msgstr "Domēns joprojām darbojas. Iespējams, notiek instalēšana."
+
+#: virtinst/virtinstall.py:904
+msgid "You can reconnect to the console to complete the installation process."
+msgstr ""
+"Lai pabeigtu instalēšanas procesu, varat atkārtoti savienoties ar konsoli."
+
+#: virtinst/virtinstall.py:914
+msgid "Domain has shutdown. Continuing."
+msgstr "Domēns ir izslēgts. Turpina."
+
+#: virtinst/virtinstall.py:919
+msgid "Installation has exceeded specified time limit. Exiting application."
+msgstr ""
+"Instalēšana pārsniedza norādīto laika ierobežojumu. Lietotne beidz darbu."
+
+#: virtinst/virtinstall.py:941
+msgid "Domain creation completed."
+msgstr "Domēna izveide pabeigta."
+
+#: virtinst/virtinstall.py:950
+#, python-format
+msgid ""
+"You can restart your domain by running:\n"
+"  %s"
+msgstr ""
+"Domēnu var restartēt, izpildot:\n"
+"  %s"
+
+#: virtinst/virtinstall.py:955
+msgid "User stopped the VM. Not rebooting."
+msgstr "Lietotājs apturēja VM. Netiek pārstartēts."
+
+#: virtinst/virtinstall.py:958
+msgid "Restarting guest."
+msgstr "Restartē viesi."
+
+#: virtinst/virtinstall.py:975
+msgid ""
+"\n"
+"Starting install..."
+msgstr ""
+"\n"
+"Sāk instalēšanu..."
+
+#: virtinst/virtinstall.py:1004
+msgid "Domain install interrupted."
+msgstr "Domēna instalēšana pārtraukta."
+
+#: virtinst/virtinstall.py:1023
+msgid "Dry run completed successfully"
+msgstr "Izmēģinājuma izpilde veiksmīgi pabeigta"
+
+#: virtinst/virtinstall.py:1027
+#, python-format
+msgid "Unknown XML step request '%s', must be 1, 2, or all"
+msgstr "Nezināms XML soļa pieprasījums '%s', jābūt 1, 2 vai all"
+
+#: virtinst/virtinstall.py:1033
+msgid "Requested installation does not have XML step 2"
+msgstr "Pieprasītajai instalēšanai nav 2. XML soļa"
+
+#: virtinst/virtinstall.py:1051
+msgid "Create a new virtual machine from specified install media."
+msgstr "Izveidot jaunu virtuālo mašīnu no norādītā instalēšanas datu nesēja."
+
+#: virtinst/virtinstall.py:1057
+msgid "Name of the guest instance"
+msgstr "Viesa instances nosaukums"
+
+#: virtinst/virtinstall.py:1065
+msgid "Installation Method Options"
+msgstr "Instalēšanas metodes opcijas"
+
+#: virtinst/virtinstall.py:1067
+msgid "CD-ROM installation media"
+msgstr "CD-ROM instalēšanas datu nesējs"
+
+#: virtinst/virtinstall.py:1072
+msgid ""
+"Distro install URL, eg. https://host/path. See man page for specific distro "
+"examples."
+msgstr ""
+"Distributīva instalēšanas URL, piem., https://host/path. Konkrētu "
+"distributīvu piemērus skatiet rokasgrāmatas lapā."
+
+#: virtinst/virtinstall.py:1077
+msgid "Boot from the network using the PXE protocol"
+msgstr "Sāknēt no tīkla, izmantojot PXE protokolu"
+
+#: virtinst/virtinstall.py:1083
+msgid "Build guest around an existing disk image"
+msgstr "Veidot viesi ap esošu diska tēlu"
+
+#: virtinst/virtinstall.py:1090
+msgid ""
+"Additional arguments to pass to the install kernel booted from --location"
+msgstr ""
+"Papildu argumenti, ko nodot no --location sāknētajam instalēšanas kodolam"
+
+#: virtinst/virtinstall.py:1095
+msgid "Add given file to root of initrd from --location"
+msgstr "Pievienot norādīto failu --location initrd saknē"
+
+#: virtinst/virtinstall.py:1098
+msgid "Perform an unattended installation"
+msgstr "Veikt neuzraudzītu instalēšanu"
+
+#: virtinst/virtinstall.py:1100
+msgid "Specify fine grained install options"
+msgstr "Norādīt smalkas instalēšanas opcijas"
+
+#: virtinst/virtinstall.py:1105
+msgid ""
+"Reinstall existing VM. Only install options are applied, all other VM "
+"configuration options are ignored."
+msgstr ""
+"Pārinstalēt esošu VM. Tiek lietotas tikai instalēšanas opcijas, visas "
+"pārējās VM konfigurācijas opcijas tiek ignorētas."
+
+#: virtinst/virtinstall.py:1113
+msgid "Perform a cloud image installation, configuring cloud-init"
+msgstr "Veikt mākoņa tēla instalēšanu, konfigurējot cloud-init"
+
+#: virtinst/virtinstall.py:1127
+msgid "Device Options"
+msgstr "Ierīču opcijas"
+
+#: virtinst/virtinstall.py:1152
+msgid "Guest Configuration Options"
+msgstr "Viesa konfigurācijas opcijas"
+
+#: virtinst/virtinstall.py:1155
+msgid "Virtualization Platform Options"
+msgstr "Virtualizācijas platformas opcijas"
+
+#: virtinst/virtinstall.py:1163
+msgid "This guest should be a fully virtualized guest"
+msgstr "Šim viesim jābūt pilnībā virtualizētam"
+
+#: virtinst/virtinstall.py:1171
+msgid "This guest should be a paravirtualized guest"
+msgstr "Šim viesim jābūt paravirtualizētam"
+
+#: virtinst/virtinstall.py:1178
+msgid "This guest should be a container guest"
+msgstr "Šim viesim jābūt konteinera viesim"
+
+#: virtinst/virtinstall.py:1180
+msgid "Hypervisor name to use (kvm, qemu, xen, ...)"
+msgstr "Izmantojamā hipervizora nosaukums (kvm, qemu, xen, ...)"
+
+#: virtinst/virtinstall.py:1181
+msgid "The CPU architecture to simulate"
+msgstr "Simulējamā CPU arhitektūra"
+
+#: virtinst/virtinstall.py:1182
+msgid "The machine type to emulate"
+msgstr "Emulējamais mašīnas tips"
+
+#: virtinst/virtinstall.py:1192
+msgid "Have domain autostart on host boot up."
+msgstr "Automātiski palaist domēnu, kad resursdators sāknējas."
+
+#: virtinst/virtinstall.py:1195
+msgid "Create a transient domain."
+msgstr "Izveidot pārejošu domēnu."
+
+#: virtinst/virtinstall.py:1201
+msgid "Force power off the domain when the console viewer is closed."
+msgstr ""
+"Piespiedu kārtā izslēgt domēna barošanu, kad konsoles skatītājs tiek "
+"aizvērts."
+
+#: virtinst/virtinstall.py:1204
+msgid "Minutes to wait for install to complete."
+msgstr "Minūtes, cik gaidīt instalēšanas pabeigšanu."
+
+#: virtinst/virtxml.py:35
+msgid "Please enter 'yes' or 'no'."
+msgstr "Lūdzu, ievadiet 'yes' vai 'no'."
+
+#: virtinst/virtxml.py:105
+msgid "--osinfo/--os-variant is not supported with --edit"
+msgstr "--osinfo/--os-variant netiek atbalstīts ar --edit"
+
+#: virtinst/virtxml.py:107
+msgid "--osinfo/--os-variant is not supported with --remove-device"
+msgstr "--osinfo/--os-variant netiek atbalstīts ar --remove-device"
+
+#: virtinst/virtxml.py:109
+msgid "--osinfo/--os-variant is not supported with --build-xml"
+msgstr "--osinfo/--os-variant netiek atbalstīts ar --build-xml"
+
+#: virtinst/virtxml.py:113
+#, python-brace-format
+msgid "--build-xml not supported for {cli_flag}"
+msgstr "--build-xml netiek atbalstīts {cli_flag}"
+
+#: virtinst/virtxml.py:122
+#, python-brace-format
+msgid "Cannot use --remove-device with {cli_flag}"
+msgstr "--remove-device nevar izmantot ar {cli_flag}"
+
+#: virtinst/virtxml.py:128
+#, python-brace-format
+msgid "Cannot use --add-device with {cli_flag}"
+msgstr "--add-device nevar izmantot ar {cli_flag}"
+
+#: virtinst/virtxml.py:135
+#, python-brace-format
+msgid "Don't know how to --update for {cli_flag}"
+msgstr "Nav zināms, kā izpildīt --update {cli_flag}"
+
+#: virtinst/virtxml.py:151
+#, python-format
+msgid "One of %s must be specified."
+msgstr "Jānorāda viens no %s."
+
+#: virtinst/virtxml.py:153
+#, python-format
+msgid "Conflicting options %s"
+msgstr "Konfliktējošas opcijas %s"
+
+#: virtinst/virtxml.py:167
+msgid "No change specified."
+msgstr "Nav norādītas izmaiņas."
+
+#: virtinst/virtxml.py:170
+#, python-format
+msgid "Only one change operation may be specified (conflicting options %s)"
+msgstr "Var norādīt tikai vienu izmaiņu darbību (konfliktējošas opcijas %s)"
+
+#: virtinst/virtxml.py:212
+#, python-format
+msgid "Invalid --edit option '%s'"
+msgstr "Nederīga --edit opcija '%s'"
+
+#: virtinst/virtxml.py:216
+#, python-brace-format
+msgid "No {cli_flag} objects found in the XML"
+msgstr "XML netika atrasts neviens {cli_flag} objekts"
+
+#: virtinst/virtxml.py:223
+#, python-brace-format
+msgid ""
+"'--edit {number}' requested but there's only {maxnum} {cli_flag} object in "
+"the XML"
+msgid_plural ""
+"'--edit {number}' requested but there are only {maxnum} {cli_flag} objects "
+"in the XML"
+msgstr[0] ""
+"Pieprasīts '--edit {number}', bet XML ir tikai {maxnum} {cli_flag} objektu"
+msgstr[1] ""
+"Pieprasīts '--edit {number}', bet XML ir tikai {maxnum} {cli_flag} objekts"
+msgstr[2] ""
+"Pieprasīts '--edit {number}', bet XML ir tikai {maxnum} {cli_flag} objekti"
+
+#: virtinst/virtxml.py:244
+#, python-format
+msgid "No matching objects found for %s"
+msgstr "%s netika atrasts neviens atbilstošs objekts"
+
+#: virtinst/virtxml.py:261
+#, python-brace-format
+msgid ""
+"'--edit {option}' doesn't make sense with {cli_flag}, just use empty '--edit'"
+msgstr ""
+"'--edit {option}' nav jēgas ar {cli_flag}, vienkārši izmantojiet tukšu '--"
+"edit'"
+
+#: virtinst/virtxml.py:334
+#, python-format
+msgid "Define '%s' with the changed XML?"
+msgstr "Definēt '%s' ar mainīto XML?"
+
+#: virtinst/virtxml.py:342
+#, python-format
+msgid "Domain '%s' defined successfully."
+msgstr "Domēns '%s' veiksmīgi definēts."
+
+#: virtinst/virtxml.py:348
+#, python-format
+msgid "Start '%s' with the changed XML?"
+msgstr "Palaist '%s' ar mainīto XML?"
+
+#: virtinst/virtxml.py:359 virtinst/virtxml.py:671
+#, python-format
+msgid "Failed starting domain '%(domain)s': %(error)s"
+msgstr "Neizdevās palaist domēnu '%(domain)s': %(error)s"
+
+#: virtinst/virtxml.py:366 virtinst/virtxml.py:677
+#, python-format
+msgid "Domain '%s' started successfully."
+msgstr "Domēns '%s' veiksmīgi palaists."
+
+#: virtinst/virtxml.py:372
+#, python-format
+msgid ""
+"%(xml)s\n"
+"\n"
+"Hotplug this device to the guest '%(domain)s'?"
+msgstr ""
+"%(xml)s\n"
+"\n"
+"Vai karsti pievienot šo ierīci viesim '%(domain)s'?"
+
+#: virtinst/virtxml.py:373
+msgid "Device hotplug successful."
+msgstr "Ierīces karstā pievienošana veiksmīga."
+
+#: virtinst/virtxml.py:374
+#, python-format
+msgid "Error attempting device hotplug: %(error)s"
+msgstr "Kļūda, mēģinot karsti pievienot ierīci: %(error)s"
+
+#: virtinst/virtxml.py:376
+#, python-format
+msgid ""
+"%(xml)s\n"
+"\n"
+"Hotunplug this device from the guest '%(domain)s'?"
+msgstr ""
+"%(xml)s\n"
+"\n"
+"Vai karsti atvienot šo ierīci no viesa '%(domain)s'?"
+
+#: virtinst/virtxml.py:377
+msgid "Device hotunplug successful."
+msgstr "Ierīces karstā atvienošana veiksmīga."
+
+#: virtinst/virtxml.py:378
+#, python-format
+msgid "Error attempting device hotunplug: %(error)s"
+msgstr "Kļūda, mēģinot karsti atvienot ierīci: %(error)s"
+
+#: virtinst/virtxml.py:380
+#, python-format
+msgid ""
+"%(xml)s\n"
+"\n"
+"Update this device for the guest '%(domain)s'?"
+msgstr ""
+"%(xml)s\n"
+"\n"
+"Vai atjaunināt šo ierīci viesim '%(domain)s'?"
+
+#: virtinst/virtxml.py:381
+msgid "Device update successful."
+msgstr "Ierīces atjaunināšana veiksmīga."
+
+#: virtinst/virtxml.py:382
+#, python-format
+msgid "Error attempting device update: %(error)s"
+msgstr "Kļūda, mēģinot atjaunināt ierīci: %(error)s"
+
+#: virtinst/virtxml.py:433
+msgid "No XML diff was generated. The requested changes will have no effect."
+msgstr "XML atšķirības netika izveidotas. Pieprasītajām izmaiņām nebūs efekta."
+
+#: virtinst/virtxml.py:452
+msgid "Edit libvirt XML using command line options."
+msgstr "Rediģēt libvirt XML, izmantojot komandrindas opcijas."
+
+#: virtinst/virtxml.py:458
+msgid "Domain name, id, or uuid"
+msgstr "Domēna nosaukums, ID vai UUID"
+
+#: virtinst/virtxml.py:460
+msgid "XML actions"
+msgstr "XML darbības"
+
+#: virtinst/virtxml.py:466
+msgid ""
+"Edit VM XML. Examples:\n"
+"--edit --disk ...     (edit first disk device)\n"
+"--edit 2 --disk ...   (edit second disk device)\n"
+"--edit all --disk ... (edit all disk devices)\n"
+"--edit target=hda --disk ... (edit disk 'hda')\n"
+msgstr ""
+"Rediģēt VM XML. Piemēri:\n"
+"--edit --disk ...     (rediģēt pirmo diska ierīci)\n"
+"--edit 2 --disk ...   (rediģēt otro diska ierīci)\n"
+"--edit all --disk ... (rediģēt visas diska ierīces)\n"
+"--edit target=hda --disk ... (rediģēt disku 'hda')\n"
+
+#: virtinst/virtxml.py:477
+msgid ""
+"Remove specified device. Examples:\n"
+"--remove-device --disk 1 (remove first disk)\n"
+"--remove-device --disk all (remove all disks)\n"
+"--remove-device --disk /some/path"
+msgstr ""
+"Noņemt norādīto ierīci. Piemēri:\n"
+"--remove-device --disk 1 (noņemt pirmo disku)\n"
+"--remove-device --disk all (noņemt visus diskus)\n"
+"--remove-device --disk /some/path"
+
+#: virtinst/virtxml.py:486
+msgid ""
+"Add specified device. Example:\n"
+"--add-device --disk ..."
+msgstr ""
+"Pievienot norādīto ierīci. Piemērs:\n"
+"--add-device --disk ..."
+
+#: virtinst/virtxml.py:492
+msgid ""
+"Output built device XML. Domain is optional but recommended to ensure "
+"optimal defaults."
+msgstr ""
+"Izvadīt izveidoto ierīces XML. Domēns nav obligāts, bet ieteicams, lai "
+"nodrošinātu optimālus noklusējumus."
+
+#: virtinst/virtxml.py:497
+msgid "Output options"
+msgstr "Izvades opcijas"
+
+#: virtinst/virtxml.py:502
+msgid ""
+"Apply changes to the running VM.\n"
+"With --add-device, this is a hotplug operation.\n"
+"With --remove-device, this is a hotunplug operation.\n"
+"With --edit, this is an update device operation."
+msgstr ""
+"Lietot izmaiņas darbojošajai VM.\n"
+"Ar --add-device tā ir karstās pievienošanas darbība.\n"
+"Ar --remove-device tā ir karstās atvienošanas darbība.\n"
+"Ar --edit tā ir ierīces atjaunināšanas darbība."
+
+#: virtinst/virtxml.py:512
+msgid ""
+"Force defining the domain. Only required if a --print option was specified."
+msgstr ""
+"Piespiedu kārtā definēt domēnu. Nepieciešams tikai tad, ja norādīta --print "
+"opcija."
+
+#: virtinst/virtxml.py:515
+msgid "Force not defining the domain."
+msgstr "Piespiedu kārtā nedefinēt domēnu."
+
+#: virtinst/virtxml.py:518
+msgid "Start the domain."
+msgstr "Palaist domēnu."
+
+#: virtinst/virtxml.py:522
+msgid "Only print the requested change, in diff format"
+msgstr "Izvadīt tikai pieprasītās izmaiņas atšķirību formātā"
+
+#: virtinst/virtxml.py:527
+msgid "Only print the requested change, in full XML format"
+msgstr "Izvadīt tikai pieprasītās izmaiņas pilnā XML formātā"
+
+#: virtinst/virtxml.py:530
+msgid "Require confirmation before saving any results."
+msgstr "Pirms rezultātu saglabāšanas pieprasīt apstiprinājumu."
+
+#: virtinst/virtxml.py:535
+msgid "Conversion options"
+msgstr "Pārveidošanas opcijas"
+
+#: virtinst/virtxml.py:541
+msgid "Convert an existing VM from PC/i440FX to Q35."
+msgstr "Pārveidot esošu VM no PC/i440FX uz Q35."
+
+#: virtinst/virtxml.py:550
+msgid ""
+"Convert an existing VM to use VNC graphics. This removes any remnants of "
+"Spice graphics."
+msgstr ""
+"Pārveidot esošu VM, lai tā izmantotu VNC grafiku. Tas noņem visas Spice "
+"grafikas atliekas."
+
+#: virtinst/virtxml.py:555
+msgid "XML options"
+msgstr "XML opcijas"
+
+#: virtinst/virtxml.py:597
+msgid "Can't use --confirm with stdin input."
+msgstr "--confirm nevar izmantot ar stdin ievadi."
+
+#: virtinst/virtxml.py:599
+msgid "Can't use --update with stdin input."
+msgstr "--update nevar izmantot ar stdin ievadi."
+
+#: virtinst/virtxml.py:602
+msgid "A domain must be specified"
+msgstr "Jānorāda domēns"
+
+#: virtinst/virtxml.py:647
+msgid "The VM is not running, --update is inapplicable."
+msgstr "VM nedarbojas, --update nav piemērojams."
+
+#: virtinst/virtxml.py:680
+msgid "Changes will take effect after the domain is fully powered off."
+msgstr ""
+"Izmaiņas stāsies spēkā pēc tam, kad domēna barošana būs pilnībā izslēgta."
+
+#: virtinst/virtxml.py:684
+msgid ""
+"XML did not change after domain define. You may have changed a value that "
+"libvirt is setting by default."
+msgstr ""
+"Pēc domēna definēšanas XML nemainījās. Iespējams, mainījāt vērtību, ko "
+"libvirt iestata pēc noklusējuma."
+
+#: virtinst/virtxml.py:699
+msgid "Aborted at user request"
+msgstr "Pārtraukts pēc lietotāja pieprasījuma"
+
+#: virtinst/xmlapi.py:211
+#, python-format
+msgid ""
+"XML did not have expected root element name '%(expectname)s', found "
+"'%(foundname)s'"
+msgstr ""
+"XML nebija gaidītā saknes elementa nosaukuma '%(expectname)s', atrasts '%"
+"(foundname)s'"
+
+#. translators: value is a generic object type name
+#: virtinst/xmlbuilder.py:517
+#, python-format
+msgid "A name must be specified for the %s"
+msgstr "%s jānorāda nosaukums"
+
+#: virtinst/xmlbuilder.py:521
+#, python-format
+msgid "%(objecttype)s name '%(name)s' can not contain '%(char)s' character."
+msgstr ""
+"%(objecttype)s nosaukums '%(name)s' nedrīkst saturēt rakstzīmi '%(char)s'."
